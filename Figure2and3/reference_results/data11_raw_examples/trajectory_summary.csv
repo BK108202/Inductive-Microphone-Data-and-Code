@@ -1,0 +1,2 @@
+file,log_intercept,rate_per_s,trajectory_ok,coherent_points,log_frequency_rmse,support_start_s,support_end_s,inferred_f0_crossing_s,inferred_f0_to_f1_duration_s,nominal_duration_s,nominal_comparison_basis
+IM_4.csv,2.9632745746233446,0.07640697095409418,True,60,0.0009236668398068535,5.9,35.4,5.731450960173748,30.13579866132181,30.0,onset_aligned_shape_only

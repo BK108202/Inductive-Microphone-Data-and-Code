@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "scope": "Presentation/code checks; no raw-data analysis or new scientific run.",
+  "python": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\.venv\\Scripts\\python.exe",
+  "checks": {
+    "syntax_and_notebook_schema": {
+      "status": "passed",
+      "notebooks": 7
+    },
+    "scientific_module_asts": {
+      "status": "passed",
+      "only_tracking_function_changed": "_plots",
+      "related_scientific_modules_unchanged": 5
+    },
+    "notebook_scientific_cells": {
+      "status": "passed",
+      "unchanged_main_code_cells": 8,
+      "moved_code_cells_equal_except_notebook_identity_and_error_message": 7
+    },
+    "archived_table_aggregation": {
+      "status": "passed",
+      "tables": 3,
+      "maximum_accepted_records": 1,
+      "single_record_sd_all_nan": true
+    },
+    "plot_branches_in_memory": {
+      "status": "passed",
+      "single_record_figures": 10,
+      "multiple_record_figures": 14,
+      "single_record_sd_shading": false
+    },
+    "independent_namespace_notebook_flow": {
+      "status": "passed",
+      "notebooks": 2,
+      "analysis_calls_mocked_with_archived_results": true,
+      "main_and_supplement_selections_preserved": true
+    },
+    "explicit_parent_required": {
+      "status": "passed"
+    }
+  },
+  "limitations": [
+    "No new end-to-end execution of the split notebooks.",
+    "Notebook flow checks substitute existing tables for analysis calls; they do not validate new scientific outputs.",
+    "Plot checks draw existing archived summary tables in memory; no PNG/SVG identity claim."
+  ],
+  "finished_at": "2026-10-17T23:38:49.062106-04:00",
+  "baseline_manifest_sha256": "8d09eccc18670d0fbfdefbd291ee908c9e6715f1c21110d9c8a1d8873b070993",
+  "checker_original_path": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\GitHub_Release\\validation\\check_presentation_revision.py",
+  "checker_sha256": "9c46d97408c96b99e3028afa5b29b5fa64f432a142850096c3ec06696504a940"
+}

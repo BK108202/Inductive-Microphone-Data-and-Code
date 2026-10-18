@@ -1,0 +1,50 @@
+[
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\IM_32.csv",
+    "sensor": "IM",
+    "role": [
+      "volume"
+    ],
+    "window_count": 6
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\IM_33.csv",
+    "sensor": "IM",
+    "role": [
+      "volume"
+    ],
+    "window_count": 6
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\IM_34.csv",
+    "sensor": "IM",
+    "role": [
+      "volume"
+    ],
+    "window_count": 6
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\accel_7.csv",
+    "sensor": "accel",
+    "role": [
+      "volume"
+    ],
+    "window_count": 6
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\accel_8.csv",
+    "sensor": "accel",
+    "role": [
+      "volume"
+    ],
+    "window_count": 6
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\accel_9.csv",
+    "sensor": "accel",
+    "role": [
+      "volume"
+    ],
+    "window_count": 6
+  }
+]

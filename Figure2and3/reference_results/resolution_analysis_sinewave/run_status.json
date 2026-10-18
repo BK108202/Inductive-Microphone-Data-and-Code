@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-16T01:16:13.959223-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_resolution_analysis_sinewave_run001",
+  "finished_at": "2026-10-16T01:22:34.787666-04:00",
+  "summary": {
+    "input_files": 27,
+    "analyzed_windows": 54,
+    "fft_computed_windows": 54,
+    "fft_strict_gap_valid_windows": 0,
+    "diagnostic_timing_warning_windows": 54,
+    "quality_flagged_windows": 54,
+    "original_time_sine_fit_available_windows": 54,
+    "primary_frequency_estimator": "global_padded_3point",
+    "relative_figure_method": "global_padded_3point",
+    "records_needed_for_planned_repeats": 0,
+    "figure_count": 71,
+    "snr_comparisons": 0,
+    "finite_snr_db": 0,
+    "limitations": [
+      "Original-time sine fitting assumes Time_us represents acquisition instants; the timestamp source is unconfirmed. A good fit cannot independently calibrate timestamp scale or excitation frequency. The stationary single-sine model can be affected by harmonics/drift, and residual RMS is not a measured noise floor.",
+      "Five-point quadratic fits are not guaranteed more accurate than three-point fits. Native Hann outer bins can approach main-lobe zeros and bias log-domain frequency/amplitude fits; padded bins span a narrower interval. Neither fit point count nor padding increases physical resolving power.",
+      "Nominal-band SNR uses independent noise controls; it depends on bandwidth and background representativeness. Amplifier-added noise contributes relative to the nothing-on control. Interference in the band is included; excess power is not proof of a detected sine fundamental.",
+      "Start offsets and transition times are configured assumptions until verified against experiment notes; nominal dwell durations do not establish actual switching times.",
+      "Global maximum can be interference or a harmonic; neither a small frequency error nor a large peak establishes detection or calibrated bandwidth.",
+      "Computed FFTs with internal gap warnings are diagnostics; strict-gap results are retained separately. Neither view establishes clock accuracy. Timestamp jitter, gaps, interpolation, finite window length and low samples/cycle can bias frequency/amplitude; analog sensor/logger/drive bandwidth and clock accuracy remain uncalibrated.",
+      "Generator 1 Vpp and amplifier volume are settings, not measured physical input. IM amplitudes remain Data28 counts; accel amplitudes use nominally converted g.",
+      "Repeat counts follow effective user-specified FILES and are saved separately. Sample SD uses only settings with at least two finite independent-record estimates; small n does not establish a resolution limit. Separate single-tone estimates do not measure simultaneous two-tone resolution. Between-batch conditions and clock drift remain unverified.",
+      "Selected volume pair and matching-condition confirmation follow effective CONFIG; acquisitions are sequential. Condition-level Data28 counts/g ratios can include drift and are not calibrated sensitivity. Repeated accel extrema/plateaus limit reference amplitudes; flagged points remain visible."
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-13T17:35:20.386128-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-13_data11_sweep_model_check_run001",
+  "finished_at": "2026-10-13T17:35:46.049240-04:00",
+  "summary": {
+    "records": 12,
+    "preference_counts": {
+      "Log": 7,
+      "Linear": 5
+    }
+  }
+}

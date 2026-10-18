@@ -1,0 +1,127 @@
+{
+  "status": "passed",
+  "run_name": "2026-10-16_publication_comparison_run001",
+  "scientific_execution_run": "2026-10-16_publication_verification_run001",
+  "baseline_execution": "2026-10-16_code_use_notebook_verification_run001",
+  "finished_at": "2026-10-16T02:34:54.552859-04:00",
+  "environment": {
+    "python": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "package_versions": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "pandas": "3.0.6",
+      "matplotlib": "3.11.2",
+      "tzdata": "2026.5"
+    }
+  },
+  "execution": "Six fresh kernels in a relocated copy with spaces in its path; independently installed Python 3.11 environment.",
+  "command": "python run_notebooks.py --all --jobs 2",
+  "validation_output_override": "Only this local verification used the project-required external results root. The distributed default remains local results/.",
+  "notebooks_completed": 6,
+  "child_runs_completed": 12,
+  "scientific_csv_count": 210,
+  "scientific_json_count": 10,
+  "effective_parameter_comparisons": 12,
+  "csv_status_counts": {
+    "numerically_equivalent_path_changes": 37,
+    "byte_identical": 173
+  },
+  "csv_numeric_changes": 0,
+  "maximum_absolute_numeric_difference": 0.0,
+  "rtol": 1e-10,
+  "atol": 1e-12,
+  "integrity": {
+    "raw_inputs_unchanged": true,
+    "source_files_unchanged": true,
+    "final_input_checks_passed": true
+  },
+  "original_source_files_and_copies_verified": 58,
+  "original_raw_files_verified": 81,
+  "release_source_files_verified": 36,
+  "release_manifest_sha256": "8d09eccc18670d0fbfdefbd291ee908c9e6715f1c21110d9c8a1d8873b070993",
+  "verifier_correction_after_execution": [
+    {
+      "path": "verify_release.py",
+      "executed_sha256": "ba2e491895b542db8516f4faf1da55b00839da2626d0102ac7274606db09b436",
+      "current_sha256": "10a9fe2bc410280ed14c07dbf01313feab8dd121953d8b306e159feb4ba3829d"
+    }
+  ],
+  "png_comparison": {
+    "children_checked": 12,
+    "expected_children": 12,
+    "baseline_png_count": 275,
+    "actual_png_count": 275,
+    "common_png_count": 275,
+    "identical_png_count": 275,
+    "different_png_count": 0,
+    "missing_actual_png_count": 0,
+    "extra_actual_png_count": 0
+  },
+  "project_modules_loaded": {
+    "data10_frequency_range_analysis": {
+      "characterization_run": "characterization_run.py",
+      "global_peak_snr": "global_peak_snr.py",
+      "paper_figure_style": "paper_figure_style.py",
+      "portable_runtime": "portable_runtime.py",
+      "same_frequency_background": "same_frequency_background.py",
+      "sinewave_range_summary": "sinewave_range_summary.py",
+      "sinewave_raw_examples": "sinewave_raw_examples.py"
+    },
+    "data10_amplitude_analysis": {
+      "amplitude_global_figures": "amplitude_global_figures.py",
+      "amplitude_volume_repeats": "amplitude_volume_repeats.py",
+      "characterization_run": "characterization_run.py",
+      "paper_figure_style": "paper_figure_style.py",
+      "portable_runtime": "portable_runtime.py"
+    },
+    "data11_frequency_range_analysis": {
+      "characterization_run": "characterization_run.py",
+      "data11_analysis": "data11_analysis.py",
+      "data11_config": "data11_config.py",
+      "data11_harmonic_tracking": "data11_harmonic_tracking.py",
+      "data11_record_review": "data11_record_review.py",
+      "data11_reference_gap_plots": "data11_reference_gap_plots.py",
+      "data11_whole_sweep_fft": "data11_whole_sweep_fft.py",
+      "paper_figure_style": "paper_figure_style.py",
+      "portable_runtime": "portable_runtime.py",
+      "resolution_sine_fit": "resolution_sine_fit.py"
+    },
+    "data10_resolution_analysis": {
+      "characterization_run": "characterization_run.py",
+      "paper_figure_style": "paper_figure_style.py",
+      "portable_runtime": "portable_runtime.py",
+      "resolution_frequency_comparison": "resolution_frequency_comparison.py",
+      "resolution_relative_summary": "resolution_relative_summary.py",
+      "resolution_sine_fit": "resolution_sine_fit.py"
+    },
+    "data11_amplitude_analysis": {
+      "characterization_run": "characterization_run.py",
+      "data11_amplitude_plots": "data11_amplitude_plots.py",
+      "data11_amplitude_review": "data11_amplitude_review.py",
+      "data11_analysis": "data11_analysis.py",
+      "data11_config": "data11_config.py",
+      "paper_figure_style": "paper_figure_style.py",
+      "portable_runtime": "portable_runtime.py",
+      "resolution_sine_fit": "resolution_sine_fit.py"
+    },
+    "data11_resolution_analysis": {
+      "characterization_run": "characterization_run.py",
+      "data11_analysis": "data11_analysis.py",
+      "data11_config": "data11_config.py",
+      "data11_resolution_plots": "data11_resolution_plots.py",
+      "paper_figure_style": "paper_figure_style.py",
+      "portable_runtime": "portable_runtime.py",
+      "resolution_relative_summary": "resolution_relative_summary.py",
+      "resolution_sine_fit": "resolution_sine_fit.py"
+    }
+  },
+  "license": "pending",
+  "repository_published": false,
+  "limitations": [
+    "Windows and Python 3.11 tested; macOS/Linux execution not tested.",
+    "JupyterLab is optional and its browser interface was not tested.",
+    "PNG/SVG byte or pixel identity is not required; font fallback can change appearance.",
+    "Known manuscript differences and scientific quality limitations remain in PUBLICATION_NOTES.md and METHODS.md."
+  ]
+}

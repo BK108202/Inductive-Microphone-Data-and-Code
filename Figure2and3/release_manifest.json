@@ -1,0 +1,272 @@
+{
+  "status": "author_selected_source_integrity_checked",
+  "scope": "Figures 2 and 3 analyses, current saved configurations",
+  "license": "not selected",
+  "version": "unreleased",
+  "sealed_at": "2026-10-18T02:11:50.421562-04:00",
+  "source_preservation": "Earlier portability and presentation revisions are documented in metadata/. The current Data11 frequency notebook is the author-selected saved version; historical validation applies to the source versions identified in those reports.",
+  "source_files": [
+    {
+      "path": "METHODS.md",
+      "sha256": "9de16fef91315aa5f19a17a8ab2206b491a51dd5a27efaa7f1e65a4821001ce2",
+      "bytes": 15591
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "a35d1765adb5c632cdae551c68530fd73288cad696521dbb46e37fa7d48a0e52",
+      "bytes": 7461
+    },
+    {
+      "path": "amplitude_global_figures.py",
+      "sha256": "92c436cf15d89a43f2270b675e5f38ce0d914acb778a270bfb70ce8351d0be0b",
+      "bytes": 6562
+    },
+    {
+      "path": "amplitude_volume_repeats.py",
+      "sha256": "ce95055bde46ac35ce84578a8b29d9c583c7b31add40a22a078319e291150bc5",
+      "bytes": 11628
+    },
+    {
+      "path": "characterization_run.py",
+      "sha256": "948d7618c0142f6b30b429072ade4698cdf6d95290fa401183878fbeb4d825ff",
+      "bytes": 10862
+    },
+    {
+      "path": "config.example.json",
+      "sha256": "3161d1a34b7c30f4a4ae4cdcb889d477d283a9ccfb75c846ee3862101575564d",
+      "bytes": 142
+    },
+    {
+      "path": "data10_amplitude_analysis.ipynb",
+      "sha256": "0bbee6a2da93cb0ee7f4b7f98673b2d8d0667fdfe7ee6b2af4f4bb3892da3ad2",
+      "bytes": 220473
+    },
+    {
+      "path": "data10_frequency_range_analysis.ipynb",
+      "sha256": "bbad679a945b6c4bd32a4df4dfa13df4fb472c2bf5d330370ae9e88f6aefa56e",
+      "bytes": 229710
+    },
+    {
+      "path": "data10_resolution_analysis.ipynb",
+      "sha256": "d03b80f236dc77e22a570fc4e3cc2135d7cb5b54448cb428a6fe45af68fd52c1",
+      "bytes": 228398
+    },
+    {
+      "path": "data11_amplitude_analysis.ipynb",
+      "sha256": "642865b24ab218b72ed54712c0e0ae633a9bcc553ac8a276b596da180528223c",
+      "bytes": 17771
+    },
+    {
+      "path": "data11_amplitude_plots.py",
+      "sha256": "9f7c7a6dc5ca9c6f4122e25369260f182f75d2710111de0805cb0a0ad2e87274",
+      "bytes": 9662
+    },
+    {
+      "path": "data11_amplitude_review.py",
+      "sha256": "7b3054b042a4707c68af1a6f68816e450aa951cc0e33880c5835a1cd1df2dc87",
+      "bytes": 8188
+    },
+    {
+      "path": "data11_analysis.py",
+      "sha256": "0f73bddbdc45d0f7db98c068e526bd21cd5309bf390438f6dd5485349dc90979",
+      "bytes": 58037
+    },
+    {
+      "path": "data11_config.py",
+      "sha256": "ff699b4d22cb44142bc93af424eef07fde8174b57f68bf1711aaa580189be0df",
+      "bytes": 9664
+    },
+    {
+      "path": "data11_frequency_range_analysis.ipynb",
+      "sha256": "99b9cd80fceed43e54ecd308606ac1382cd1d0f7ddc46602f1cedb4336c129ac",
+      "bytes": 3472275
+    },
+    {
+      "path": "data11_frequency_range_supplement.ipynb",
+      "sha256": "13e8fee4bd8f6060a604e988ef16ecd5ecf24cb61d1b3c4553affa666fdf21a9",
+      "bytes": 19019
+    },
+    {
+      "path": "data11_harmonic_tracking.py",
+      "sha256": "89126d636700996118ee49de9f90d009d7ffae8722bf619dfa249f02f530b7cc",
+      "bytes": 47943
+    },
+    {
+      "path": "data11_record_review.py",
+      "sha256": "50a9b51f549f3202fc4b2824d63dfe74521d99a7d2d5a766607fe0cc97907d30",
+      "bytes": 22077
+    },
+    {
+      "path": "data11_reference_gap_plots.py",
+      "sha256": "356f10732d043d0da86af94d06bfa0b9336b0d07ad1cb5f40e769ffff7c05844",
+      "bytes": 7973
+    },
+    {
+      "path": "data11_resolution_analysis.ipynb",
+      "sha256": "ca356f4f9530c5bd4ac2e5a633571e41585faae2593b7cbfb53c1e42b8a93454",
+      "bytes": 10601
+    },
+    {
+      "path": "data11_resolution_plots.py",
+      "sha256": "a7b6d45c6a632de640264a2214148ee537bed8014bea284da6c0905fec78229e",
+      "bytes": 17801
+    },
+    {
+      "path": "data11_whole_sweep_fft.py",
+      "sha256": "e6a741ed41fef187ebbaa8142f187ef4611a5f7fc561bb606d46c0077c26e68e",
+      "bytes": 30691
+    },
+    {
+      "path": "global_peak_snr.py",
+      "sha256": "c3b45beecf8fc9e0ad923b6731afc37bc0287a1fe074270adf8cc5307f1e71ed",
+      "bytes": 16747
+    },
+    {
+      "path": "metadata/connected_tracking_display.json",
+      "sha256": "84982911a3a18dd5a4559541208d38aff8d98bc1dad3aa9da7a71c6b8f80d0b7",
+      "bytes": 4569
+    },
+    {
+      "path": "metadata/data_manifest.csv",
+      "sha256": "89add39e1fd96234dc886106acda8e9d1a78a38fea67153fa0cf716225f15b32",
+      "bytes": 13246
+    },
+    {
+      "path": "metadata/historical_display_manifest.json",
+      "sha256": "9b35417beaa037cecb07c5033d50324e0912b2c814913c9429eb12e5a8b7f9de",
+      "bytes": 2996
+    },
+    {
+      "path": "metadata/material_subset_fix.json",
+      "sha256": "7bbb65a4dffb5b65f4ecfba9cc71298d1fe4889984c4f3357b7fc4c65a129a6a",
+      "bytes": 683
+    },
+    {
+      "path": "metadata/presentation_revision.json",
+      "sha256": "ff724ff7fc36de6aee859b72501073de087e3678260913bc658ba693c566cafa",
+      "bytes": 4670
+    },
+    {
+      "path": "metadata/reference_manifest.json",
+      "sha256": "949ac94d2753545b2daf89bcf0cb4c2630adbc887db7eb8e683806c9355a7c8f",
+      "bytes": 91157
+    },
+    {
+      "path": "metadata/source_changes.json",
+      "sha256": "e5a2c81faa5a7427221401a4ba41ec0ad793b6a3a1c05d084793cfeb720bd602",
+      "bytes": 63843
+    },
+    {
+      "path": "paper_figure_style.py",
+      "sha256": "d620ebc5fbc92d3293cba96cff744a289706bda63b63a35f9c703c4e2f1fb460",
+      "bytes": 19459
+    },
+    {
+      "path": "portable_runtime.py",
+      "sha256": "c43e5db37e322011bce730346507c2a6ef27c2e5115576f91477175481b2c9ad",
+      "bytes": 5645
+    },
+    {
+      "path": "replot_data11_tracking.py",
+      "sha256": "ec58d09d91b52c9b0cfc63e72572c332d858cb0c82f29d103ae33247667c8663",
+      "bytes": 978
+    },
+    {
+      "path": "requirements-interactive.txt",
+      "sha256": "d067c33ad5c6b6380eeece0337f3417efc807186fef1e52725501803ee3884df",
+      "bytes": 120
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "1bf18d0ad5cfc7afea86657628f22592b5c830e27f719c793e0cf3dd9ce192ee",
+      "bytes": 267
+    },
+    {
+      "path": "resolution_frequency_comparison.py",
+      "sha256": "eb1a20909b03b885be1ff4f2fc85c8a59884c8d79f7908eb5aeeb4db93c6231c",
+      "bytes": 11486
+    },
+    {
+      "path": "resolution_relative_summary.py",
+      "sha256": "950773d72e98cd04f22d54d58c5dd4a65b6486daea1a47adc1fc8ee6852d5f52",
+      "bytes": 13729
+    },
+    {
+      "path": "resolution_sine_fit.py",
+      "sha256": "4613a51451ed7ab27cba80bb6e8e84574f9d216e6e80d9da967285543e1a137e",
+      "bytes": 10013
+    },
+    {
+      "path": "run_notebooks.py",
+      "sha256": "08ea8b732432c9869b18f6ad6bc4df78fc68ebddbbcfc257cfb8064dce458d35",
+      "bytes": 12872
+    },
+    {
+      "path": "same_frequency_background.py",
+      "sha256": "2a506af1aed9963c371fae38533e21eb6e17e0c9e1689de0b094143d84be2054",
+      "bytes": 21732
+    },
+    {
+      "path": "sinewave_range_summary.py",
+      "sha256": "e537bf7e22920648b85bade95bde6577b3534171a0498bdaea3de8f5593e691b",
+      "bytes": 21699
+    },
+    {
+      "path": "sinewave_raw_examples.py",
+      "sha256": "7a0970cc12d9f9b172473ccd9fa9b51dd196cd1cc0c8872aa6f6f1ff3a668fd7",
+      "bytes": 5254
+    },
+    {
+      "path": "validation/check_connected_tracking.py",
+      "sha256": "47991c3f429bf61e6a102f322a4b100a356d7eaae0032ffbb155577f12b9d370",
+      "bytes": 10488
+    },
+    {
+      "path": "validation/check_material_subset_plots.py",
+      "sha256": "b160e3d4bb53d52f186087c1a9037ffc2f21b9e927c79f1e9e604c4d827ffb42",
+      "bytes": 4696
+    },
+    {
+      "path": "validation/check_presentation_revision.py",
+      "sha256": "9c46d97408c96b99e3028afa5b29b5fa64f432a142850096c3ec06696504a940",
+      "bytes": 9662
+    },
+    {
+      "path": "validation/connected_tracking.json",
+      "sha256": "880053a34f83491b9dc570bb148eca37a4307d160fb805b10fd48263bb1d5428",
+      "bytes": 9800
+    },
+    {
+      "path": "validation/material_subset_plots.json",
+      "sha256": "eea4928322b7cb9f17864a76448b263de961c43d4098aaa0ac5e548e80f20ef3",
+      "bytes": 2058
+    },
+    {
+      "path": "validation/presentation_revision.json",
+      "sha256": "915814c9f7ec893188b7fa0fcbd37d8329a7b65957e79443abf0792dc8733122",
+      "bytes": 2023
+    },
+    {
+      "path": "verify_release.py",
+      "sha256": "6b0b2a5c055b54fcae5763b59bbaebafdcd2d7674d9bad398bbff7a971b7445b",
+      "bytes": 28623
+    }
+  ],
+  "revision_metadata": "metadata/presentation_revision.json",
+  "current_validation": "validation/presentation_revision.json",
+  "prior_full_execution_validation": "validation/summary.json",
+  "followup_revision_metadata": "metadata/material_subset_fix.json",
+  "followup_validation": "validation/material_subset_plots.json",
+  "display_revision_metadata": "metadata/connected_tracking_display.json",
+  "display_validation": "validation/connected_tracking.json",
+  "author_selected_notebook": {
+    "path": "data11_frequency_range_analysis.ipynb",
+    "confirmed_on": "2026-10-18",
+    "previous_manifest_sha256": "f6e20db98d88b4d3add7935e46d9875c8741105c6a34766a6ac649642861717f",
+    "previous_manifest_bytes": 568424,
+    "selection": "The author confirmed the current saved notebook as the version to publish. Its contents were not modified when updating this inventory.",
+    "validation_scope": "Package integrity, notebook format and Python syntax only. No notebook execution or new scientific baseline comparison; historical validation records do not validate this selected notebook version."
+  },
+  "readme_location": "../README.md",
+  "readme_policy": "User documentation is maintained in the repository-level README and is outside this folder's source checksum inventory."
+}

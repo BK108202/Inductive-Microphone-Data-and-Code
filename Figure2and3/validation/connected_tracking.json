@@ -1,0 +1,344 @@
+{
+  "status": "passed",
+  "finished_at": "2026-10-18T02:11:47.489741-04:00",
+  "scope": "In-memory check of saved plot values, exact default y-axis upper limits, strict-data preservation, notebook syntax and rendered legend clearance. No raw-data analysis or saved scientific figures.",
+  "parent_run": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\GitHub_Release\\results\\2026-10-17_data11_harmonic_tracking_run004",
+  "recovered_reference_points": 14,
+  "reference_windows": 2,
+  "main_figures": 10,
+  "supplement_figures": 5,
+  "connected_accelerometer_grid_points": 2,
+  "input_tables_and_config_unchanged": true,
+  "default_ymax": {
+    "tracking_comparison_materials": [
+      40000.0,
+      120.0,
+      80000.0
+    ],
+    "tracking_comparison_coil_design": [
+      150000.0,
+      85.0,
+      40000.0
+    ]
+  },
+  "plot_checks": {
+    "tracking_comparison_materials": {
+      "headroom": [
+        {
+          "axis": 0,
+          "original_ylim": [
+            -808.593057185911,
+            32155.555804399006
+          ],
+          "requested_ymax": 40000.0,
+          "automatic_ylim": [
+            -808.593057185911,
+            36111.2536677892
+          ],
+          "expanded_ylim": [
+            -808.593057185911,
+            40000.0
+          ],
+          "legend_inside": true,
+          "minimum_extra_display_range_fraction": 0.12,
+          "legend_gap_points": 6.0
+        },
+        {
+          "axis": 1,
+          "original_ylim": [
+            7.649486833152059,
+            59.36077650380681
+          ],
+          "requested_ymax": 120.0,
+          "automatic_ylim": [
+            7.649486833152059,
+            78.6831700076891
+          ],
+          "expanded_ylim": [
+            7.649486833152059,
+            120.0
+          ],
+          "legend_inside": true,
+          "minimum_extra_display_range_fraction": 0.12,
+          "legend_gap_points": 6.0
+        },
+        {
+          "axis": 2,
+          "original_ylim": [
+            633.3873290557489,
+            12662.72256298365
+          ],
+          "requested_ymax": 80000.0,
+          "automatic_ylim": [
+            633.3873290557489,
+            60941.08881139602
+          ],
+          "expanded_ylim": [
+            633.3873290557489,
+            80000.0
+          ],
+          "legend_inside": true,
+          "minimum_extra_display_range_fraction": 0.12,
+          "legend_gap_points": 6.0
+        }
+      ],
+      "legend_clearance_pixels": [
+        98.5266700125153,
+        65.71783114821494,
+        17.764963245855938
+      ]
+    },
+    "tracking_comparison_materials_strict": {
+      "headroom": [
+        {
+          "axis": 0,
+          "original_ylim": [
+            -808.593057185911,
+            32155.555804399006
+          ],
+          "requested_ymax": 40000.0,
+          "automatic_ylim": [
+            -808.593057185911,
+            36111.2536677892
+          ],
+          "expanded_ylim": [
+            -808.593057185911,
+            40000.0
+          ],
+          "legend_inside": true,
+          "minimum_extra_display_range_fraction": 0.12,
+          "legend_gap_points": 6.0
+        },
+        {
+          "axis": 1,
+          "original_ylim": [
+            7.649486833152059,
+            59.36077650380681
+          ],
+          "requested_ymax": 120.0,
+          "automatic_ylim": [
+            7.649486833152059,
+            78.6831700076891
+          ],
+          "expanded_ylim": [
+            7.649486833152059,
+            120.0
+          ],
+          "legend_inside": true,
+          "minimum_extra_display_range_fraction": 0.12,
+          "legend_gap_points": 6.0
+        },
+        {
+          "axis": 2,
+          "original_ylim": [
+            633.3873290557489,
+            12662.72256298365
+          ],
+          "requested_ymax": 80000.0,
+          "automatic_ylim": [
+            633.3873290557489,
+            60941.08881139602
+          ],
+          "expanded_ylim": [
+            633.3873290557489,
+            80000.0
+          ],
+          "legend_inside": true,
+          "minimum_extra_display_range_fraction": 0.12,
+          "legend_gap_points": 6.0
+        }
+      ],
+      "legend_clearance_pixels": [
+        98.5266700125153,
+        65.71783114821494,
+        17.764963245855938
+      ]
+    },
+    "tracking_fundamental_materials_no_region": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_comparison_thickness": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_comparison_thickness_strict": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_fundamental_thickness_no_region": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_comparison_thick_materials": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_comparison_thick_materials_strict": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_fundamental_thick_materials_no_region": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_comparison_coil_design": {
+      "headroom": [
+        {
+          "axis": 0,
+          "original_ylim": [
+            -4213.67895282364,
+            103662.35961279132
+          ],
+          "requested_ymax": 150000.0,
+          "automatic_ylim": [
+            -4213.67895282364,
+            136025.1711824758
+          ],
+          "expanded_ylim": [
+            -4213.67895282364,
+            150000.0
+          ],
+          "legend_inside": false,
+          "minimum_extra_display_range_fraction": 0.3,
+          "legend_gap_points": 6.0
+        },
+        {
+          "axis": 1,
+          "original_ylim": [
+            7.657564178001965,
+            59.19115226195858
+          ],
+          "requested_ymax": 85.0,
+          "automatic_ylim": [
+            7.657564178001965,
+            74.65122868714556
+          ],
+          "expanded_ylim": [
+            7.657564178001965,
+            85.0
+          ],
+          "legend_inside": false,
+          "minimum_extra_display_range_fraction": 0.3,
+          "legend_gap_points": 6.0
+        },
+        {
+          "axis": 2,
+          "original_ylim": [
+            745.4535498058601,
+            12944.607133478254
+          ],
+          "requested_ymax": 40000.0,
+          "automatic_ylim": [
+            745.4535498058601,
+            30478.20320889175
+          ],
+          "expanded_ylim": [
+            745.4535498058601,
+            40000.0
+          ],
+          "legend_inside": false,
+          "minimum_extra_display_range_fraction": 0.3,
+          "legend_gap_points": 6.0
+        }
+      ],
+      "legend_clearance_pixels": [
+        "outside",
+        "outside",
+        "outside"
+      ]
+    },
+    "tracking_comparison_coil_design_strict": {
+      "headroom": [
+        {
+          "axis": 0,
+          "original_ylim": [
+            -4213.67895282364,
+            103662.35961279132
+          ],
+          "requested_ymax": 150000.0,
+          "automatic_ylim": [
+            -4213.67895282364,
+            136025.1711824758
+          ],
+          "expanded_ylim": [
+            -4213.67895282364,
+            150000.0
+          ],
+          "legend_inside": false,
+          "minimum_extra_display_range_fraction": 0.3,
+          "legend_gap_points": 6.0
+        },
+        {
+          "axis": 1,
+          "original_ylim": [
+            7.657564178001965,
+            59.19115226195858
+          ],
+          "requested_ymax": 85.0,
+          "automatic_ylim": [
+            7.657564178001965,
+            74.65122868714556
+          ],
+          "expanded_ylim": [
+            7.657564178001965,
+            85.0
+          ],
+          "legend_inside": false,
+          "minimum_extra_display_range_fraction": 0.3,
+          "legend_gap_points": 6.0
+        },
+        {
+          "axis": 2,
+          "original_ylim": [
+            745.4535498058601,
+            12944.607133478254
+          ],
+          "requested_ymax": 40000.0,
+          "automatic_ylim": [
+            745.4535498058601,
+            30478.20320889175
+          ],
+          "expanded_ylim": [
+            745.4535498058601,
+            40000.0
+          ],
+          "legend_inside": false,
+          "minimum_extra_display_range_fraction": 0.3,
+          "legend_gap_points": 6.0
+        }
+      ],
+      "legend_clearance_pixels": [
+        "outside",
+        "outside",
+        "outside"
+      ]
+    },
+    "tracking_fundamental_coil_design_no_region": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_broadband_and_repeat_counts": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_accelerometer_reference": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    },
+    "tracking_accelerometer_reference_strict": {
+      "headroom": [],
+      "legend_clearance_pixels": []
+    }
+  },
+  "source_hashes": {
+    "data11_harmonic_tracking.py": "89126d636700996118ee49de9f90d009d7ffae8722bf619dfa249f02f530b7cc",
+    "data11_reference_gap_plots.py": "356f10732d043d0da86af94d06bfa0b9336b0d07ad1cb5f40e769ffff7c05844",
+    "paper_figure_style.py": "d620ebc5fbc92d3293cba96cff744a289706bda63b63a35f9c703c4e2f1fb460",
+    "verify_release.py": "6b0b2a5c055b54fcae5763b59bbaebafdcd2d7674d9bad398bbff7a971b7445b"
+  },
+  "checker_sha256": "47991c3f429bf61e6a102f322a4b100a356d7eaae0032ffbb155577f12b9d370",
+  "limitations": [
+    "No full raw-data tracking rerun."
+  ]
+}

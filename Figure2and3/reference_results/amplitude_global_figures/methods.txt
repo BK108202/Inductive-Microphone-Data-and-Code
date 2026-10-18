@@ -1,0 +1,5 @@
+Global maximum across all strictly positive zero-padded FFT bins (DC excluded), followed by valid three-point parabolic interpolation using the source interpolation scale. No 99--101 Hz restriction in peak selection. Source timestamp resampling, demeaning, periodic Hann and coherent-gain normalization retained. Missing interpolation is not replaced with a target peak.
+
+All finite global amplitudes enter descriptive means and sample SD (ddof=1). Preserve source fit eligibility: complete repeats, positive computed amplitudes, nominal 100 Hz, selected frequencies within 1 Hz of nominal, and accelerometer extrema checks. This frequency check flags fit eligibility only; it never changes the global peak or removes descriptive points. OLS/ODR and ratio-of-condition-means follow the source method. Sequential sensor records are not paired. Timing warnings remain; this is not calibrated sensitivity.
+
+FFT values reused from the source run; its archived scripts and provenance describe the original estimation.

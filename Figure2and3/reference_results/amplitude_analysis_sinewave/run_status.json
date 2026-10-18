@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-16T01:13:02.260303-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_amplitude_analysis_sinewave_run001",
+  "finished_at": "2026-10-16T01:15:59.421561-04:00",
+  "summary": {
+    "input_files": 6,
+    "analyzed_windows": 36,
+    "fft_computed_windows": 36,
+    "fft_strict_gap_valid_windows": 4,
+    "diagnostic_timing_warning_windows": 32,
+    "quality_flagged_windows": 36,
+    "figure_count": 33,
+    "snr_comparisons": 0,
+    "finite_snr_db": 0,
+    "limitations": [
+      "100 Hz, volume15to10, 30s per level confirmed; start_s=0 and actual switches remain configured assumptions. Central20s must be checked against transitions.",
+      "Reference uses nominal per-record accelerometer conversion, not individual calibration; existing +/-16g default must match acquisition settings.",
+      "Mounting and reference-placement comparability remain subject to the effective mounting_note; independent batches may include drive drift.",
+      "Finite timing-warning FFT estimates remain explicitly diagnostic. Target-conditioned peaks are not proof of detection; no noise threshold or detection limit is estimated.",
+      "All finite estimates remain visible; flagged/incomplete groups are excluded from fits with counts recorded. SD bars describe record variation, not total uncertainty.",
+      "Free-intercept OLS descriptive fit plus ODR using independent-axis SEM=SD/sqrt(n). ODR only when all included SEMs are finite and positive; never invent uncertainty floors. No confidence intervals from three records; level correlations within a record and systematic reference/drift errors are not modeled."
+    ]
+  }
+}

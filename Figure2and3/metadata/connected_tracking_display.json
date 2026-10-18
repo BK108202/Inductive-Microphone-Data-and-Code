@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-18",
+  "scope": "Connected main reference displays, strict supplement versions, and notebook-editable comparison y-axis limits with optional figure-only redraw.",
+  "scientific_estimators_changed": false,
+  "strict_csvs_and_detectable_intervals_changed": false,
+  "existing_diagnostic_reference_rule_preserved": true,
+  "main_plot_annotations": false,
+  "user_notebook_selection_code_preserved": true,
+  "validation": "validation/connected_tracking.json",
+  "full_raw_data_reanalysis": false,
+  "changed_files": [
+    {
+      "path": "data11_harmonic_tracking.py",
+      "prior_sha256": "52b2d35d71044c67ffb962961a927038fbc566736be0b7eb092c3f5ed039c5e2",
+      "current_sha256": "89126d636700996118ee49de9f90d009d7ffae8722bf619dfa249f02f530b7cc"
+    },
+    {
+      "path": "data11_reference_gap_plots.py",
+      "prior_sha256": "c0bcc8410844bf6be2434ac5e759ec671dd6928b4d1c148bbceb5f304b20020a",
+      "current_sha256": "356f10732d043d0da86af94d06bfa0b9336b0d07ad1cb5f40e769ffff7c05844"
+    },
+    {
+      "path": "paper_figure_style.py",
+      "prior_sha256": "8d9335c46846f95011c9854d9d3a9fe73db75df185c377497b2311cfd5684b62",
+      "current_sha256": "d620ebc5fbc92d3293cba96cff744a289706bda63b63a35f9c703c4e2f1fb460"
+    },
+    {
+      "path": "verify_release.py",
+      "prior_sha256": "164e94c28ebe9c822e749c4846f8b79313809752c74d905d0d11030806794cb6",
+      "current_sha256": "6b0b2a5c055b54fcae5763b59bbaebafdcd2d7674d9bad398bbff7a971b7445b"
+    },
+    {
+      "path": "replot_data11_tracking.py",
+      "prior_sha256": null,
+      "current_sha256": "ec58d09d91b52c9b0cfc63e72572c332d858cb0c82f29d103ae33247667c8663"
+    },
+    {
+      "path": "data11_frequency_range_analysis.ipynb",
+      "prior_sha256": "c6f61ae8a5bd5bd39c98e252d932e65eeeff1ea82b72a659ab43250872a071d5",
+      "current_sha256": "f6e20db98d88b4d3add7935e46d9875c8741105c6a34766a6ac649642861717f"
+    },
+    {
+      "path": "data11_frequency_range_supplement.ipynb",
+      "prior_sha256": "a5708f315cdd351c0f8f8c2e81a76687ac9982cfcf7cfa8540bf75c56eb9fca3",
+      "current_sha256": "13e8fee4bd8f6060a604e988ef16ecd5ecf24cb61d1b3c4553affa666fdf21a9"
+    },
+    {
+      "path": "README.md",
+      "prior_sha256": "1f20631dcbd16369e950f4ecb0d5d7ebf9fc25fdf26f38ddda9bf5142947a6e2",
+      "current_sha256": "997219a250a55a3960c304e8a705a93cf078ceb573ab7a655c3686f2fcd37405"
+    },
+    {
+      "path": "METHODS.md",
+      "prior_sha256": "3a5f2e555c6148c21ecda5ee78a23b550728a0d56475135ddcc33549c238cf18",
+      "current_sha256": "9de16fef91315aa5f19a17a8ab2206b491a51dd5a27efaa7f1e65a4821001ce2"
+    },
+    {
+      "path": "VALIDATION.md",
+      "prior_sha256": "bca20a2868bffcb92ef9428cc87d178fa7d76c3b5c417953183a803a05713930",
+      "current_sha256": "a35d1765adb5c632cdae551c68530fd73288cad696521dbb46e37fa7d48a0e52"
+    },
+    {
+      "path": "validation/check_connected_tracking.py",
+      "prior_sha256": null,
+      "current_sha256": "47991c3f429bf61e6a102f322a4b100a356d7eaae0032ffbb155577f12b9d370"
+    },
+    {
+      "path": "validation/connected_tracking.json",
+      "prior_sha256": null,
+      "current_sha256": "880053a34f83491b9dc570bb148eca37a4307d160fb805b10fd48263bb1d5428"
+    }
+  ],
+  "provenance_policy": "Redraw runs record the actual enclosing repository commit and staged/unstaged/untracked state while archiving every exact release source; untracked files are not claimed to match the commit.",
+  "standalone_fundamental_identical_to_comparison_panel": true,
+  "accelerometer_presentation_csv": "presentation/accelerometer_reference_strict_and_display.csv",
+  "coil_design_extra_transformed_y_range_fraction": 0.3,
+  "supplement_parent_selection": {
+    "tracking_run_relative_to_release": "results/2026-10-17_data11_harmonic_tracking_run004",
+    "reason": "Explicitly select the complete tracking parent used for the current figures; fix the empty TRACKING_RUN bootstrap error.",
+    "cli_override_preserved": true,
+    "validation": "Read-only bootstrap, five strict PNG loads and FFT configuration passed. No new analysis executed."
+  },
+  "comparison_ymax": {
+    "materials": [
+      40000,
+      120,
+      80000
+    ],
+    "coil_design": [
+      150000,
+      85,
+      40000
+    ]
+  },
+  "comparison_ymax_order": [
+    "amplitude_counts",
+    "snr_db",
+    "responsivity_counts_per_g"
+  ],
+  "automatic_ymax_value": null,
+  "optional_notebook_redraw_default_enabled": false,
+  "redraw_preserves_scientific_results_and_output_path": true
+}

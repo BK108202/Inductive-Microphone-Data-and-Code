@@ -1,0 +1,31 @@
+Candidate review, not a new SNR or sensitivity analysis. Original CSVs are read-only.
+Time_us is converted to seconds relative to the first sample; Data28 remains counts.
+All listed amplitude candidates are displayed over their entire duration. Overview figures
+use contiguous sample-bucket minima/maxima, with no sample excursion discarded. One-second
+RMS diagnostics subtract each bin mean, use original samples, and apply no filtering.
+These RMS values are not fundamental amplitudes, event RMS, or volume-level estimates.
+No amplitude triplet is selected automatically. User confirmed 20 s per level for IM_15-17
+and 30 s per level for IM_53-56 on 2026-10-13. Full records are shown; t=0 alignment of
+the first volume remains an analysis assumption for subsequent segmentation.
+Sweep checks retain the existing endpoint, timestamp, trajectory and sampling gates.
+The additional max adjacent jump / median absolute adjacent jump >100 flag is a conservative,
+unvalidated review heuristic, not proof of clipping or a calibrated quality criterion.
+Flagged records remain in diagnostics but require review before triplet recommendation.
+Compatibility review also flags a fitted 30-to-300 Hz duration differing by >20% from
+the documented 30 s duration. This is a conservative, unvalidated combination screen,
+not a change to the existing tracker or independent proof of the excitation schedule.
+Compare linear-time and log-time residuals on the already estimated local frequencies
+as diagnostics only; partial track support can bias this comparison. Do not refit an
+incompatible sweep into the old log model simply to fill a group.
+Recommend up to three passing sweeps in ascending file-number order; never rank by signal
+amplitude or SNR, never duplicate a file or silently fill a deficient group.
+Frequency coverage is evaluated on the existing 81-point grid using the existing 0.8 s
+tracking windows. A candidate must support at least two grid points. Detailed support is
+exported; a passing record does not imply complete 30-300 Hz coverage or calibration.
+Raw examples use the independently fitted log-frequency trajectory to locate requested
+center frequencies. Each 200 ms window contains original timestamps and all recorded samples.
+Both untouched Data28 and ordinary least-squares intercept+linear-time detrended versions
+are exported; no smoothing, bandpass, resampling, or fitted sinusoid replaces the samples.
+Sweep frequency changes across each example; requested frequency describes its center.
+Timing, analog bandwidth, anti-aliasing and independent frequency verification remain unresolved.
+PNG previews and SVGs use Arial 15 pt, editable text, no grids, <=5 major y tick values.

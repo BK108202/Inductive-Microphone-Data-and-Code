@@ -1,0 +1,57 @@
+experiment: User: sine generator setting 1 Vpp; photos are setup references. No measured transducer input or acoustic reference.
+
+units: Time_us * 1e-6 relative to first timestamp; IM Data28 counts; accel Raw_Z converted to g using each recording full scale and nominal ASM330LHH sensitivity (2/4/8/16 g: 0.000061/0.000122/0.000244/0.000488 g/count); no individual calibration. Original CSV unchanged; raw_counts retained in loaded record.
+
+timing: Half-open [start,end) windows. Nominal schedules begin at configured start_s, not inferred switches. Explicit bounds override schedule; trim follows bounds. Frequency selection is applied AFTER complete schedule construction.
+
+support: Requested window must be within recording; at record end allow exactly one full-record mean sample interval plus floating tolerance for conventional half-open support. Actual first/last samples and use of tolerance reported; no silent shortening.
+
+sampling: Reject nonfinite/duplicate/decreasing timestamps. Estimate fs=(N-1)/(last-first) per retained window. Interpolate linearly to N equispaced times; no clock correction from targets.
+
+fft: Remove uniform-signal mean; periodic Hann; no additional filters. Global argmax over every positive rFFT bin through Nyquist when present; exclude DC only. Targets never restrict search.
+
+amplitude: One-sided sinusoidal peak amplitude 2*abs(FFT)/sum(window), except DC and exact Nyquist not doubled. Native/padded transform lengths differ; normalization always original window sum. Dominant peak need not be excitation fundamental.
+
+interpolation: Three actual adjacent bins around global maximum; quadratic fit in configured log or linear amplitude. Reject tied maximum, unavailable neighbor, nonpositive/invalid values, nonconcavity, or vertex beyond half-bin. Native and padded spectra select their maxima independently.
+
+zero_padding: nfft=pad_factor*N; refine sampled spectrum only. Report native_df=fs/N, padded_df=fs/nfft, Hann ENBW=fs*sum(w**2)/sum(w)**2; these are not interchangeable with physical resolution.
+
+raw_metrics: raw_rms=sqrt(mean((raw-mean(raw))**2)); raw_rms_including_dc separate; raw_peak_to_peak=max(raw)-min(raw). Original retained samples, no trimming of outliers.
+
+noise: Each stated noise control kept separate; full file by default. Same one-sided Hann periodogram PSD abs(FFT)**2/(fs*sum(w**2)), double interior positive bins. PSD in each sensor output unit squared/Hz (IM counts^2/Hz; accel g^2/Hz), not amplitude. Original noise PSD/RMS retained. Supplemental nominal-band SNR uses the explicitly configured independent controls; no detection limit, responsivity or sensitivity calculated.
+
+quality: Boundary coverage failures always suppress FFT. Internal gap > max_gap_over_median remains a strict gap-check failure; default diagnostic mode also computes the same explicitly flagged linearly interpolated FFT. strict_global_* columns retain the strict result; fft_computed is computational availability, fft_valid is legacy strict gap eligibility, neither guarantees calibrated accuracy. Ratio comparison tolerance=max(1e-9,abs(threshold)*1e-9) handles exact-threshold floating error. Gap count, duration sum and duration fraction recorded; these do not assert lost samples. Raw extrema occupancy is diagnostic only and does not establish ADC/sensor saturation. Jitter, cycles, sampling margin, excursions and target mismatch remain flagged.
+
+sensitivity: Additional symmetric sweep trims and raw-order FFT at the same estimated fs; diagnostics of window and interpolation dependence, not independent repeats or alternative primary results.
+
+resolution: Independent record-level estimates grouped by base,target,window,method; arithmetic mean of finite estimates, sample SD(ddof=1) only n>=2. Computed and strict-gap views saved separately; flagged finite estimates retained in computed view with strict counts. Differences of group means are descriptive, not synchronized or calibrated two-tone resolution.
+
+target_diagnostics: Supplement only: maximum bin inside target +/- min(0.4*target,max(3*native_df,0.15*target)), unless explicit halfwidth. Minimum0.1Hz by default. Native/padded three-point fits match selected bins; no replacement if boundary/nonlocal/invalid. Rank interpolated interior local maxima above minimum and below Nyquist; all noise/sidelobes retained, exact ties share rank. Rankings and relative amplitude are not SNR. Primary global peaks never change.
+
+volume_fft_display: Four paired global positive-frequency peak estimates: native bin, native 3-point fit, padded bin, padded 3-point fit. Native and padded spectra independently select maxima excluding DC; target frequency is only a plotted reference. All amplitudes are sinusoidal peak estimates, not RMS or peak-to-peak. Existing uniform-time resampling, Hann gain correction, effective pad_factor and interpolation_scale retained. Failed fits remain missing with status; no fallback substitution. Separate CSVs pair amplitude, frequency, signed frequency minus target, window bounds, grid spacing and quality flags for primary and subwindows. Zero padding changes grid spacing, not physical resolution.
+
+volume: Selected files, target frequencies, levels, windows and pairing confirmation are recorded in effective CONFIG. Plot numeric volume ascending10to15; original segment order preserved. Each primary window is split into contiguous configured-duration subwindows (defaults: central20s, subwindows5s; effective values in parameters.json); not repeats. FFT amplitude, raw RMS, raw peak-to-peak remain distinct.
+
+volume_reference: One primary window per file and volume; arithmetic mean and sample SD (ddof=1) across independent records. Subwindows are not repeats. No cross-sensor file pairing. Ratio of IM condition mean to accel condition mean; not mean of paired ratios, not response slope.
+
+cross_sensor: Three files per sensor; mounting repeatability and between-batch drive stability unresolved unless documented. Fixed 100 Hz only; no phase/coherence/synchronized transfer function, absolute calibration, SNR or detection limit inferred.
+
+snr: Supplemental noise-control-referenced nominal-band excess-power SNR; default nominal +/-1Hz. Excited native Hann PSD integrated in the same exact physical band as the separate control's Welch PSD, clipped to common represented frequency support. Noise Welch: configured6s periodicHann,50%overlap,constant detrend,linear-power mean,no padding; too-short/unavailable controls not silently shortened. Piecewise-linear trapezoidal PSD integration including boundary interpolation; DC endpoint retained after detrending when the band reaches0Hz. Pexcess=Pexcited-Pnoise; SNRlinear=Pexcess/Pnoise, SNRdB=10log10(SNRlinear). Nonpositive excess gives NaN SNR and explicit status; measured Pexcited/Pnoise retained separately. No cross-control averaging, errorbars or automatic detection claim. Assumes independent control represents additive uncorrelated background during driven recording; IM_1 excess includes amplifier-added noise. Nearby interference also contributes. Original global FFT selection is unchanged. All effective windows/bands/df/ENBW/segment counts and timing flags recorded in SNR CSV and parameters.json. Reference: https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html
+
+selected_view: Additional sweep/SNR plots use plots.sweep_view (default>=10Hz), selecting already-computed rows by nominal frequency. Complete plots and original acquisition time mapping remain; no recalculation or alternative peak search.
+
+figures: Main spectrogram restored to linear frequency0..Nyquist, viridis,100dB below max,2s Hann75%overlap; configurable. Cyan dots at nominal segment midpoints annotate desired frequencies, not peak estimates. Both linear/log frequency-axis versions use identical PSD and color limits. RMS/peak-to-peak amplitude panels use log axes; global-vs-target amplitudes explicitly distinguished. Resolution per-record spectra normalized to each own maximum INSIDE display crop for shape comparison only; numerical amplitudes unchanged. Resolution categorical method x-axis and mHz offset from base expose every repeat. Interpolation demo uses actual global-maximum native bin and its two neighbors. Volume plots sort numeric levels ascending, never shift segment mapping. Plot settings below describe defaults; effective plot/FFT settings are recorded in parameters.json. Raw min/max envelopes in time bins of width max(0.02s,record_span/6000); spectrogram linearly interpolates N points between first/last record timestamps, fs=(N-1)/span, 2s periodic Hann (capped to record), configured75% overlap, constant detrend, one-sided PSD, dB relative to 1 unit^2/Hz, color range100dB below max. Spectrogram across internal gaps is explicitly labeled diagnostic by default; strict mode omits it. Dense spectrum displays keep the exact maximum in each of at most 6000 contiguous log-index buckets; peak selection and all numerical estimates use every FFT bin. Volume waveform figures show central three nominal cycles (capped at 2s), raw samples unchanged. Full positive spectra for each window; resolution zoom changes display only.
+
+volume_repeats_aggregation: One primary window per file and volume; arithmetic mean and sample SD (ddof=1) across independent records. Subwindows are not repeats. No cross-sensor file pairing.
+
+volume_repeats_amplitude: Target-conditioned padded FFT local peak with three-point interpolation within configured 100 Hz +/- 1 Hz search band; existing resampling, demean, periodic Hann and coherent-gain normalization. No fallback to global peak. Search band is not noise bandwidth. Original global FFT, RMS and peak-to-peak retained.
+
+volume_repeats_quality: All finite record estimates retained in descriptive means and plots. Fit eligibility requires the expected record count, finite positive amplitudes, computed FFTs, matching targets, no accel repeated-extrema flags, and target estimates inside search band for every record. Timing/other quality warnings remain explicit; this is a diagnostic response, not calibrated sensitivity.
+
+volume_repeats_errorbars: Both plot axes show across-record sample SD, not SEM or total calibration uncertainty.
+
+volume_repeats_fit: Free-intercept OLS descriptive fit plus ODR using independent-axis SEM=SD/sqrt(n). ODR only when all included SEMs are finite and positive; never invent uncertainty floors. No confidence intervals from three records; level correlations within a record and systematic reference/drift errors are not modeled.
+
+volume_repeats_ratio: Ratio of IM condition mean to accel condition mean; not mean of paired ratios, not response slope.
+
+volume_repeats_limits: Three files per sensor; mounting repeatability and between-batch drive stability unresolved unless documented. Fixed 100 Hz only; no phase/coherence/synchronized transfer function, absolute calibration, SNR or detection limit inferred.

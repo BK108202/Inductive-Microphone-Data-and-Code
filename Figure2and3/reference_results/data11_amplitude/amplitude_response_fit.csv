@@ -1,0 +1,2 @@
+method,population,n_levels,slope_counts_per_g,intercept_counts,r_squared,limitations
+"unweighted free-intercept OLS, descriptive condition means",diagnostic_with_gap_warnings,6,488.0736656813229,82.1328518466712,0.9917283409132245,Errors in both axes and within-record level correlations not modeled; diagnostic population retains interpolation across gaps; not calibrated sensitivity

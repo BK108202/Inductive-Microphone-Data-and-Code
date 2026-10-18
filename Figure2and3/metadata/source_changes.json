@@ -1,0 +1,1432 @@
+{
+  "scope": "Historical portability audit for the original 2026-10-16 combined release. Recorded module/notebook hashes and AST counts below describe that snapshot. Later presentation changes are documented separately in metadata/presentation_revision.json.",
+  "original_sources_modified": false,
+  "modules_summary": {
+    "module_count": 20,
+    "byte_identical_modules": 9,
+    "changed_modules": 11,
+    "unchanged_function_asts": 124,
+    "changed_function_asts": 13,
+    "all_normalized_asts_match": true
+  },
+  "allowed_module_changes": {
+    "runtime_wrappers": {
+      "amplitude_global_figures.py": [
+        "create_global_figures"
+      ],
+      "data11_amplitude_review.py": [
+        "run_preview"
+      ],
+      "data11_analysis.py": [
+        "run_analysis"
+      ],
+      "data11_harmonic_tracking.py": [
+        "run_tracking"
+      ],
+      "data11_record_review.py": [
+        "export_raw_examples",
+        "run_review"
+      ],
+      "data11_reference_gap_plots.py": [
+        "export_reference_gap_views"
+      ],
+      "data11_whole_sweep_fft.py": [
+        "run_whole_fft"
+      ]
+    },
+    "allowed_runtime_edits": [
+      "Replace interpreter-path checks with ensure_environment().",
+      "Resolve results_root through load_config().",
+      "Capture published source_paths instead of legacy builder/test scripts.",
+      "Describe actual config_source() for results_root provenance."
+    ],
+    "module_path_assignments": [
+      "BASE",
+      "PROJECT",
+      "DATA_ROOT"
+    ],
+    "characterization_run.py": [
+      "Import portable_runtime.project_root.",
+      "In _git_provenance only: do not report a containing repository commit as the publication-folder commit."
+    ],
+    "paper_figure_style.py": [
+      "Add portable_runtime.figure_font; use Arial when installed, otherwise DejaVu Sans.",
+      "FONT and font-valued SETTINGS only; _font/apply_style/save_paper_figure font-family fallback only.",
+      "Module documentation describes the font fallback."
+    ],
+    "data11_harmonic_tracking.py": [
+      "METHODS provenance text describes portable results_root; scientific method descriptions unchanged."
+    ],
+    "data11_resolution_plots.py": [
+      "Translate NOTEBOOK_EXPLANATION to English.",
+      "Translate only an embedded code comment; parsed embedded code AST unchanged."
+    ],
+    "entry_points": [
+      "data11_record_review.py and data11_reference_gap_plots.py __main__ use the published notebook filename."
+    ],
+    "validation": "After removing or normalizing only these explicit nodes, the entire AST of every module equals the original. All numeric literal multisets and other function ASTs remain equal."
+  },
+  "modules": [
+    {
+      "file": "amplitude_global_figures.py",
+      "original_sha256": "062ef343acb6997582cd4625399914124d990c5d8a99071e43584a22dc10648b",
+      "release_sha256": "92c436cf15d89a43f2270b675e5f38ce0d914acb778a270bfb70ce8351d0be0b",
+      "byte_identical": false
+    },
+    {
+      "file": "amplitude_volume_repeats.py",
+      "original_sha256": "ce95055bde46ac35ce84578a8b29d9c583c7b31add40a22a078319e291150bc5",
+      "release_sha256": "ce95055bde46ac35ce84578a8b29d9c583c7b31add40a22a078319e291150bc5",
+      "byte_identical": true
+    },
+    {
+      "file": "characterization_run.py",
+      "original_sha256": "0458b7e496679bb12e946c3299de7a96cb33a1a822dd94e62b1ea2fb26dbc64d",
+      "release_sha256": "948d7618c0142f6b30b429072ade4698cdf6d95290fa401183878fbeb4d825ff",
+      "byte_identical": false
+    },
+    {
+      "file": "data11_amplitude_plots.py",
+      "original_sha256": "9f7c7a6dc5ca9c6f4122e25369260f182f75d2710111de0805cb0a0ad2e87274",
+      "release_sha256": "9f7c7a6dc5ca9c6f4122e25369260f182f75d2710111de0805cb0a0ad2e87274",
+      "byte_identical": true
+    },
+    {
+      "file": "data11_amplitude_review.py",
+      "original_sha256": "342e1773c6d77c1d2567e56d095e6f2817c54848fc40d2f419e329b7df78e903",
+      "release_sha256": "7b3054b042a4707c68af1a6f68816e450aa951cc0e33880c5835a1cd1df2dc87",
+      "byte_identical": false
+    },
+    {
+      "file": "data11_analysis.py",
+      "original_sha256": "eb26d60628e5665e58562dbfb6d3062c7bc2af9225a8526c26723adfa15f48f8",
+      "release_sha256": "0f73bddbdc45d0f7db98c068e526bd21cd5309bf390438f6dd5485349dc90979",
+      "byte_identical": false
+    },
+    {
+      "file": "data11_config.py",
+      "original_sha256": "9550457c61e424d5f9902c5bf63fb1dac4563715caa813886f41b9e03926c946",
+      "release_sha256": "1976844fd3ac1968a777205e36eab518336d136114c36a30d442e6443fc17cca",
+      "byte_identical": false
+    },
+    {
+      "file": "data11_harmonic_tracking.py",
+      "original_sha256": "730fc1394718b5b307bfa086206433fea5d61f36128faef02f553ecc8ef15453",
+      "release_sha256": "3346634e0900eac60108ddcbe231dcc9e728988ac3787d4cd15ecf277bce1e87",
+      "byte_identical": false
+    },
+    {
+      "file": "data11_record_review.py",
+      "original_sha256": "ac6560a75a6111a0fc9637860bf90c55eb46cec87a66a1a4b25c96d4901eaaff",
+      "release_sha256": "50a9b51f549f3202fc4b2824d63dfe74521d99a7d2d5a766607fe0cc97907d30",
+      "byte_identical": false
+    },
+    {
+      "file": "data11_reference_gap_plots.py",
+      "original_sha256": "6d38d9253c0b5da2887019512a3b9724d006d82373406fe7e2ae31df7f3ef591",
+      "release_sha256": "c0bcc8410844bf6be2434ac5e759ec671dd6928b4d1c148bbceb5f304b20020a",
+      "byte_identical": false
+    },
+    {
+      "file": "data11_resolution_plots.py",
+      "original_sha256": "fdc1c32668b600638cce7474a6961fe6ac5a838169e9a6538491df4a5795f57a",
+      "release_sha256": "a7b6d45c6a632de640264a2214148ee537bed8014bea284da6c0905fec78229e",
+      "byte_identical": false
+    },
+    {
+      "file": "data11_whole_sweep_fft.py",
+      "original_sha256": "c54f65a50678f2fe047cf1eb57aae8e48a4f01228b482cf99b6154aa7341c4be",
+      "release_sha256": "e6a741ed41fef187ebbaa8142f187ef4611a5f7fc561bb606d46c0077c26e68e",
+      "byte_identical": false
+    },
+    {
+      "file": "global_peak_snr.py",
+      "original_sha256": "c3b45beecf8fc9e0ad923b6731afc37bc0287a1fe074270adf8cc5307f1e71ed",
+      "release_sha256": "c3b45beecf8fc9e0ad923b6731afc37bc0287a1fe074270adf8cc5307f1e71ed",
+      "byte_identical": true
+    },
+    {
+      "file": "paper_figure_style.py",
+      "original_sha256": "193dc77ee7d35d17a0762638cd871918c38d296866be93c44be7f23669225e09",
+      "release_sha256": "8d9335c46846f95011c9854d9d3a9fe73db75df185c377497b2311cfd5684b62",
+      "byte_identical": false
+    },
+    {
+      "file": "resolution_frequency_comparison.py",
+      "original_sha256": "eb1a20909b03b885be1ff4f2fc85c8a59884c8d79f7908eb5aeeb4db93c6231c",
+      "release_sha256": "eb1a20909b03b885be1ff4f2fc85c8a59884c8d79f7908eb5aeeb4db93c6231c",
+      "byte_identical": true
+    },
+    {
+      "file": "resolution_relative_summary.py",
+      "original_sha256": "950773d72e98cd04f22d54d58c5dd4a65b6486daea1a47adc1fc8ee6852d5f52",
+      "release_sha256": "950773d72e98cd04f22d54d58c5dd4a65b6486daea1a47adc1fc8ee6852d5f52",
+      "byte_identical": true
+    },
+    {
+      "file": "resolution_sine_fit.py",
+      "original_sha256": "4613a51451ed7ab27cba80bb6e8e84574f9d216e6e80d9da967285543e1a137e",
+      "release_sha256": "4613a51451ed7ab27cba80bb6e8e84574f9d216e6e80d9da967285543e1a137e",
+      "byte_identical": true
+    },
+    {
+      "file": "same_frequency_background.py",
+      "original_sha256": "2a506af1aed9963c371fae38533e21eb6e17e0c9e1689de0b094143d84be2054",
+      "release_sha256": "2a506af1aed9963c371fae38533e21eb6e17e0c9e1689de0b094143d84be2054",
+      "byte_identical": true
+    },
+    {
+      "file": "sinewave_range_summary.py",
+      "original_sha256": "e537bf7e22920648b85bade95bde6577b3534171a0498bdaea3de8f5593e691b",
+      "release_sha256": "e537bf7e22920648b85bade95bde6577b3534171a0498bdaea3de8f5593e691b",
+      "byte_identical": true
+    },
+    {
+      "file": "sinewave_raw_examples.py",
+      "original_sha256": "7a0970cc12d9f9b172473ccd9fa9b51dd196cd1cc0c8872aa6f6f1ff3a668fd7",
+      "release_sha256": "7a0970cc12d9f9b172473ccd9fa9b51dd196cd1cc0c8872aa6f6f1ff3a668fd7",
+      "byte_identical": true
+    }
+  ],
+  "notebooks": [
+    {
+      "file": "data10_frequency_range_analysis.ipynb",
+      "original_notebook": "frequency_range_analysis_sinewave_data10.ipynb",
+      "original_sha256": "b08d64daa7b015e4598cecaf1a55189812f5bc348ae77fd08c68dc6253df48b0",
+      "release_sha256": "bbad679a945b6c4bd32a4df4dfa13df4fb472c2bf5d330370ae9e88f6aefa56e",
+      "code_cell_order_preserved": true,
+      "cell_changes": [
+        {
+          "cell_index_zero_based": 0,
+          "cell_type": "markdown",
+          "source_sha256": "653af2d4d96dc179cba5e672c3c202065346c5294ce47e78bf4ce111dafb3546",
+          "release_sha256": "0ff48eb9e6b583803caf33555d6f9a8c9023d77a5f71add81e2d54850d4c17bb",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 1,
+          "cell_type": "markdown",
+          "source_sha256": "0ecddf15e1aff85f7399e0fd362b9856d804a3e66dd65e41b547c255fc86d8c1",
+          "release_sha256": "919d3a50509b6f02afdb68732ac588ac51ad6600c06114593c11a4a392b78e29",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 2,
+          "cell_type": "code",
+          "source_sha256": "28abb240a593e1a3b0eb5350c9a746a7785dea7a2482a465f49eeb0bd0854da1",
+          "release_sha256": "1d3b1f80c1d53750d0cf1faefb7164ccf7d509412508c1c46eb3a324c58a64e4",
+          "source_text_changed": true,
+          "edits": [
+            "Replace absolute project fallback, original notebook name, config reads and Windows-only virtualenv check with portable runtime API."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 3,
+          "cell_type": "markdown",
+          "source_sha256": "6bc82b9599e89b65a9877f89a54955b267caaaa57a90104c027ecd8a4a2da7d4",
+          "release_sha256": "503f5e01413e8df89c191bffb867646b86059b50a9ab77bbd0252ae655f34bd4",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 4,
+          "cell_type": "code",
+          "source_sha256": "14203da2fe83e4342af3eac6da25f23ac01ed5df8be2f23e6480ff83fd52ca21",
+          "release_sha256": "767e8344de4a10cc8bf04ddc09e5eb9f246b539e2d7ecd40f720599b73860f5d",
+          "source_text_changed": true,
+          "edits": [
+            "Resolve Data10 through the release-relative dataset helper.",
+            "Use Arial when installed, otherwise DejaVu Sans; no numerical or layout-size change.",
+            "Translate or clarify a comment/UI string: # Select this analysis's input files; filenames or full paths are accepted."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 5,
+          "cell_type": "code",
+          "source_sha256": "6ce74fb958c34e77f98f5706ce8a0ec15112d8b3a1862f38be6709063de89daa",
+          "release_sha256": "4307be813342ba4b8ac44a4f40384d8d409fe46d25e95720478812aad267e4de",
+          "source_text_changed": true,
+          "edits": [
+            "Translate or clarify a comment/UI string: # Inactive sections required by shared helpers; no other recordings are analyzed."
+          ],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 6,
+          "cell_type": "markdown",
+          "source_sha256": "ee0d74a51196e3b46f29ec99486bd18230c9d5fe16b11a8647b64bd7d77a7975",
+          "release_sha256": "80b37ad44e86ccac3dd65212583614a163143fe49b539813e8481b0644f1dc3b",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 7,
+          "cell_type": "code",
+          "source_sha256": "325958bfcb49677c75baf34cb5ebe8b8dca4b317c2cbc1f47393156f39d5f05a",
+          "release_sha256": "325958bfcb49677c75baf34cb5ebe8b8dca4b317c2cbc1f47393156f39d5f05a",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 8,
+          "cell_type": "code",
+          "source_sha256": "b50e2558140cd90330a6d9f507228b2ca161f2c8700d02ef7f17d5ae32cefedd",
+          "release_sha256": "b50e2558140cd90330a6d9f507228b2ca161f2c8700d02ef7f17d5ae32cefedd",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 9,
+          "cell_type": "markdown",
+          "source_sha256": "19408bde6d0da7dc64a43d18d52c21cb76ebdccdebf806b3febb3d827ea0bef9",
+          "release_sha256": "12b395b1dc02a2b820105ef5170cd586138bbe3cf9ba7a70ece499848b25c9a9",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 10,
+          "cell_type": "code",
+          "source_sha256": "7bfa0138a06284ce008bb01e9ae5e6385b1e4d77c62d813d81abf1c9bf51d6a9",
+          "release_sha256": "7bfa0138a06284ce008bb01e9ae5e6385b1e4d77c62d813d81abf1c9bf51d6a9",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 11,
+          "cell_type": "code",
+          "source_sha256": "032149dc888140494ce689d2b76956f093e7bec8ffbe857f8e2d481cb1897c18",
+          "release_sha256": "032149dc888140494ce689d2b76956f093e7bec8ffbe857f8e2d481cb1897c18",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 12,
+          "cell_type": "code",
+          "source_sha256": "041110296eda3649ba18211dd47758e79e494ccf43291c8fbb0438e048615898",
+          "release_sha256": "041110296eda3649ba18211dd47758e79e494ccf43291c8fbb0438e048615898",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 13,
+          "cell_type": "code",
+          "source_sha256": "5cd264fd0a1d05e69118e88146e445ae9193887eedbb58802b63ea35a908da0a",
+          "release_sha256": "5cd264fd0a1d05e69118e88146e445ae9193887eedbb58802b63ea35a908da0a",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 14,
+          "cell_type": "code",
+          "source_sha256": "b5f76a78ef4e80c6d76b512c6b2e957f9e85426a3f1c1c181d725531b6ef4c9d",
+          "release_sha256": "b5f76a78ef4e80c6d76b512c6b2e957f9e85426a3f1c1c181d725531b6ef4c9d",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 15,
+          "cell_type": "code",
+          "source_sha256": "15a0c7f6aaa18c2eef32ad61345bdb91c6620cc9964ebc2d4139b36df4c39af8",
+          "release_sha256": "15a0c7f6aaa18c2eef32ad61345bdb91c6620cc9964ebc2d4139b36df4c39af8",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 16,
+          "cell_type": "code",
+          "source_sha256": "896d0048786e370c5dc6e42e00743cbe24cec95bed551e6a48217a3a4bcaf339",
+          "release_sha256": "896d0048786e370c5dc6e42e00743cbe24cec95bed551e6a48217a3a4bcaf339",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 17,
+          "cell_type": "code",
+          "source_sha256": "53f901162b37242462662a673b2c8f5a47f29d0b635c7b25d37ed5ccc09b1a38",
+          "release_sha256": "53f901162b37242462662a673b2c8f5a47f29d0b635c7b25d37ed5ccc09b1a38",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 18,
+          "cell_type": "code",
+          "source_sha256": "ca6934227e87594667536b4ae452a133a6a9bfd896adc6555d8e671ae4a96663",
+          "release_sha256": "0174047c1f15e9c1738590c0d5e4e926f54b4087c9d47fdf3759e40c507cf35b",
+          "source_text_changed": true,
+          "edits": [
+            "Discover actual release provenance sources; remove legacy executor filenames and report effective config source."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 19,
+          "cell_type": "markdown",
+          "source_sha256": "dd0737507163d6026b7c63989f90d27799cb1d64b2cb7f6a0f6def1d844c8f17",
+          "release_sha256": "0e365201be396c4f9fcce89425fb3deecb838edd316d137f6c09c912635396a1",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 20,
+          "cell_type": "code",
+          "source_sha256": "feb60ac11f9cd79cc5c9b1f83bb59318df136b212987802b6132f3647229a0d9",
+          "release_sha256": "feb60ac11f9cd79cc5c9b1f83bb59318df136b212987802b6132f3647229a0d9",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 21,
+          "cell_type": "markdown",
+          "source_sha256": "94c96023b1106d42ddcda16cbf33d34da487d1ca2c3bc8e5fa3b967796a08dfc",
+          "release_sha256": "186bfc13a2594148770dbb2c69911f589f8d7d57ccb49348494d62e64fb73d66",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 22,
+          "cell_type": "code",
+          "source_sha256": "024a4130ec3c5214f92d6b6db0be5a9bb27e85736e28c75778f8d5dc35d39460",
+          "release_sha256": "024a4130ec3c5214f92d6b6db0be5a9bb27e85736e28c75778f8d5dc35d39460",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 23,
+          "cell_type": "markdown",
+          "source_sha256": "4f5251c60f3a6504e6fbb1b1c2705178bba2a353f07f403f2632145284e080a9",
+          "release_sha256": "6e70e7aa43df6d44f4cbf37569d2e8c06e3130a73cb89f2b64be66e4bef33b78",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 24,
+          "cell_type": "code",
+          "source_sha256": "513e6979d0786cae824e2e28119cde5d05007ccae128bdbde97eca9409f284fa",
+          "release_sha256": "513e6979d0786cae824e2e28119cde5d05007ccae128bdbde97eca9409f284fa",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 25,
+          "cell_type": "markdown",
+          "source_sha256": "66d06a62d21f968d19050f9eac9a16f90eaeed44b568f762afed4c5ae2c64a03",
+          "release_sha256": "05855c5a772d8e27f16639592c7f85c6b883070dce23cfebf43c0241aeb3a71b",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 26,
+          "cell_type": "code",
+          "source_sha256": "348061a87f3f26b5cc582a50dd0fc565d90691ad90df2deffd5bf72aae3cf57f",
+          "release_sha256": "348061a87f3f26b5cc582a50dd0fc565d90691ad90df2deffd5bf72aae3cf57f",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 27,
+          "cell_type": "markdown",
+          "source_sha256": "45b381df4b3d5dc32e4b9c744451ec27845f5b8a41a487a045e5e1aa9e02b30c",
+          "release_sha256": "ba98210f609d30b3bec3baf8a4f27f8ad3f91bb0a0eeb0bb0afcb8b595187a32",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 28,
+          "cell_type": "code",
+          "source_sha256": "8ecaa6c79fffe70e69e2677cb6ad9843b45f8816125c9045d43aa5a421b6b267",
+          "release_sha256": "8ecaa6c79fffe70e69e2677cb6ad9843b45f8816125c9045d43aa5a421b6b267",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        }
+      ]
+    },
+    {
+      "file": "data10_amplitude_analysis.ipynb",
+      "original_notebook": "amplitude_analysis_sinewave.ipynb",
+      "original_sha256": "24bff2649c145c044f6a088e7a77be7cffda6b71e9deb52414ea4a54d38af9e8",
+      "release_sha256": "0bbee6a2da93cb0ee7f4b7f98673b2d8d0667fdfe7ee6b2af4f4bb3892da3ad2",
+      "code_cell_order_preserved": true,
+      "cell_changes": [
+        {
+          "cell_index_zero_based": 0,
+          "cell_type": "markdown",
+          "source_sha256": "3cacde57def3c55b59c7c98192e26866ca9641d3ad126b0212a515e8d7fe740b",
+          "release_sha256": "b4a99f94d8b0b2f089d5783218060dff0238c0e3015df38af17b1e4604c53bd1",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 1,
+          "cell_type": "markdown",
+          "source_sha256": "0ecddf15e1aff85f7399e0fd362b9856d804a3e66dd65e41b547c255fc86d8c1",
+          "release_sha256": "919d3a50509b6f02afdb68732ac588ac51ad6600c06114593c11a4a392b78e29",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 2,
+          "cell_type": "code",
+          "source_sha256": "8873c0d550bc01a0973717479d9b3b11ec8d0034f860c89b474fb964cca8ced9",
+          "release_sha256": "526e08930884ab0ce21c283c8c7c9d2168a210bcb4e856199b26f22a4f69666d",
+          "source_text_changed": true,
+          "edits": [
+            "Replace absolute project fallback, original notebook name, config reads and Windows-only virtualenv check with portable runtime API."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 3,
+          "cell_type": "markdown",
+          "source_sha256": "bb26321f1f23cdec1775ff852633fd65f2dd3ce807793725a0fec5c429ca823d",
+          "release_sha256": "ff32e8dd96f823cc0a4616c42cfd69386d10f5b7efc0fd8fd089e4955178e318",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 4,
+          "cell_type": "code",
+          "source_sha256": "9c6130c375bf2d5edf62986749e7cdb4aa9f64907b5079c0994ec446de283d00",
+          "release_sha256": "4a73ca63e079a133328b06c813a06e23fd8f09d27f16f5c09d7215ef6e74f589",
+          "source_text_changed": true,
+          "edits": [
+            "Resolve Data10 through the release-relative dataset helper.",
+            "Translate or clarify a comment/UI string: # Select this analysis's input files; filenames or full paths are accepted.",
+            "Translate or clarify a comment/UI string: # Confirmed: 100 Hz, levels 15 to 10, 30 s each; no cross-sensor file pairing."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 5,
+          "cell_type": "code",
+          "source_sha256": "d5132a1e4fead0e5726c4c64a467ecc7625d8025cd879d14823f6d97317f8723",
+          "release_sha256": "7d9d9ce8d5665446e0441f95a6dfd1d9d136f38b6ce079fe7683d5803a0e0545",
+          "source_text_changed": true,
+          "edits": [
+            "Translate or clarify a comment/UI string: # Inactive sections required by shared helpers; no other recordings are analyzed."
+          ],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 6,
+          "cell_type": "markdown",
+          "source_sha256": "ee0d74a51196e3b46f29ec99486bd18230c9d5fe16b11a8647b64bd7d77a7975",
+          "release_sha256": "80b37ad44e86ccac3dd65212583614a163143fe49b539813e8481b0644f1dc3b",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 7,
+          "cell_type": "code",
+          "source_sha256": "325958bfcb49677c75baf34cb5ebe8b8dca4b317c2cbc1f47393156f39d5f05a",
+          "release_sha256": "325958bfcb49677c75baf34cb5ebe8b8dca4b317c2cbc1f47393156f39d5f05a",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 8,
+          "cell_type": "code",
+          "source_sha256": "b50e2558140cd90330a6d9f507228b2ca161f2c8700d02ef7f17d5ae32cefedd",
+          "release_sha256": "b50e2558140cd90330a6d9f507228b2ca161f2c8700d02ef7f17d5ae32cefedd",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 9,
+          "cell_type": "markdown",
+          "source_sha256": "c10f8332887ca417662693d327cb07026edb3a5fd84565d0ed8f1ef424781198",
+          "release_sha256": "f8f1cfe46bcf9024f4c2ee89f6c694ca13ee34da8c944f40bf28906d38fd51ab",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 10,
+          "cell_type": "code",
+          "source_sha256": "7bfa0138a06284ce008bb01e9ae5e6385b1e4d77c62d813d81abf1c9bf51d6a9",
+          "release_sha256": "7bfa0138a06284ce008bb01e9ae5e6385b1e4d77c62d813d81abf1c9bf51d6a9",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 11,
+          "cell_type": "code",
+          "source_sha256": "032149dc888140494ce689d2b76956f093e7bec8ffbe857f8e2d481cb1897c18",
+          "release_sha256": "032149dc888140494ce689d2b76956f093e7bec8ffbe857f8e2d481cb1897c18",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 12,
+          "cell_type": "code",
+          "source_sha256": "041110296eda3649ba18211dd47758e79e494ccf43291c8fbb0438e048615898",
+          "release_sha256": "041110296eda3649ba18211dd47758e79e494ccf43291c8fbb0438e048615898",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 13,
+          "cell_type": "code",
+          "source_sha256": "5cd264fd0a1d05e69118e88146e445ae9193887eedbb58802b63ea35a908da0a",
+          "release_sha256": "5cd264fd0a1d05e69118e88146e445ae9193887eedbb58802b63ea35a908da0a",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 14,
+          "cell_type": "code",
+          "source_sha256": "b5f76a78ef4e80c6d76b512c6b2e957f9e85426a3f1c1c181d725531b6ef4c9d",
+          "release_sha256": "b5f76a78ef4e80c6d76b512c6b2e957f9e85426a3f1c1c181d725531b6ef4c9d",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 15,
+          "cell_type": "code",
+          "source_sha256": "e1d5d85f3095b00ec6aa88c6bce576571c0b9036bfb333625d2e73a191797ea1",
+          "release_sha256": "e1d5d85f3095b00ec6aa88c6bce576571c0b9036bfb333625d2e73a191797ea1",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 16,
+          "cell_type": "code",
+          "source_sha256": "896d0048786e370c5dc6e42e00743cbe24cec95bed551e6a48217a3a4bcaf339",
+          "release_sha256": "896d0048786e370c5dc6e42e00743cbe24cec95bed551e6a48217a3a4bcaf339",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 17,
+          "cell_type": "code",
+          "source_sha256": "bb772f88c9cabfdaef3a394c42f7942da28d729fa9b85977cb2fbaa98fd75405",
+          "release_sha256": "bb772f88c9cabfdaef3a394c42f7942da28d729fa9b85977cb2fbaa98fd75405",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 18,
+          "cell_type": "code",
+          "source_sha256": "a83344c7612ab78586a3d7d073b1c332b463b641992b8d767c84de59e34a0609",
+          "release_sha256": "0e2e7a01510c26010010a3ec0efd6d01402bdafe0322c86f087b43222d1052fc",
+          "source_text_changed": true,
+          "edits": [
+            "Discover actual release provenance sources; remove legacy executor filenames and report effective config source."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 19,
+          "cell_type": "markdown",
+          "source_sha256": "dd0737507163d6026b7c63989f90d27799cb1d64b2cb7f6a0f6def1d844c8f17",
+          "release_sha256": "0e365201be396c4f9fcce89425fb3deecb838edd316d137f6c09c912635396a1",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 20,
+          "cell_type": "code",
+          "source_sha256": "dd7571f859296a5592cdce057b801c466730fcb1825b239dc006409825fdf879",
+          "release_sha256": "dd7571f859296a5592cdce057b801c466730fcb1825b239dc006409825fdf879",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 21,
+          "cell_type": "markdown",
+          "source_sha256": "94c96023b1106d42ddcda16cbf33d34da487d1ca2c3bc8e5fa3b967796a08dfc",
+          "release_sha256": "186bfc13a2594148770dbb2c69911f589f8d7d57ccb49348494d62e64fb73d66",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 22,
+          "cell_type": "code",
+          "source_sha256": "d7b5b28d5fb3502d78cce0e14ee93b127b3f37cfc0e8e6981c94ecdd0cc567f1",
+          "release_sha256": "d7b5b28d5fb3502d78cce0e14ee93b127b3f37cfc0e8e6981c94ecdd0cc567f1",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 23,
+          "cell_type": "markdown",
+          "source_sha256": "2bf3fe7c03b03c4bc38bc6d242903ca13660a6e964a183fae58029870078774c",
+          "release_sha256": "694c1266d5649ba421c9f334485a1ab81a28be18f3f04ff06164f214e5ae49e2",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 24,
+          "cell_type": "code",
+          "source_sha256": "ff5771ae07d59365adbd8f84ea7f0d7db07ddb9546fb959322c21dd0c604201c",
+          "release_sha256": "1917b662a04826f7ec8b1442404f400d858d92b310ab6ec8f2b7a7d3c4018201",
+          "source_text_changed": true,
+          "edits": [
+            "Translate or clarify a comment/UI string: **Three independent records per sensor, grouped by volume. Sensor files are not paired; error bars show record SD.**"
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 25,
+          "cell_type": "markdown",
+          "source_sha256": "45b381df4b3d5dc32e4b9c744451ec27845f5b8a41a487a045e5e1aa9e02b30c",
+          "release_sha256": "156ea50ac195f0e25d564bfbcacf124ef37bf8aaea874263a51f8f0a96cdebf8",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 26,
+          "cell_type": "code",
+          "source_sha256": "a604d810f099115226cc7a8fc2e23a554473431b870e80a9dd6c20c36a04b3c0",
+          "release_sha256": "b0e1ebed379d5c2c6f708dab705b02bda23f5ca4f2a55bdd0b633e243b78961b",
+          "source_text_changed": true,
+          "edits": [
+            "Translate or clarify a comment/UI string: CSV / PNG / editable SVG / parameters.json / inputs.json / provenance.json / methods.txt / run_status.json / scripts/"
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 27,
+          "cell_type": "markdown",
+          "source_sha256": "6268f3bd10d0c355ab69af26d56e74e79d8fb3ea1d7f1653cc5ab368df31a4ec",
+          "release_sha256": "ee6802904a8c451be4f17637c66461b44f9b58e0b9743826a0610161ca88c407",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 28,
+          "cell_type": "code",
+          "source_sha256": "e82012bc0c7c964b3cba2ee36e2b49b53391e62da76c765fe78a8000d982126c",
+          "release_sha256": "c5e1e0dade049e09d97f657ba9dbf9edc71742485be5c33102cf7b3fd0ac4c4b",
+          "source_text_changed": true,
+          "edits": [
+            "Require the preceding completed main analysis instead of an unavailable old fallback; complete Run All uses the same source result."
+          ],
+          "ast_changed": true
+        }
+      ]
+    },
+    {
+      "file": "data10_resolution_analysis.ipynb",
+      "original_notebook": "resolution_analysis_sinewave.ipynb",
+      "original_sha256": "a1ef999d15bdabc094a3d5772046c230e09a1e2c9074dbbad7475476f2226b7c",
+      "release_sha256": "d03b80f236dc77e22a570fc4e3cc2135d7cb5b54448cb428a6fe45af68fd52c1",
+      "code_cell_order_preserved": true,
+      "cell_changes": [
+        {
+          "cell_index_zero_based": 0,
+          "cell_type": "markdown",
+          "source_sha256": "5593a2517c868d5183ca1d268861b6706e40b235de435ed811002a061e755ce9",
+          "release_sha256": "f347ad4a58ea8554b88cc6d70247467c972cec09f1df8d8eb7c5f0999290eda6",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 1,
+          "cell_type": "markdown",
+          "source_sha256": "0ecddf15e1aff85f7399e0fd362b9856d804a3e66dd65e41b547c255fc86d8c1",
+          "release_sha256": "919d3a50509b6f02afdb68732ac588ac51ad6600c06114593c11a4a392b78e29",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 2,
+          "cell_type": "code",
+          "source_sha256": "45f44b188f65b18226564b5883fefcb7ada806375481910be2781c881ed7e288",
+          "release_sha256": "0874dea0598903b707dc36f7cbadca7731728144c2f8135a05c3f3cc88bb23c4",
+          "source_text_changed": true,
+          "edits": [
+            "Replace absolute project fallback, original notebook name, config reads and Windows-only virtualenv check with portable runtime API."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 3,
+          "cell_type": "markdown",
+          "source_sha256": "11cbb6395a0b6baf333020451e2ea1337e2cf366c2e6a0f2aeda6b479094218b",
+          "release_sha256": "d8f13fbf191a8adffc83424ce0be684bd7abfa3bec6237e258d4ac8d6bb2b82d",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 4,
+          "cell_type": "code",
+          "source_sha256": "d3df998a84fccc18bd53cfba6b463e62ee5bf5742f3d9a7403941e79768971b4",
+          "release_sha256": "f53c21ca9068c3614d02bcdfb9dc83430563d73cfb2d6f76299362a0eeba074a",
+          "source_text_changed": true,
+          "edits": [
+            "Resolve Data10 through the release-relative dataset helper.",
+            "Correct stale descriptive file-mapping text; retain FILES and desired_records_per_setting=2 unchanged.",
+            "Translate or clarify a comment/UI string: # Explicit selected inputs: 27 recordings, three per nominal setting.",
+            "Translate or clarify a comment/UI string: # Actual selection is defined by FILES; all original recordings remain read only."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 5,
+          "cell_type": "code",
+          "source_sha256": "321aa17827e74ee1cac7435919fd6765a618db5941be97c0a0061585b4fbffac",
+          "release_sha256": "216394df048b6c5c63551cde3509d952d204fc4d3bcbefcb60ff3214df327c00",
+          "source_text_changed": true,
+          "edits": [
+            "Translate or clarify a comment/UI string: # Inactive sections required by shared helpers; no other recordings are analyzed."
+          ],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 6,
+          "cell_type": "markdown",
+          "source_sha256": "ee0d74a51196e3b46f29ec99486bd18230c9d5fe16b11a8647b64bd7d77a7975",
+          "release_sha256": "80b37ad44e86ccac3dd65212583614a163143fe49b539813e8481b0644f1dc3b",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 7,
+          "cell_type": "code",
+          "source_sha256": "801561131f80f5197b8144e0fd7e7d75350233102fc8b85c5eb7111de72b8a7b",
+          "release_sha256": "801561131f80f5197b8144e0fd7e7d75350233102fc8b85c5eb7111de72b8a7b",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 8,
+          "cell_type": "code",
+          "source_sha256": "b50e2558140cd90330a6d9f507228b2ca161f2c8700d02ef7f17d5ae32cefedd",
+          "release_sha256": "b50e2558140cd90330a6d9f507228b2ca161f2c8700d02ef7f17d5ae32cefedd",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 9,
+          "cell_type": "markdown",
+          "source_sha256": "9eebb2a3578d5d5fb7ead2560fb4fce95521100b0a9d81f5a954ce08556efdcc",
+          "release_sha256": "6dd90a76ba01222622e45e85d67b75bbef805fc2a2ddaac1d52199d408a72585",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 10,
+          "cell_type": "code",
+          "source_sha256": "217ec2fb364d5d0424bcb47a7d2629318f060f0404c8ea42e4fde3db278eb93e",
+          "release_sha256": "217ec2fb364d5d0424bcb47a7d2629318f060f0404c8ea42e4fde3db278eb93e",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 11,
+          "cell_type": "code",
+          "source_sha256": "8ce01baa3e5ed3df69b01ce19113876c2e9dbae7465c4c4e894806171c0c7670",
+          "release_sha256": "8ce01baa3e5ed3df69b01ce19113876c2e9dbae7465c4c4e894806171c0c7670",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 12,
+          "cell_type": "code",
+          "source_sha256": "e625c7ff0e3a93b0f4447b6449f4327066fccff98f5dc7d95c800873745edc01",
+          "release_sha256": "e625c7ff0e3a93b0f4447b6449f4327066fccff98f5dc7d95c800873745edc01",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 13,
+          "cell_type": "code",
+          "source_sha256": "683ceec543980bc286a1073668f45ea13f792e3f6aee3ee1df123b9cc8b4afd1",
+          "release_sha256": "683ceec543980bc286a1073668f45ea13f792e3f6aee3ee1df123b9cc8b4afd1",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 14,
+          "cell_type": "code",
+          "source_sha256": "3776975af5f347224e87ac5a47cff15ce4082e77fefdb44bb8aabc50c9a12cea",
+          "release_sha256": "3776975af5f347224e87ac5a47cff15ce4082e77fefdb44bb8aabc50c9a12cea",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 15,
+          "cell_type": "code",
+          "source_sha256": "5eaf916014db6e4904315a60dc5964f1d98dd45174051aba5936b5eec837dc56",
+          "release_sha256": "5eaf916014db6e4904315a60dc5964f1d98dd45174051aba5936b5eec837dc56",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 16,
+          "cell_type": "code",
+          "source_sha256": "70b63f2f3e2185f4e4ccd95270574c0ac37e32e10bbe8dc3117f74f13062e301",
+          "release_sha256": "70b63f2f3e2185f4e4ccd95270574c0ac37e32e10bbe8dc3117f74f13062e301",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 17,
+          "cell_type": "code",
+          "source_sha256": "bb772f88c9cabfdaef3a394c42f7942da28d729fa9b85977cb2fbaa98fd75405",
+          "release_sha256": "bb772f88c9cabfdaef3a394c42f7942da28d729fa9b85977cb2fbaa98fd75405",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 18,
+          "cell_type": "code",
+          "source_sha256": "f486a4d61ff331810ebf304355cb32b35d5167aa5b3b9b527a71cd5f496662e7",
+          "release_sha256": "105dc1c70782a3a8f65e126adf4fe28a3fdf0b1f0e861c538c3c7da522bafc6f",
+          "source_text_changed": true,
+          "edits": [
+            "Discover actual release provenance sources; remove legacy executor filenames and report effective config source."
+          ],
+          "ast_changed": true
+        },
+        {
+          "cell_index_zero_based": 19,
+          "cell_type": "markdown",
+          "source_sha256": "dd0737507163d6026b7c63989f90d27799cb1d64b2cb7f6a0f6def1d844c8f17",
+          "release_sha256": "0e365201be396c4f9fcce89425fb3deecb838edd316d137f6c09c912635396a1",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 20,
+          "cell_type": "code",
+          "source_sha256": "dd7571f859296a5592cdce057b801c466730fcb1825b239dc006409825fdf879",
+          "release_sha256": "dd7571f859296a5592cdce057b801c466730fcb1825b239dc006409825fdf879",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 21,
+          "cell_type": "markdown",
+          "source_sha256": "94c96023b1106d42ddcda16cbf33d34da487d1ca2c3bc8e5fa3b967796a08dfc",
+          "release_sha256": "186bfc13a2594148770dbb2c69911f589f8d7d57ccb49348494d62e64fb73d66",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 22,
+          "cell_type": "code",
+          "source_sha256": "fd54b7a10723bdc501d975ae93466774a280d6dd9cc9b7d3729dd2be08e9dea9",
+          "release_sha256": "fd54b7a10723bdc501d975ae93466774a280d6dd9cc9b7d3729dd2be08e9dea9",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 23,
+          "cell_type": "markdown",
+          "source_sha256": "bb85988281695c202378e35a85944c742a3719c7500aceb40829f7b8e1d32e10",
+          "release_sha256": "710eedf2ca634b40fd566b871e93db4c9ef6797ab76573e13cb9b254060375fd",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 24,
+          "cell_type": "code",
+          "source_sha256": "de7c3de83e71ce826051aa49ee6438930590cc439a2016b486d955dc2bdb17e6",
+          "release_sha256": "de7c3de83e71ce826051aa49ee6438930590cc439a2016b486d955dc2bdb17e6",
+          "source_text_changed": false,
+          "edits": [],
+          "ast_changed": false
+        },
+        {
+          "cell_index_zero_based": 25,
+          "cell_type": "markdown",
+          "source_sha256": "45b381df4b3d5dc32e4b9c744451ec27845f5b8a41a487a045e5e1aa9e02b30c",
+          "release_sha256": "4819db3fba258d5458e08970f1371539e8633b28b920651c97d28c9204447e95",
+          "source_text_changed": true,
+          "edits": [
+            "Replace historical/bilingual prose with concise English methods and usage guidance."
+          ]
+        },
+        {
+          "cell_index_zero_based": 26,
+          "cell_type": "code",
+          "source_sha256": "a604d810f099115226cc7a8fc2e23a554473431b870e80a9dd6c20c36a04b3c0",
+          "release_sha256": "b0e1ebed379d5c2c6f708dab705b02bda23f5ca4f2a55bdd0b633e243b78961b",
+          "source_text_changed": true,
+          "edits": [
+            "Translate or clarify a comment/UI string: CSV / PNG / editable SVG / parameters.json / inputs.json / provenance.json / methods.txt / run_status.json / scripts/"
+          ],
+          "ast_changed": true
+        }
+      ]
+    },
+    {
+      "file": "data11_frequency_range_analysis.ipynb",
+      "original_notebook": "frequency_range_harmonic_tracking_data11.ipynb",
+      "original_sha256": "3cbe9c7873183fde1aff48cc603152a89d32e8b910410ad096f155fea1d6b2bb",
+      "release_sha256": "8bb54c5668f36398ef1cacdc7b07b56c8c6f6972f23512bc7dae05e57f09ba69",
+      "code_cell_order_preserved": true,
+      "cell_changes": [
+        {
+          "cell_type": "markdown",
+          "source_sha256": "3766b37d99e8b60269afc5fa5db6e3789fd19cbe16f64492f848b2cef0f2303f"
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "d12f6f9cbd41e8966e54bb4913dee8e0887d1d3f88fe55455a387a01a32cd6bd"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "7a72037b4fa805af7e4990d17a81bf170cee24ed29fdc3f00ea35323b59f598a",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "3a91ae2b9b3886f085a1a9f5b80350981fa9807cc119724cde04666860afcc05"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "8e342239ae66a516ee7ecde5ab9163570ec8c1596ab1dacefd2bee713f5a2ca7",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "25ef4ba3532e83b54ce7b237e832d4953efa2acdd7fcfe497ae63dd246ace23a"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "bd9d1ee6e42b8bb4dfd430890f00d3d0e1d19d2bb910af5cb64b468f9d47fe5a",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "4aaa96e4438c23745ba0f635843a00a7e7367ee89416b4ffad9cda758510ccf9"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "f45a3d493adf7373f0b0d4fb9260cb86ef9d9386f7717dcc0eb896b1ec73adb3",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "93205a0a9c47eba068a7dd2ab3d5ab94e4509c73471dd6eaa48843faa34b066a"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "f6c14c6e28e789caa1b97004755c24c4036341ba923f6eebf6b35b83a165949e",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "e23666e6aec640ab8a41171b733ef0a7a583d13ca617e544b1599d4420b579ad"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "da62beb405c5c94c89e8b57c9974668db36ea9b592aa7b78dcf2362f07ed9553",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "d301d699993585abf4659bed086ced749cf0f7ed98b238ba5de252d5667037b7",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "91ae2418c2a69738bf8881b0ecb710cc286f7e3d77d9d6a9bb6e6b3f7ba2c05d"
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "33540edcde79fb18f11bc5bc3f39697c162d258c572b76251027d18186a979c2"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "b3dcb7c573ce41165fc8a498132097138b870322928f68dc8323014a7e5ec588",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "cd32d7fadc26180065df550efcb6b47323554d5952960fb68dd37dd99476d664"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "53c43294c44ed83a4d3fc8795017d8009877815513db4095eae9c9dbcdc959e2",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "b168a23c6bb8f6c46d60d382747e8aa8f38507917aedcf0fb02486efd4cbd514"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "9ed171356f337e6f3488e14e5c0d8e796360ce03d1f6c59cd95d682e05b3666f",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "542e778ea90595b99a41c211bab5db82cc66045401ede82bbb04ab2fc10ddb8f"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "beb0ea6df37d15e64564c75724a2f7b4fdd8e2d6a78a978ac9d1dba8d242bd3b",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "9f25b0f5b7b7e6800a5fa62b2b2a04fb8ad0601b54f921864aab1481f882f054"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "6ffe68a43b2a400a5373ec017b6ffaea71c27c1b68e000f8f960810859204b55",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "0fe36e4fce35604e09a785cf34aa798c5852187cac357606896a7df440e868db"
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "305e9ad35c6db65f47c666f91cb1d3636541e0800e7f0e8d5ca25af2fbc864b7"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "ab54ab03a587bf6c37627acb956852c87d52b683aa99f5a7f15123d11f6dfbdd",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "dbcc02bd6aebbb53007f2ad0e6f7c75e92ae9e1d15ed64dc7a3c71d0df74ba2a"
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "98ea5e3df4f9cae5ba79ad3dd51c6f25409566ec92abbb07d1510cdc05f3a593"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "7714cac0d0238deb313704ee600976ae43e8ae5c62c2553854f0237f87f32756",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "4045028ecc3f4352fb9abbc7a9c560e07fe6dd19b0b5432e4fa8ecc2d3c72562",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "a5a74fb3bf0ae8393b6d351ee4ae822a992f0a1a8196e4b9cdd72368a976b8d7"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "2f9c7603ba419aa06dc8f55d5b3063bc0d04137839bd5331901869c36de969dd",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "02b5855eb28788a4ff1f1394336b0b2679073ed60a57cbf41c70395684d836de"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "4842907092bfeafbfa3e4ac752981b447d5ab471533810ffa33cedc31905137e",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        }
+      ]
+    },
+    {
+      "file": "data11_amplitude_analysis.ipynb",
+      "original_notebook": "amplitude_analysis_data11.ipynb",
+      "original_sha256": "b90b30bf44b091dd3fb5ed91b6f70ace70c71ea201b0e15dd197c98ddde8099b",
+      "release_sha256": "642865b24ab218b72ed54712c0e0ae633a9bcc553ac8a276b596da180528223c",
+      "code_cell_order_preserved": true,
+      "cell_changes": [
+        {
+          "cell_type": "markdown",
+          "source_sha256": "f33103769d7b12845964e4ab3c593f1d2e881c51730371265af145745374aa75"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "b7af9017f6b2d37d2cb720cad141f4ef6748a233d1b39f8bfbedb7922e62ac56",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "a63df10b0f3ae7b514f8bcc54652533b4ee5ef078eec0647e7a426cfcd228791"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "024594a895aad0e96674425aaecd06aa5d5f8d33d5c42bd682c1b902a1db21b5",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "eef93690fe8b08dc28f920d128bfc31779d721671c7bd9b85a8327b1e9ae1db4"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "e4d620565eeec64548ebaba6d804c6f647ffbd123e40b761ffccb139e4fab20e",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "6dfaebaa97240d733ab4efec490f110e3fb6355ead24c6ad5b8c07826f224bc0"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "a856ef422b320fe7d438ca1454ba5ed76ea71ca99cb7f268047cceff1a49a06e",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "ff9ad26171c19a6bd08d1addaced8b14780ee6cdcd582c0157fa1f137cb9cdc6"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "b97846bfe1f7db1c476b1b6c24c0f1d125ef57beca7557820e038ea498cdfa21",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "d6f5d4737f1a042e7861b1f0260f6c8881807a4c5ca5921f13fe804693a2d815"
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "4685c12664e6f2986f2f9b9542a62ae14c621938be43c71e97cdbd9917808f95"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "33f5a49a77923278fdadd44d0b9cbcef4ec9ae4e330670c2f3ddd7b926108794",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "66e14a07008d40c4ef4a81e1465c4d9622a81e03944c2528fe06880a9b210f36",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "30317d63cf07b58df7424f2cc68853c1977be62dc7da136bd32f3707f89e4627"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "0edcf06ad64bdc4df724667b5e235a21189643df95326866e431fb8448e1b38c",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "51a89bf432e2b611b34d304d96bcdd7798fb918f8ec2e0b82ea32d2a65c0bbcd"
+        }
+      ]
+    },
+    {
+      "file": "data11_resolution_analysis.ipynb",
+      "original_notebook": "resolution_analysis_data11.ipynb",
+      "original_sha256": "6e017e937d118c6de5b9743a83135e9a8f8b1d1fa11dbe5a3a1572418f44ff07",
+      "release_sha256": "ca356f4f9530c5bd4ac2e5a633571e41585faae2593b7cbfb53c1e42b8a93454",
+      "code_cell_order_preserved": true,
+      "cell_changes": [
+        {
+          "cell_type": "markdown",
+          "source_sha256": "941126c35cab0b8def5a62ede4550c2584bbd6a83e6e7be02bd3dce736766e70"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "46b75e3b1f25276ff581df615bee3d4f8099c2055af865969d9c873ad2678ec5",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "eef93690fe8b08dc28f920d128bfc31779d721671c7bd9b85a8327b1e9ae1db4"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "be50f6ad86b0af8bff2a22fc4facb152efe258a8fc36ef1990abc32c9c69677f",
+          "ast_changed": true,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "6dfaebaa97240d733ab4efec490f110e3fb6355ead24c6ad5b8c07826f224bc0"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "ef9e2a5a082214429e495417e4e4ca9035ff6f3fb461b5009fa0204e76c8c463",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "ff9ad26171c19a6bd08d1addaced8b14780ee6cdcd582c0157fa1f137cb9cdc6"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "2d6bed7ddb669374e8ed207bbae6b64ceeeca6ff7e010c8fd403d7d93bf8315c",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "d6f5d4737f1a042e7861b1f0260f6c8881807a4c5ca5921f13fe804693a2d815"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "38881af0aa9f231a5d41d839c05fb6f7870eb0c0ef276ae0df3f4a5c8f51031d",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "7f868443eac715557791650b0799dd3b6ee24d80805d2e87630782f7f0ef4620",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "ed0fb028d7d84a2ee7e4145ba6fc1212aa051cd6aabb4f868609e4e03229cb72"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "bdabc7bfbf36327ec80318cb14fff14e63c654ecba96a3b31a3e631efbecee91",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "30317d63cf07b58df7424f2cc68853c1977be62dc7da136bd32f3707f89e4627"
+        },
+        {
+          "cell_type": "code",
+          "source_sha256": "6f353491a27b1aab1ce085795e25d1870c424f6809c554fc26c93b8a7b5429dd",
+          "ast_changed": false,
+          "literal_scientific_assignments_equal_excluding_data_root": true
+        },
+        {
+          "cell_type": "markdown",
+          "source_sha256": "51a89bf432e2b611b34d304d96bcdd7798fb918f8ec2e0b82ea32d2a65c0bbcd"
+        }
+      ]
+    }
+  ],
+  "publication_adaptations": [
+    "English Markdown, comments, and displayed messages; obsolete narrative corrected against actual saved settings.",
+    "Relative data/results paths and configurable output root; no workstation or interpreter-path restriction.",
+    "Exact runtime source capture replaces references to old notebook-building scripts.",
+    "Arial when installed, otherwise DejaVu Sans; numerical data and plot settings retained.",
+    "Historical panels read from packaged evidence. Fresh downstream plots require the preceding analysis result.",
+    "Cleared notebook outputs and generic Python kernel metadata; original scientific cell order retained."
+  ],
+  "audit_snapshot_date": "2026-10-16",
+  "followup_revision": "metadata/presentation_revision.json"
+}

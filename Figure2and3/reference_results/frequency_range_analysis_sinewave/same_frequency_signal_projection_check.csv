@@ -1,0 +1,18 @@
+path,file_label,segment_index,target_hz,global_peak_hz,interpolated_peak_power,exact_frequency_power,fractional_power_difference
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,12,30.0,30.000433259541605,412597537.6712938,412597525.76448846,2.885815981182544e-08
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,13,40.0,40.00073863894554,429173860.1957761,429173848.82465965,2.6495361939015454e-08
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,14,50.0,50.00064304510456,245748250.4272805,245748250.92532963,-2.026664027520722e-09
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,15,60.0,60.00093053013878,184630570.16915587,184630566.6202607,1.922160152129398e-08
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,16,70.0,70.0012905247568,140334831.9229143,140334817.9491613,9.957438367382514e-08
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,17,80.0,80.00108898767566,124587913.47648712,124587913.63565947,-1.2775906705859983e-09
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,18,90.0,90.00129060219378,121875352.28212751,121875352.16517492,9.596082884456978e-10
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,19,100.0,100.00095283842315,165616470.1643572,165616472.19296902,-1.224885309991356e-08
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,20,200.0,200.00277578240912,3787177826.574233,3787177906.734228,-2.116615513005154e-08
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,21,300.0,300.00458418551915,2413214132.063764,2413214023.721274,4.4895516573022194e-08
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,22,400.0,400.0052442916812,29810714883.14482,29810710423.233307,1.4960768968479012e-07
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,23,500.0,500.01011830362853,652115974.2564282,652114646.7847502,2.035641561746337e-06
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,24,600.0,600.0079533122155,1176848055.73003,1176839958.025362,6.8808886143127805e-06
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,25,700.0,700.0093451224258,1877562470.1483827,1877543470.6397655,1.0119344193233884e-05
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,26,800.0,800.0126561663437,313947078.0395109,313945726.19892925,4.30596905402343e-06
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,27,900.0,900.0137878787859,50849366.43215867,50848950.48174452,8.180117981005041e-06
+C:\Users\kangb3\OneDrive - Georgia Institute of Technology\Inductive Microphone\Data10\IM_16.csv,IM_16,28,1000.0,1000.0148559384135,24863065.851989925,24863028.663947016,1.495716528004168e-06

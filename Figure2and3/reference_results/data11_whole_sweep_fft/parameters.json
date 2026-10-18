@@ -1,0 +1,230 @@
+{
+  "config": {
+    "data_root": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11",
+    "accel_g_per_count": 0.000488,
+    "accel_conversion_source": "User confirmed +/-16 g and Raw_Z * 0.000488 on 2026-10-10; nominal conversion, not individual calibration.",
+    "reference_conditions_confirmed": true,
+    "reference_conditions_source": "User confirmed identical drive settings, mounting position and load on 2026-10-10; independently recorded batches, no file pairing.",
+    "timestamp_basis": "Time_us converted to seconds; whether timestamps equal physical sample instants and clock accuracy remain unverified.",
+    "max_gap_ratio": 3.0,
+    "dt_cv_warning": 0.01,
+    "fft_pad_factor": 1,
+    "im_endpoint_codes": [
+      0,
+      268435455
+    ],
+    "im_endpoint_scope": "record",
+    "im_endpoint_policy": "Conservative primary comparison uses endpoint-free IM records. Some endpoint-bearing records also contain huge excursions between endpoints; retain all local-window estimates as diagnostics. No raw correction; cause unverified.",
+    "missing_policy": "record_and_skip",
+    "analysis": "frequency_range",
+    "materials": {
+      "OO-50 0.23 mm": [
+        [
+          1,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "10 NV": [
+        [
+          18,
+          19
+        ],
+        [
+          20
+        ]
+      ],
+      "945": [
+        [
+          23,
+          24
+        ],
+        [
+          27
+        ]
+      ],
+      "12": [
+        [
+          28,
+          29
+        ],
+        []
+      ],
+      "18": [
+        [
+          33,
+          34
+        ],
+        [
+          36
+        ]
+      ],
+      "OO-50 4.05 mm": [
+        [
+          38,
+          39
+        ],
+        [
+          42
+        ]
+      ],
+      "Foam 4.17 mm": [
+        [
+          43,
+          44
+        ],
+        [
+          46
+        ]
+      ],
+      "OO-50 large coil, silicone bonded, 3.5 uH": [
+        [
+          49,
+          50
+        ],
+        [
+          52
+        ]
+      ]
+    },
+    "accel_sweeps": [
+      3
+    ],
+    "accel_noise": [
+      1,
+      2
+    ],
+    "f0_hz": 30.0,
+    "f1_hz": 300.0,
+    "nominal_duration_s": 30.0,
+    "window_s": 0.8,
+    "track_hop_s": 0.5,
+    "grid_points": 81,
+    "track_min_fraction": 0.15,
+    "track_min_points": 16,
+    "track_min_span_s": 10.0,
+    "track_max_log_residual": 0.015,
+    "noise_start_s": 5.0,
+    "max_noise_windows": 30,
+    "snr_threshold_db": 10.0,
+    "minimum_repeat_count": 1,
+    "comparison_groups": {
+      "materials": [
+        "OO-50 0.23 mm",
+        "10 NV",
+        "945",
+        "12",
+        "18"
+      ],
+      "thickness": [
+        "OO-50 0.23 mm",
+        "OO-50 4.05 mm"
+      ],
+      "thick_materials": [
+        "OO-50 4.05 mm",
+        "Foam 4.17 mm"
+      ],
+      "coil_design": [
+        "OO-50 0.23 mm",
+        "OO-50 large coil, silicone bonded, 3.5 uH"
+      ]
+    },
+    "method": "complex_demodulation_hann_tracking",
+    "track_search_hz": [
+      15.0,
+      420.0
+    ],
+    "stft_window_s": 0.3,
+    "stft_hop_s": 0.15,
+    "stft_padding": 8,
+    "ridge_log_tolerance": 0.045,
+    "ridge_trials": 2000,
+    "ridge_random_seed": 1606321,
+    "log_rate_bounds_per_s": [
+      0.01,
+      0.4
+    ],
+    "local_search_min_halfwidth_hz": 4.0,
+    "local_search_step_hz": 0.8,
+    "local_search_excursion_factor": 0.6,
+    "local_frequency_tolerance_hz": 1e-05,
+    "robust_log_scale": 0.003,
+    "track_residual_gate_log": 0.025,
+    "min_samples_per_cycle": 3.0,
+    "min_cycles_per_window": 12.0,
+    "nyquist_fraction": 0.8,
+    "noise_enbw_relative_tolerance": 0.03,
+    "minimum_noise_windows": 4,
+    "nominal_start_overrides_s": {},
+    "nominal_start_source": "Unknown unless a per-file measured/recorded start is entered; otherwise comparison is onset-aligned for shape only.",
+    "standard_gravity_m_s2": 9.80665,
+    "deferred_sweep_ids": [
+      58,
+      60,
+      62,
+      63,
+      64
+    ],
+    "figure_font_size_pt": 17,
+    "fft_parent_run": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_data11_harmonic_tracking_run001",
+    "fft_window": "boxcar",
+    "fft_frequency_step_hz": 0.1,
+    "fft_noise_min_windows": 1,
+    "fft_time_overrides_s": {},
+    "fft_duration_relative_tolerance": 0.01,
+    "fft_enbw_relative_tolerance": 0.03
+  },
+  "methods": {
+    "scope": "Additional whole-sweep FFT analysis of the same Data11 inputs. No harmonic tracking, dechirping, peak search, Welch averaging or transfer-function estimation is used for the amplitudes. Existing data-derived log trajectories are used ONLY to select start/end times and audit fundamental coverage. Parent run, trajectory CSV, parameters and original input hashes are recorded and validated.",
+    "timing": "Per file t(f)=(log(f)-log_intercept)/rate_per_s from the parent independently fitted trajectory. Default FFT window spans inferred 30 Hz to inferred 300 Hz crossings. These are model-inferred boundaries, not measured switch/trigger times; extrapolated boundary distances to coherent track support are exported. Explicit per-file time-window overrides are accepted and recorded as user choices, not experimental evidence. No clipping to record boundaries, padding of missing data, or repair of timestamps. Incomplete windows are unavailable.",
+    "fft": "Read Time_us as seconds relative to first sample; IM Data28 counts; accel Raw_Z times inherited nominal g/count conversion. Interpolate original samples linearly onto N=floor(T*record_mean_fs) samples at start+arange(N)*T/N, fs=N/T, with no extrapolation. Remove arithmetic mean. Default rectangular (boxcar) window; optional periodic Hann. One rFFT per whole sweep, default no zero padding. Peak-equivalent bin magnitude A=2*abs(X)/sum(w) (DC and even-length Nyquist not doubled). A is a spectrum magnitude, NOT instantaneous fundamental peak of a swept sine. Full native/padded frequency grid saved. PSD uses one-sided |X|^2/(fs*sum(w^2)) with correct endpoint factors.",
+    "bandwidth": "Save native df=1/T, displayed df=fs/nfft, ENBW=fs*sum(w^2)/sum(w)^2. Boxcar ENBW=1/T; Hann ENBW=1.5/T. Common reporting frequencies are a configurable linear grid; FFT POWER (A^2 and PSD) is linearly interpolated without extrapolation, then square-rooted for amplitude. This is interpolation of adjacent bin powers, not a new narrow filter or improved resolution. Signal and noise use identical T, N, window and nfft, including identical reporting interpolation. Reference cross-sensor ENBW and sweep durations must agree within configured tolerances.",
+    "noise": "Separate nothing_on and amplifier_on baseline records; windows start after configured noise_start_s and are nonoverlapping, each exactly as long as that signal sweep. No re-use/wrapping to make a short baseline longer. At each frequency N_eq=sqrt(mean(A_noise^2)) over available same-length windows. Default minimum=1 because many baselines only contain one complete 30 s window; counts exported and single-periodogram uncertainty explicitly retained. Shared baseline is not an independent sweep repeat. All noise spectra are FFTs, no frequency search or smoothing.",
+    "snr": "Per-record FFT SNR_linear=A_sweep/N_eq, SNR_dB=20*log10(SNR_linear). Numerator includes signal plus noise, harmonics and leakage; no noise-power subtraction. This is whole-sweep spectral-bin SNR, distinct from tracking-estimator SNR and broadband SNR. Group SNR is mean of per-record dB ratios; require configured independent sweep count. Threshold strictly >10 dB by default, not a calibrated false-alarm threshold.",
+    "quality": "Strict: accepted parent trajectory, complete selected window, no IM record endpoint codes, local timestamp gap ratio<=inherited max_gap_ratio, adequate Nyquist/samples per cycle, and frequency inside observed parent coherent-track support. Noise must independently meet the same gap and sampling checks. Diagnostic_with_gap_interpolation keeps original gap flags but permits linear interpolation across gaps for BOTH signal and noise; it still rejects IM endpoint records and frequencies outside coherent fundamental support. Diagnostic amplitudes for every computable frequency are retained separately. All raw data remain unchanged. Jitter/interpolation can bias high-frequency amplitudes.",
+    "responsivity": "Ratio of independently averaged IM FFT magnitudes to independently averaged accelerometer FFT magnitudes at common frequencies, never file pairing, complex division, phase or coherence. Require both sensors SNR above threshold, repeats, inherited reference conditions, and configured duration/ENBW agreement. counts/g (and counts/(m/s^2)=counts/g/9.80665) is nominal spectral-amplitude responsivity, not calibrated sensitivity. Whole-sweep spectral ratios also depend on sweep speed, window, harmonics and between-batch repeatability. Strict and gap-interpolated diagnostic ratios are separately exported and plotted.",
+    "comparison": "Overlay FFT and tracking separately with their own amplitude/SNR definitions and bandwidths. Interpolate parent aggregate curves only between adjacent available parent grid points, never across missing points or outside measured coverage. Difference CSV includes actual record populations/counts; differing populations are not silently presented as a pure estimator effect. A difference in dB does not establish a better method.",
+    "range": "Every consecutive common-grid interval above threshold is exported, no bridging of failed/missing points or interpolated cutoff. Fourier energy beyond the fundamental track may be harmonics/leakage and is not proof of fundamental detectability. FFT spectral support is not intrinsic or acoustic bandwidth.",
+    "reference_source": "FFT/PSD scaling and ENBW relationship: https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.periodogram.html ."
+  },
+  "results_root_source": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\config.local.json",
+  "figure_export": {
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "font_family": "Arial",
+    "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+    "font_size_pt": 17,
+    "y_tick_maximum": 5,
+    "grid": false,
+    "svg_fonttype": "none",
+    "editable_text": true,
+    "png_dpi": 145,
+    "svg_raster_layer_dpi": 300,
+    "dense_heatmap_cells_rasterized": true,
+    "method": "Presentation only: all text uses Arial with 17 pt base size (math scripts keep normal relative sizing), grids are disabled, each y axis has at most five major tick values and no minor tick labels. Axis limits and plotted data are preserved. Frequency-response SNR plots show amplifier-on noise only; all original conditions remain in numerical CSVs. Dotted noise overlays are omitted from tracking/FFT response figures. Dashed threshold, timing, fit and diagnostic-population lines have different meanings and are retained. SVG text is not outlined. Layout is expanded/reflowed for legibility; analysis definitions and estimates are unchanged.",
+    "matplotlib_settings": {
+      "svg.fonttype": "none",
+      "font.family": "Arial",
+      "font.size": 17,
+      "axes.labelsize": 17,
+      "axes.titlesize": 17,
+      "xtick.labelsize": 17,
+      "ytick.labelsize": 17,
+      "legend.fontsize": 17,
+      "figure.titlesize": 17,
+      "figure.labelsize": 17,
+      "axes.grid": false,
+      "text.usetex": false,
+      "mathtext.fontset": "custom",
+      "mathtext.rm": "Arial",
+      "mathtext.it": "Arial:italic",
+      "mathtext.bf": "Arial:bold",
+      "mathtext.sf": "Arial",
+      "mathtext.fallback": null
+    }
+  }
+}

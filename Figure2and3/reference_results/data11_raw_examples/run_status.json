@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-16T01:16:13.663146-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_data11_raw_examples_run001",
+  "finished_at": "2026-10-16T01:16:20.355135-04:00",
+  "summary": {
+    "file": "IM_4.csv",
+    "frequencies_hz": [
+      50.0,
+      100.0,
+      150.0
+    ],
+    "figures": 6
+  }
+}

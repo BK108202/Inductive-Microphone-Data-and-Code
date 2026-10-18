@@ -1,0 +1,40 @@
+{
+  "status": "ols_and_odr_available",
+  "n_levels": 6,
+  "intercept_forced_zero": false,
+  "slope_unit": "Data28 counts/g",
+  "uncertainty_note": "Free-intercept OLS descriptive fit plus ODR using independent-axis SEM=SD/sqrt(n). ODR only when all included SEMs are finite and positive; never invent uncertainty floors. No confidence intervals from three records; level correlations within a record and systematic reference/drift errors are not modeled.",
+  "volume_levels": [
+    10.0,
+    11.0,
+    12.0,
+    13.0,
+    14.0,
+    15.0
+  ],
+  "ols_slope": 2814.1798420207438,
+  "ols_intercept": -1825.3381984692328,
+  "ols_r_squared": 0.9989374837964821,
+  "ols_residuals": [
+    -25.6831046908178,
+    -44.330510963442975,
+    56.76786499632453,
+    63.80671804587291,
+    -12.628871597781654,
+    -37.93209579014365
+  ],
+  "odr_status": "converged",
+  "odr_stop_reason": [
+    "Sum of squares convergence"
+  ],
+  "odr_slope": 2825.6115204754797,
+  "odr_intercept": -1852.468759634223,
+  "odr_vertical_residuals": [
+    -20.027403275326833,
+    -43.144833394891066,
+    55.612778772347156,
+    59.943601967273935,
+    -19.869375634859352,
+    -48.96346109515798
+  ]
+}

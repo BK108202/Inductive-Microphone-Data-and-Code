@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-17",
+  "scope": "Presentation split and explicit optional diagnostic entry point; scientific estimators and input selections preserved.",
+  "baseline_manifest_sha256": "8d09eccc18670d0fbfdefbd291ee908c9e6715f1c21110d9c8a1d8873b070993",
+  "main_notebook": "data11_frequency_range_analysis.ipynb",
+  "supplement_notebook": "data11_frequency_range_supplement.ipynb",
+  "moved_original_cell_indices_zero_based": [
+    5,
+    6,
+    21,
+    22,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "main_child_analyses": [
+    "data11_raw_examples",
+    "data11_candidate_review",
+    "data11_harmonic_tracking"
+  ],
+  "supplement_child_analyses": [
+    "data11_reference_gap_views",
+    "data11_whole_sweep_fft"
+  ],
+  "plot_change": "For groups configured with at most one sweep per material, label selected-sweep results, omit SD shading and export only the existing _no_region peak-curve variant. Multiple-record behavior is retained.",
+  "numerical_policy": "Existing aggregations, CSV column names, estimators, quality gates, record selections, noise conditions and methods remain unchanged. Optional diagnostics preserve separate metrics and strict/diagnostic populations.",
+  "runtime_change": "Six main notebooks remain --all. Explicit --notebook data11_frequency_range_supplement --tracking-run PATH launches diagnostics. No latest-run inference. Historical combined source hash remains supported by the comparison tool.",
+  "validation": "validation/presentation_revision.json",
+  "full_scientific_rerun": false,
+  "original_research_sources_modified": false,
+  "original_raw_data_modified": false,
+  "changed_files": [
+    {
+      "path": "METHODS.md",
+      "prior_sha256": "f835683ffc6a7fc0b26d19de2017aa4c3aa45eabd16e10e14b780069cc69f411",
+      "current_sha256": "3a5f2e555c6148c21ecda5ee78a23b550728a0d56475135ddcc33549c238cf18"
+    },
+    {
+      "path": "README.md",
+      "prior_sha256": "56c9f9920fc8ed00592781da489cd876978cd605e9d0572b3c724b590ac99786",
+      "current_sha256": "1f20631dcbd16369e950f4ecb0d5d7ebf9fc25fdf26f38ddda9bf5142947a6e2"
+    },
+    {
+      "path": "VALIDATION.md",
+      "prior_sha256": "c18bb9fcc85a023043e48787cfdaf10f49e78339b77daaf0c7fd6e5519caf692",
+      "current_sha256": "10e0db4bde768d0e6cba5642acda06530ea60b92cf3b130b35d95743ad1496c1"
+    },
+    {
+      "path": "data11_config.py",
+      "prior_sha256": "1976844fd3ac1968a777205e36eab518336d136114c36a30d442e6443fc17cca",
+      "current_sha256": "ff699b4d22cb44142bc93af424eef07fde8174b57f68bf1711aaa580189be0df"
+    },
+    {
+      "path": "data11_frequency_range_analysis.ipynb",
+      "prior_sha256": "8bb54c5668f36398ef1cacdc7b07b56c8c6f6972f23512bc7dae05e57f09ba69",
+      "current_sha256": "c592ed67b58e59a393ae0b1120122a587af5724563e1d3c85964823706d05ee2"
+    },
+    {
+      "path": "data11_frequency_range_supplement.ipynb",
+      "prior_sha256": null,
+      "current_sha256": "241201ff75cb68ace38f5edfa6f34385c56354b6ea87830178cc7acdced1aff2"
+    },
+    {
+      "path": "data11_harmonic_tracking.py",
+      "prior_sha256": "3346634e0900eac60108ddcbe231dcc9e728988ac3787d4cd15ecf277bce1e87",
+      "current_sha256": "9f833630f89ea11f5f2163657c3bd9d43763e465679a957fea6da42c465ce8ea"
+    },
+    {
+      "path": "metadata/source_changes.json",
+      "prior_sha256": "4dd3aa33089a9bbb39e5f1294730eae9a177d22403cf640b402bffe7714b55e5",
+      "current_sha256": "e5a2c81faa5a7427221401a4ba41ec0ad793b6a3a1c05d084793cfeb720bd602"
+    },
+    {
+      "path": "portable_runtime.py",
+      "prior_sha256": "1a89f2780e752792e42ffa209869e115fd25763a0e24242e492fc4ba077ca793",
+      "current_sha256": "c43e5db37e322011bce730346507c2a6ef27c2e5115576f91477175481b2c9ad"
+    },
+    {
+      "path": "run_notebooks.py",
+      "prior_sha256": "7c37c8c744b0a9727668f15949e87217ac15a4904e0ca6f77647eb2819452682",
+      "current_sha256": "08ea8b732432c9869b18f6ad6bc4df78fc68ebddbbcfc257cfb8064dce458d35"
+    },
+    {
+      "path": "validation/check_presentation_revision.py",
+      "prior_sha256": null,
+      "current_sha256": "9c46d97408c96b99e3028afa5b29b5fa64f432a142850096c3ec06696504a940"
+    },
+    {
+      "path": "validation/presentation_revision.json",
+      "prior_sha256": null,
+      "current_sha256": "915814c9f7ec893188b7fa0fcbd37d8329a7b65957e79443abf0792dc8733122"
+    },
+    {
+      "path": "verify_release.py",
+      "prior_sha256": "10a9fe2bc410280ed14c07dbf01313feab8dd121953d8b306e159feb4ba3829d",
+      "current_sha256": "164e94c28ebe9c822e749c4846f8b79313809752c74d905d0d11030806794cb6"
+    }
+  ]
+}

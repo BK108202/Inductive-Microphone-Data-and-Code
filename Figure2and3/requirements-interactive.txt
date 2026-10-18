@@ -1,0 +1,3 @@
+# Optional browser interface; the command-line runner only needs requirements.txt.
+-r requirements.txt
+jupyterlab>=4,<5

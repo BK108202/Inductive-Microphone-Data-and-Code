@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-16T01:22:42.667355-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_data11_resolution_run002",
+  "finished_at": "2026-10-16T01:23:22.711241-04:00",
+  "summary": {
+    "available_records": 9,
+    "input_issues": 0,
+    "figures": 37,
+    "completion_scope": "available mapped inputs; inspect input_issues and unavailable windows/records for omissions"
+  }
+}

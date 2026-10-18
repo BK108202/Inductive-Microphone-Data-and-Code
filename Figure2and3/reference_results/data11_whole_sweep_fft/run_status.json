@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-16T01:19:12.999774-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_data11_whole_sweep_fft_run001",
+  "finished_at": "2026-10-16T01:22:10.166200-04:00",
+  "summary": {
+    "sweep_windows": 8,
+    "input_issues": 0,
+    "figures": 20,
+    "strict_reference_points": 0,
+    "diagnostic_reference_points": 11897
+  }
+}

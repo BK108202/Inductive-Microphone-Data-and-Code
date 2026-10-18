@@ -1,0 +1,10 @@
+sensor,base_hz,target_hz,configured_records,desired_records,records_still_needed,files
+IM,50.0,50.0,3,2,0,IM_17.csv;IM_18.csv;IM_19.csv
+IM,50.0,50.005,3,2,0,IM_23.csv;IM_24.csv;IM_25.csv
+IM,50.0,50.01,3,2,0,IM_20.csv;IM_21.csv;IM_22.csv
+IM,100.0,100.0,3,2,0,IM_26.csv;IM_39.csv;IM_45.csv
+IM,100.0,100.005,3,2,0,IM_28.csv;IM_41.csv;IM_47.csv
+IM,100.0,100.01,3,2,0,IM_27.csv;IM_40.csv;IM_46.csv
+IM,200.0,200.0,3,2,0,IM_29.csv;IM_42.csv;IM_48.csv
+IM,200.0,200.005,3,2,0,IM_31.csv;IM_44.csv;IM_50.csv
+IM,200.0,200.01,3,2,0,IM_30.csv;IM_43.csv;IM_49.csv

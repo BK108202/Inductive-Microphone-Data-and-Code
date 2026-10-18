@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-16T01:13:02.372830-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_frequency_range_analysis_sinewave_run001",
+  "finished_at": "2026-10-16T01:16:03.892346-04:00",
+  "summary": {
+    "input_files": 6,
+    "analyzed_windows": 38,
+    "fft_computed_windows": 38,
+    "fft_strict_gap_valid_windows": 16,
+    "diagnostic_timing_warning_windows": 22,
+    "quality_flagged_windows": 38,
+    "figure_count": 44,
+    "main_figure_count": 5,
+    "frequency_accuracy_metrics": [
+      {
+        "sensor": "IM",
+        "n_total": 17,
+        "n_estimated": 17,
+        "bias_hz": 0.0052170240118968115,
+        "mae_hz": 0.0052170240118968115,
+        "rmse_hz": 0.0072258096590913905,
+        "max_abs_error_hz": 0.014855938413461445,
+        "max_abs_relative_error_percent": 0.0020236607257061224,
+        "n_timing_warnings": 1
+      },
+      {
+        "sensor": "accel",
+        "n_total": 17,
+        "n_estimated": 17,
+        "bias_hz": 0.005291435274246477,
+        "mae_hz": 0.005330685878381219,
+        "rmse_hz": 0.007493263563953578,
+        "max_abs_error_hz": 0.01518241141729959,
+        "max_abs_relative_error_percent": 0.003373868754806608,
+        "n_timing_warnings": 17
+      }
+    ],
+    "reference_points": 17,
+    "finite_reference_response_points": 17,
+    "same_frequency_background_comparisons": 34,
+    "finite_same_frequency_ratio_db": 34,
+    "global_peak_snr_comparisons": 34,
+    "finite_global_peak_snr_db": 34,
+    "snr_comparisons": 68,
+    "finite_snr_db": 68,
+    "limitations": [
+      "The added same-frequency metric is measured global peak power / mean independent background spectral power, without subtraction. It is not excess SNR, broadband SNR or proof of detection; global peak selection can be biased at low signal levels.",
+      "Noise uses predetermined complete nonoverlapping 6 s windows with the existing timestamp processing; unmatched requested signal duration or any unsupported complete noise window leaves the primary ratio unavailable. Actual fs, ENBW, tails and quality are reported. Acquisition/background comparability is unconfirmed.",
+      "Nominal-band SNR uses independent noise controls; it depends on bandwidth and background representativeness. Amplifier-added noise contributes relative to the nothing-on control. Interference in the band is included; excess power is not proof of a detected sine fundamental.",
+      "Start offsets and transition times are configured assumptions until verified against experiment notes; nominal dwell durations do not establish actual switching times.",
+      "Global maximum can be interference or a harmonic; neither a small frequency error nor a large peak establishes detection or calibrated bandwidth.",
+      "Computed FFTs with internal gap warnings are diagnostics; strict-gap results are retained separately. Neither view establishes clock accuracy. Timestamp jitter, gaps, interpolation, finite window length and low samples/cycle can bias frequency/amplitude; analog sensor/logger/drive bandwidth and clock accuracy remain uncalibrated.",
+      "Generator 1 Vpp and amplifier volume are settings, not measured physical input. IM amplitudes remain Data28 counts; accel amplitudes use nominally converted g.",
+      "The selected sweep pair is not assumed synchronized. Matching drive, measurement position, actual schedule and accel_13 recording range require experimental confirmation as recorded in CONFIG. Nominal counts/g ratios can include drift, reference and sampling bias; they are not calibrated sensitivity."
+    ]
+  }
+}

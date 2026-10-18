@@ -1,0 +1,2101 @@
+{
+  "files": [
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/input_hashes.json",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "6ede5de3c3165a49da9eed234a47933ddff516eeab517af88a18114fa4b35d5d",
+      "bytes": 1454,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/inputs.json",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "7ceb92f27172d905099206281191ced15f1f90d0e7f7e40bff6863a1f66b83b7",
+      "bytes": 1298,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/methods.txt",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "cf8f179cacc4e931a0e81e8a7534cb57ad271fdb296053a32c219c24790e61f2",
+      "bytes": 10988,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/parameters.json",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "101a9de8d845d94b72ce40c4e6a1e5578dd53b31a4f3a206502d026c6efdd0eb",
+      "bytes": 1262231,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/provenance.json",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "f60c73c3748edd9084a1a1abb19128bfcc55c8646f94b64d95210ca2da476556",
+      "bytes": 294339,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/run_status.json",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "054866f1d38c5032fec9a9eeb21c46067dddf9b138edf64884d1f3a6816157a1",
+      "bytes": 1774,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/schedule.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "e3291f813bdedbfab380791c7b447be639c7b36cc670e6f122d5f090a78bde65",
+      "bytes": 7026
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/timestamp_audit.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "cfdf715f4746adbccc9caa9bebc8081635af457a434c6aef343d073f1ceb39c4",
+      "bytes": 2206
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/volume_fft_methods.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "fb3fc61fc7658e91507d502e9c30a46bb6770d5d926b35ac2ed4c22f03e5b877",
+      "bytes": 73042
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/volume_fft_subwindow_methods.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "836e8091478b57c1db5f8fb9f51b3d346a09d6cf15af09fc11c5aecc50744fd4",
+      "bytes": 276325
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/volume_reference.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "0e2a93062dac6b4c5e295fa5bd94b41538c448170b0228e08466353bc873d7a1",
+      "bytes": 5840
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/volume_repeat_groups.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "fcada47f922734020e687bf2461e96ef95340864e87c8ca03715b5b1cc07f10b",
+      "bytes": 5204
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/volume_repeat_records.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "7497ed8cef2480a494f320e0eb6e607810e105b85562143e31a74b5f2b9e7fcb",
+      "bytes": 92693
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/volume_response_fit.json",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_json",
+      "sha256": "78da51e4ca383ddd3ac614e4437a112c2315d838341cf849fd573ca90669b022",
+      "bytes": 1203
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/volume_subwindow_diagnostics.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "1dd152799f1038ba7d20c3bd509171131b41a58e26b4e8d9a1b034f26f259380",
+      "bytes": 323697
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/volume_summary.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "ed601a80af7fcc2bbc5e2705923cca2859fdfcc1607ba89d38c2816dc84be69e",
+      "bytes": 92426
+    },
+    {
+      "path": "reference_results/amplitude_analysis_sinewave/window_results.csv",
+      "analysis": "amplitude_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "ed601a80af7fcc2bbc5e2705923cca2859fdfcc1607ba89d38c2816dc84be69e",
+      "bytes": 92426
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/global_fit.json",
+      "analysis": "amplitude_global_figures",
+      "kind": "scientific_json",
+      "sha256": "7ccf391722cb6b113d97ded25e98a44b395ca2d006cee1d006455ccd0a220fc0",
+      "bytes": 1210
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/global_groups.csv",
+      "analysis": "amplitude_global_figures",
+      "kind": "scientific_csv",
+      "sha256": "fe8815406ddd161a924d12471e9d40103bb9693954b15878d70c0251ce3b0a26",
+      "bytes": 5202
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/global_peak_frequencies_hz.csv",
+      "analysis": "amplitude_global_figures",
+      "kind": "scientific_csv",
+      "sha256": "c1802b746fe053eb3d83f9c08eb943318f94de4cc5867b87cea8b46f867f4bb4",
+      "bytes": 766
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/global_records.csv",
+      "analysis": "amplitude_global_figures",
+      "kind": "scientific_csv",
+      "sha256": "f7138b3bbe89142f43a1a43c479eab63741bc37ab9d167987bb3d0c14244ea26",
+      "bytes": 89380
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/global_reference.csv",
+      "analysis": "amplitude_global_figures",
+      "kind": "scientific_csv",
+      "sha256": "3a87c0f98b8e92dbba0892d31f27dfaa89712d347008a718b3cfea44f922b039",
+      "bytes": 5838
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/global_target_comparison.csv",
+      "analysis": "amplitude_global_figures",
+      "kind": "scientific_csv",
+      "sha256": "58b2b237bbae382e278acebd072c4d73d610e8a39ea8955efb831f698917c286",
+      "bytes": 3618
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/inputs.json",
+      "analysis": "amplitude_global_figures",
+      "kind": "metadata",
+      "sha256": "b2c283dada13cdaf7cd8d0b7a7aab628492d0bd8d5099ffa621836616b3fccbc",
+      "bytes": 3072,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/methods.txt",
+      "analysis": "amplitude_global_figures",
+      "kind": "metadata",
+      "sha256": "50cfe4aafa1dd97492683936d61b9184f2793365ae16cd55ecfd17081f641e8c",
+      "bytes": 1018,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/parameters.json",
+      "analysis": "amplitude_global_figures",
+      "kind": "metadata",
+      "sha256": "7fc0fbf6d57b6097abec4fbbbaab01371e3f2e437e0006e83d2c19b20fd810a7",
+      "bytes": 1321271,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/provenance.json",
+      "analysis": "amplitude_global_figures",
+      "kind": "metadata",
+      "sha256": "63fcb96a7a348935ca1e754b61ade6ca2f4d44aa8e83ed78208eaa6481a82739",
+      "bytes": 294350,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/amplitude_global_figures/run_status.json",
+      "analysis": "amplitude_global_figures",
+      "kind": "metadata",
+      "sha256": "148839c2d34693dd544fe4c09983c41705b4c94b02e3df20cb65e4e5829a546d",
+      "bytes": 1742,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_global_peak_check.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "5f23887633366038438ae8eabf962f54e5e841a93e0b80172bbc05fc901735b1",
+      "bytes": 4965
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_global_peak_reference_response.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "ae099cbdb9d51e3b52d64e98ee8697118845cf89a9f1ee019b3b6162a0c8301b",
+      "bytes": 898
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_global_peak_response_fit.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "1fdd2bb676483ea24d0d680478246661985a138792238433b896034584aa422e",
+      "bytes": 252
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_global_peak_summary.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "61953b549d944ce5cc94172749947b6e94c00a4f1c249386b27c32af8dd5d9b1",
+      "bytes": 1425
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_records.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "5a5f9c4630175ba8efebe57a6c0df7dca5aca4c76cd699124e973586c1ef90ee",
+      "bytes": 31407
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_reference_response.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "34f5a8e031f0f163d827a59513019e79bbf5a51da78f10594f4ee0852ea84437",
+      "bytes": 973
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_response_fit.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "c70accab0bb815b7158f9eca46bbf0726e093f084550956c03773de5e5e3d7f9",
+      "bytes": 387
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_subwindows.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "c53a0fe411b6a3c2f94559f4ef3839fd3f4ce2b5602a61b6e98e74d6348e8688",
+      "bytes": 15813
+    },
+    {
+      "path": "reference_results/data11_amplitude/amplitude_summary.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "23bdc42234aafd9337046facdf209fe2c07691bb012008b533e391dc142d7878",
+      "bytes": 3991
+    },
+    {
+      "path": "reference_results/data11_amplitude/input_hashes.json",
+      "analysis": "data11_amplitude",
+      "kind": "metadata",
+      "sha256": "aaa2882bab66a2f8347a9c4dd48310867297ecd74221ece73618320fa9d5f650",
+      "bytes": 1457,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude/input_issues.json",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "reference_results/data11_amplitude/inputs.json",
+      "analysis": "data11_amplitude",
+      "kind": "metadata",
+      "sha256": "51926cdfa21db4e73b2fac7de7ecf81ac286cf8b025cc4613a8fb1abebb2ef8c",
+      "bytes": 1604,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude/methods.txt",
+      "analysis": "data11_amplitude",
+      "kind": "metadata",
+      "sha256": "8d902fab6f5f0e919540f6530b8c4db015c3790e8189809ff185fde689ab0da9",
+      "bytes": 10576,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude/parameters.json",
+      "analysis": "data11_amplitude",
+      "kind": "metadata",
+      "sha256": "23f52ccff18f40752d276d0108e65be0575236be49a7d8289807be1f363916f3",
+      "bytes": 16363,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude/provenance.json",
+      "analysis": "data11_amplitude",
+      "kind": "metadata",
+      "sha256": "c96674c0160c707e5560c1621dfef41e63c7199ead2d7f5373e448c9c310c691",
+      "bytes": 296310,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude/run_status.json",
+      "analysis": "data11_amplitude",
+      "kind": "metadata",
+      "sha256": "e9eac8b847c401447b95b8e4a97d33ab768194a4b6e64fbeece9f5a94b2b1654",
+      "bytes": 499,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude/timestamp_audit.csv",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_csv",
+      "sha256": "a42221f9dbc2a82e0fa346dad360d7a13e8e44d0d0bf2ebfcd9ba9a09f6a0f65",
+      "bytes": 1025
+    },
+    {
+      "path": "reference_results/data11_amplitude/unavailable_windows.json",
+      "analysis": "data11_amplitude",
+      "kind": "scientific_json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/amplitude_candidate_subwindows.csv",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "scientific_csv",
+      "sha256": "98b3db70ad646fe9b1ecb55f1f0725c19b46a2ad53166484b30b7bc415fd8679",
+      "bytes": 118217
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/amplitude_candidate_windows.csv",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "scientific_csv",
+      "sha256": "6c69cb93bb6bfac9928cc917d0bc7fd437484ec95366c1716b32921bf9269b4b",
+      "bytes": 1611
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/candidate_summary.csv",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "scientific_csv",
+      "sha256": "6aff67db16958a4d76498578e58ec54105bec9c342cb0c215514ace6ee5e5c62",
+      "bytes": 108
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/input_hashes.json",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "metadata",
+      "sha256": "7ddb88942dd6cfa5c800784c22219a9e1096a17685a92c3915cbf41923af2800",
+      "bytes": 853,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/inputs.json",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "metadata",
+      "sha256": "9a7bb1f337876145e44826f13d23f212e3f260fd4821e6cb4b6dbd48214d5609",
+      "bytes": 1053,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/methods.txt",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "metadata",
+      "sha256": "8448c1f0e293745ceaa1a5384e52b7578bac18055b62d1ed69df70fe16a76713",
+      "bytes": 1241,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/parameters.json",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "metadata",
+      "sha256": "9110d0f450fe6b88e08bd3ab2cb2db3cf9713b1fde6d9896f4d7570aed626162",
+      "bytes": 15107,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/provenance.json",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "metadata",
+      "sha256": "020eef97b3d403434c6bac4229b88bedace2d49e25a1a65d8f70a13f1f80bae0",
+      "bytes": 296306,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/run_status.json",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "metadata",
+      "sha256": "e8d4a658de4c600724969526b10b9079f668c65e267bb843f15e0eb83b405832",
+      "bytes": 448,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/timestamp_audit.csv",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "scientific_csv",
+      "sha256": "3aeed5e911299e44d0c1c6ec7503485d800761fa19ee98d58888da88737f33fd",
+      "bytes": 735
+    },
+    {
+      "path": "reference_results/data11_amplitude_candidate_preview/unavailable_windows.json",
+      "analysis": "data11_amplitude_candidate_preview",
+      "kind": "scientific_json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "reference_results/data11_candidate_review/IM_20_frequency_track.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "4e4b315c93a589a5f6cdf0a206a93a3f71d3ead979a1208670d8a0dde51539ec",
+      "bytes": 10659
+    },
+    {
+      "path": "reference_results/data11_candidate_review/IM_27_frequency_track.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "4c45633a860e6a5e8e818ba015db1c0709b262b0d69fde782cd91f3f1061cd86",
+      "bytes": 10484
+    },
+    {
+      "path": "reference_results/data11_candidate_review/IM_36_frequency_track.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "e5ef94f01b40e9b24afaa920d331374fd1bf75771a0df1a5800c92dbed07ae3f",
+      "bytes": 11195
+    },
+    {
+      "path": "reference_results/data11_candidate_review/IM_42_frequency_track.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "910ac291278ca182278f3b6d1e6863735dc1301dd9f621dc6a3f64f2a2dd5901",
+      "bytes": 10752
+    },
+    {
+      "path": "reference_results/data11_candidate_review/IM_46_frequency_track.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "1ab446184cef307f75e2dcc2f9b1b9a136ddf165d6b4164151686a544147c140",
+      "bytes": 9806
+    },
+    {
+      "path": "reference_results/data11_candidate_review/IM_4_frequency_track.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "37b8d21daa77415d5dd1e3ed64bfbd60f4b84fd92181aed4165b40c32a3fbcc8",
+      "bytes": 11070
+    },
+    {
+      "path": "reference_results/data11_candidate_review/IM_52_frequency_track.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "799c9649c296f3ec1fd771e7e7cb665cf8d3147b15bc40c992b940d526db1105",
+      "bytes": 10482
+    },
+    {
+      "path": "reference_results/data11_candidate_review/amplitude_time_diagnostics.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2
+    },
+    {
+      "path": "reference_results/data11_candidate_review/candidate_audit.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "080ab798af7c495b64d9608224265da8bf5a2b9325d9a9eb34942d70fe78597a",
+      "bytes": 4325
+    },
+    {
+      "path": "reference_results/data11_candidate_review/inputs.json",
+      "analysis": "data11_candidate_review",
+      "kind": "metadata",
+      "sha256": "663219e39c0480575330d1e0297eef9331cce074556e200d3d79e86cac8701fa",
+      "bytes": 2696,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_candidate_review/methods.txt",
+      "analysis": "data11_candidate_review",
+      "kind": "metadata",
+      "sha256": "4f3a5083afdf4f3f1ff1c9fa15ca431985ed6a39be4269be5388248fd123d3de",
+      "bytes": 2727,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_candidate_review/parameters.json",
+      "analysis": "data11_candidate_review",
+      "kind": "metadata",
+      "sha256": "b31c59b402797de8201b5d5aae93ba6bf8756f4d7b90f5ae90e76ac6b481e81c",
+      "bytes": 10038,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_candidate_review/provenance.json",
+      "analysis": "data11_candidate_review",
+      "kind": "metadata",
+      "sha256": "4d0e0cd2f2e13ce06f45340c2a28ede13a19a4634ec125aab0d5180f50949338",
+      "bytes": 295816,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_candidate_review/run_status.json",
+      "analysis": "data11_candidate_review",
+      "kind": "metadata",
+      "sha256": "dfe9e0cccc7e759b2e9e68b7f2070b2dde454146e22a29a5a3df5f7f72fd3b10",
+      "bytes": 2127,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_candidate_review/sweep_sampling_support.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "c0de76380ab0aa4d17e672c6423820e0f92f981515a537b244cde9cefcf65aac",
+      "bytes": 78578
+    },
+    {
+      "path": "reference_results/data11_candidate_review/sweep_selection.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "9527571c0c8b199af1c91e75254d54e703fabfd12f7d80c0e1359c84f949a308",
+      "bytes": 456
+    },
+    {
+      "path": "reference_results/data11_candidate_review/trajectory_summary.csv",
+      "analysis": "data11_candidate_review",
+      "kind": "scientific_csv",
+      "sha256": "cc850af18cfafca50b96b9588d30d0e64de5ae3cfa5d1db8ae7095bdda521a02",
+      "bytes": 1423
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/IM_20_frequency_track.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "4e4b315c93a589a5f6cdf0a206a93a3f71d3ead979a1208670d8a0dde51539ec",
+      "bytes": 10659
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/IM_27_frequency_track.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "4c45633a860e6a5e8e818ba015db1c0709b262b0d69fde782cd91f3f1061cd86",
+      "bytes": 10484
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/IM_36_frequency_track.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "e5ef94f01b40e9b24afaa920d331374fd1bf75771a0df1a5800c92dbed07ae3f",
+      "bytes": 11195
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/IM_42_frequency_track.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "910ac291278ca182278f3b6d1e6863735dc1301dd9f621dc6a3f64f2a2dd5901",
+      "bytes": 10752
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/IM_46_frequency_track.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "1ab446184cef307f75e2dcc2f9b1b9a136ddf165d6b4164151686a544147c140",
+      "bytes": 9806
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/IM_4_frequency_track.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "37b8d21daa77415d5dd1e3ed64bfbd60f4b84fd92181aed4165b40c32a3fbcc8",
+      "bytes": 11070
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/IM_52_frequency_track.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "799c9649c296f3ec1fd771e7e7cb665cf8d3147b15bc40c992b940d526db1105",
+      "bytes": 10482
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/accel_3_frequency_track.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "4c69d6557d3ec93c81ec3212c07ff5415e23041f47991e61a10e1256a03fccca",
+      "bytes": 10511
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/acceleration_normalized_responsivity.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "c7fd4c8711f40bc6b8b7d5b73d007836db137c21f2c8f66460a573fa2c9178a9",
+      "bytes": 70487
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/detectable_frequency_intervals.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "0b7d5aebd6205d3cda34b23131f748355b5438517d171208f4abdad11a3be55d",
+      "bytes": 1294
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/harmonic_tracking_records.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "4747bdab5c55225904f12264288b89dd2ec6ca8f36e3e7e8bf5ebdfbcbd57f35",
+      "bytes": 402295
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/harmonic_tracking_summary.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "cd8ac7d67d9922c264bf8a155bb094886459c0770cf33355dbab5b33650c1fcd",
+      "bytes": 116618
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/input_hashes.json",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "metadata",
+      "sha256": "5dfe099c7190775ac9b2cc9bb24f01781a94c761dcfc0e7fb2472fe8b0750e38",
+      "bytes": 6230,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/input_issues.json",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/inputs.json",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "metadata",
+      "sha256": "c83e23f76a91e0fba403bc5f093743ca2300d0137badff34d43543bd4d57a6f2",
+      "bytes": 8178,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/methods.txt",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "metadata",
+      "sha256": "3296e77f121a62e039dfcc3ba8909e51eac982a6dbdbeaa407db285020d4bde8",
+      "bytes": 6384,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/noise_estimator_windows.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "a09d2d548ff36ee1b6d4a02d31b68d82c16ecebf146ceb70f7b7074b5c6f0173",
+      "bytes": 14492318
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/parameters.json",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "metadata",
+      "sha256": "8d63117a9abbc090abb6ff2c2a940fb1b81a0f26adfcd5bb92eba6b5dc87ec01",
+      "bytes": 12929,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/provenance.json",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "metadata",
+      "sha256": "e3c58fa5a1537004151523c91722ecaed1c66e04c31d0c8a0b5e91683aac5234",
+      "bytes": 296637,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/run_status.json",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "metadata",
+      "sha256": "1f46c8d6b01f7159426e0f23961ff18e1a0d2c76376959cf89d053bc62925fc7",
+      "bytes": 530,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/timestamp_audit.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "5d5ac8ae973d52ae1aead3fa8a67661431755e484508565db5345486c76c7423",
+      "bytes": 4591
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/trajectory_summary.csv",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_csv",
+      "sha256": "24b174b82e8ebe4717f221eb34e951da81b1116b8f93f202e8487b0c49b2bce7",
+      "bytes": 1609
+    },
+    {
+      "path": "reference_results/data11_harmonic_tracking/unavailable_records.json",
+      "analysis": "data11_harmonic_tracking",
+      "kind": "scientific_json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "reference_results/data11_raw_examples/frequency_track.csv",
+      "analysis": "data11_raw_examples",
+      "kind": "scientific_csv",
+      "sha256": "37b8d21daa77415d5dd1e3ed64bfbd60f4b84fd92181aed4165b40c32a3fbcc8",
+      "bytes": 11070
+    },
+    {
+      "path": "reference_results/data11_raw_examples/inputs.json",
+      "analysis": "data11_raw_examples",
+      "kind": "metadata",
+      "sha256": "c8ae83940948bfe51db8e14e19b8d3dc0a45ce3a3e10432ca4de6439e65b0fca",
+      "bytes": 394,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_raw_examples/methods.txt",
+      "analysis": "data11_raw_examples",
+      "kind": "metadata",
+      "sha256": "3975cbd0fb5e340893fde2621c4e6bde120f6fc104902498c40419afe5235f43",
+      "bytes": 769,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_raw_examples/parameters.json",
+      "analysis": "data11_raw_examples",
+      "kind": "metadata",
+      "sha256": "34e1de58793e72293d91b08d66ba4f9c3c2a867f45bbee5989a0f551f8ee6d3d",
+      "bytes": 8477,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_raw_examples/provenance.json",
+      "analysis": "data11_raw_examples",
+      "kind": "metadata",
+      "sha256": "8a055e40786926710d4faa0b995c519c594822a4a0a6b90f2a49350ba23f079a",
+      "bytes": 295816,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_raw_examples/raw_window_samples.csv",
+      "analysis": "data11_raw_examples",
+      "kind": "scientific_csv",
+      "sha256": "5b319bc16a1fb2a29f2f24f2e6b0925ead8c1e76040100dfa97abe91158ad99f",
+      "bytes": 46273
+    },
+    {
+      "path": "reference_results/data11_raw_examples/raw_window_summary.csv",
+      "analysis": "data11_raw_examples",
+      "kind": "scientific_csv",
+      "sha256": "52ce6240f9708f20e78a323affd81d98c2ceb66a36173b8b59d2acbce7d22345",
+      "bytes": 1101
+    },
+    {
+      "path": "reference_results/data11_raw_examples/run_status.json",
+      "analysis": "data11_raw_examples",
+      "kind": "metadata",
+      "sha256": "da0aa5c46d903d702f840bcc1741567360e753a697b23370240ddc06a8f65d77",
+      "bytes": 426,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_raw_examples/timestamp_audit.csv",
+      "analysis": "data11_raw_examples",
+      "kind": "scientific_csv",
+      "sha256": "1b6bfb16084d4ce9a95644b775085c821ce8f3233c2ab91b4aa589b0a20d099e",
+      "bytes": 283
+    },
+    {
+      "path": "reference_results/data11_raw_examples/trajectory_summary.csv",
+      "analysis": "data11_raw_examples",
+      "kind": "scientific_csv",
+      "sha256": "41e9bffb964200f1f8c8ebb690b4d36cdc241073c6713dfb774fa4345fa05067",
+      "bytes": 360
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/detectable_frequency_intervals.csv",
+      "analysis": "data11_reference_gap_views",
+      "kind": "scientific_csv",
+      "sha256": "0b7d5aebd6205d3cda34b23131f748355b5438517d171208f4abdad11a3be55d",
+      "bytes": 1294
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/harmonic_tracking_summary.csv",
+      "analysis": "data11_reference_gap_views",
+      "kind": "scientific_csv",
+      "sha256": "cd8ac7d67d9922c264bf8a155bb094886459c0770cf33355dbab5b33650c1fcd",
+      "bytes": 116618
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/inputs.json",
+      "analysis": "data11_reference_gap_views",
+      "kind": "metadata",
+      "sha256": "cc96c8ba78827424b447cf3a744f4526c4de07ea513de540d8d088de268136fd",
+      "bytes": 2219,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/methods.txt",
+      "analysis": "data11_reference_gap_views",
+      "kind": "metadata",
+      "sha256": "4e47f31e5d7e4713bcfc87111c4c3863b7da93389f138f3184b10cdc2572ac5e",
+      "bytes": 1370,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/parameters.json",
+      "analysis": "data11_reference_gap_views",
+      "kind": "metadata",
+      "sha256": "3b871d2873f3790b391bc288b0ab1ef94c70dc16d4411b10fd8e0eec86dde8dc",
+      "bytes": 13878,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/provenance.json",
+      "analysis": "data11_reference_gap_views",
+      "kind": "metadata",
+      "sha256": "1c5cc12c43f3789bf69e1212f63cfa0be49deb9ea92db7bbef7ac7cb92495f08",
+      "bytes": 295255,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/reference_gap_window_estimates.csv",
+      "analysis": "data11_reference_gap_views",
+      "kind": "scientific_csv",
+      "sha256": "62e2df42a9cea6ae0d0a6aaca042c537bb7dad2691a3c39450e764a570c93e8f",
+      "bytes": 2162
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/responsivity_strict_and_diagnostic.csv",
+      "analysis": "data11_reference_gap_views",
+      "kind": "scientific_csv",
+      "sha256": "70949aca809cdf6bc4f12f2d5f7186f3a3525b3bdd3552b1197bb03337738981",
+      "bytes": 106557
+    },
+    {
+      "path": "reference_results/data11_reference_gap_views/run_status.json",
+      "analysis": "data11_reference_gap_views",
+      "kind": "metadata",
+      "sha256": "8834a094d9388d1a531471a560700cf42b92783ff4160618bc75d11271404827",
+      "bytes": 416,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_resolution/input_hashes.json",
+      "analysis": "data11_resolution",
+      "kind": "metadata",
+      "sha256": "f71f6dc8ea7181a38b547bffde6e5e74fb2ddcff4a8896a38b05d964f8f157ac",
+      "bytes": 2161,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_resolution/input_issues.json",
+      "analysis": "data11_resolution",
+      "kind": "scientific_json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "reference_results/data11_resolution/inputs.json",
+      "analysis": "data11_resolution",
+      "kind": "metadata",
+      "sha256": "210681366f06e5a3fdbcc8c666acf0b4e2285a7b701cabf86f72c8fe7c5a3c67",
+      "bytes": 2607,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_resolution/methods.txt",
+      "analysis": "data11_resolution",
+      "kind": "metadata",
+      "sha256": "8fb2092eaf93b66fc365e86328737936ee14564ba6fcea3cc651caebd076605e",
+      "bytes": 14202,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_resolution/parameters.json",
+      "analysis": "data11_resolution",
+      "kind": "metadata",
+      "sha256": "8781192a35c1943152c853abf52d2fa5ddbd35194871a2dded8607214d6d924d",
+      "bytes": 19115,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_resolution/provenance.json",
+      "analysis": "data11_resolution",
+      "kind": "metadata",
+      "sha256": "620e4a35c5d880f2b7d0e215149d5c419eca109a272c33451d10da6c20ad8217",
+      "bytes": 296695,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_resolution/resolution_displayed_spectra.csv",
+      "analysis": "data11_resolution",
+      "kind": "scientific_csv",
+      "sha256": "23367c22be210f5d2ae7ec25b296123bfa9e49cb4203d67fdaf3bc664bb0f0c3",
+      "bytes": 108472
+    },
+    {
+      "path": "reference_results/data11_resolution/resolution_quadratic_example.csv",
+      "analysis": "data11_resolution",
+      "kind": "scientific_csv",
+      "sha256": "a5edfde437aa3e87f290620acafbe90f7d5141170cf2161fbdaf28b6922de110",
+      "bytes": 51072
+    },
+    {
+      "path": "reference_results/data11_resolution/resolution_records.csv",
+      "analysis": "data11_resolution",
+      "kind": "scientific_csv",
+      "sha256": "283c535dcc10491622c939bda86d0bbd88b89242280bc74aef204bbf3b5ae262",
+      "bytes": 34092
+    },
+    {
+      "path": "reference_results/data11_resolution/resolution_relative_records.csv",
+      "analysis": "data11_resolution",
+      "kind": "scientific_csv",
+      "sha256": "3db7ea79e3b514f78b4f06a1e23bb56b065bcc25d471c7174cd99aedd2da8522",
+      "bytes": 67175
+    },
+    {
+      "path": "reference_results/data11_resolution/resolution_relative_summary.csv",
+      "analysis": "data11_resolution",
+      "kind": "scientific_csv",
+      "sha256": "2582d281d3c0c18c9debeadc3d95ea00950ef18dd19b66b5255d8c2f7b32c02d",
+      "bytes": 13417
+    },
+    {
+      "path": "reference_results/data11_resolution/resolution_summary.csv",
+      "analysis": "data11_resolution",
+      "kind": "scientific_csv",
+      "sha256": "ccde39c395a4aaf220945bd5c07d43ad90499cca1a0638f834e8ecab69f199e4",
+      "bytes": 14273
+    },
+    {
+      "path": "reference_results/data11_resolution/resolution_unpaired_contrasts.csv",
+      "analysis": "data11_resolution",
+      "kind": "scientific_csv",
+      "sha256": "0e1bf5ad4f263aac1c23f5ec76dd9d64ac7c7fc90a0fec3fae0ae10fb4b0c5b7",
+      "bytes": 37706
+    },
+    {
+      "path": "reference_results/data11_resolution/run_status.json",
+      "analysis": "data11_resolution",
+      "kind": "metadata",
+      "sha256": "0ee3b01bd56d4725edb094c81044d89cf36318ccf09a251ca74c91e0678bb9b7",
+      "bytes": 500,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_resolution/timestamp_audit.csv",
+      "analysis": "data11_resolution",
+      "kind": "scientific_csv",
+      "sha256": "f1de40ff7f5114c3b2e947f5fdad65d6a7366b8e6065d688587e4eb43ca1724a",
+      "bytes": 1486
+    },
+    {
+      "path": "reference_results/data11_resolution/unavailable_windows.json",
+      "analysis": "data11_resolution",
+      "kind": "scientific_json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/fft_detectable_intervals.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "4fb20fa1686b46c44e023cb2b237246c4a17d8b0af4504139b21fa2e12533e1c",
+      "bytes": 295933
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/fft_records.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "558355d12ab8494fc27f68b0b105703cfef32ecd5a398208f35373cfe170e9fb",
+      "bytes": 16831758
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/fft_responsivity.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "0d09f4ba9b06a3ecdfbdd81b6d369bfa09d7f115f80de9b5e6b2128e2e0dddf5",
+      "bytes": 4475913
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/fft_summary.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "34a0b44967d22c34224a4538c66cf364af5f3a4d870c731a07132bbf9d074a8c",
+      "bytes": 8632486
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/fft_vs_tracking.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "76a4e80d60b02b22c1af6f7d5091bee96664ae3fda80d96e48f246056903aa01",
+      "bytes": 12991239
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/input_issues.json",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/inputs.json",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "metadata",
+      "sha256": "68d4a3e3f681ad3a7debce0b7e70dc092c8eebbd3490a42757438a6a46674018",
+      "bytes": 10004,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/methods.txt",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "metadata",
+      "sha256": "e0488d270e5ea11bd5956b64dc6481e4397fa511222a697fda3e3c17af9c504d",
+      "bytes": 5439,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/noise_window_audit.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "3a403ce37648148541125b0d7b4d21eb3d9aeeab76e77909f9d8ee08af9fa404",
+      "bytes": 6669
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/parameters.json",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "metadata",
+      "sha256": "fd52a290db1cf23eee16167330c19f7909ac456f3f3646a45207ea06f04c27dd",
+      "bytes": 11845,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/provenance.json",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "metadata",
+      "sha256": "898dcc64aa6c90aa47c83070f41504bcfe5ad13bdb3153e925e2d000cc70fc88",
+      "bytes": 296750,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/run_status.json",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "metadata",
+      "sha256": "445d69597b59c1bef2c6468ad5a5e2c054ae12a59b2c8ca1e1fa5ecce292e53c",
+      "bytes": 459,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_20_amplifier_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "95ad45af2107e35a396215576ba744c4f4e76804494799a3de89d1f87bd706c7",
+      "bytes": 844374
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_20_common_grid_snr.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "ff6a8e549721c236390bf1061d1cda0b82aa294e4ed933e43c8dd518f7a64738",
+      "bytes": 2094477
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_20_nothing_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "d8b6d3a5b6e95e1bf5bcf1c7a44a92858fd8d61a7bdff6f014e528497d330153",
+      "bytes": 844257
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_20_sweep.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "4d0798e05b0b6827d5db3ac652cc32fdf79a6fb890df13312864497199556aef",
+      "bytes": 846173
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_27_amplifier_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "1c2bcd9c61b27f98f27a36df1a8e032ff12e5c06be84e98c28ba4f82ce8bba53",
+      "bytes": 844716
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_27_common_grid_snr.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "71feb26eef3c30754cd80ac1d31cf2ef9ad59c78d83467b5438bf9152498296c",
+      "bytes": 2093584
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_27_nothing_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "b9dbd7ab29c06593791665acb12267a9968f442fa9c42ae256ba0840bfe85577",
+      "bytes": 844601
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_27_sweep.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "719d1fc74a6eb503d9986ac7b52c042a8025af8c23797c9d5d8950f50ddc6959",
+      "bytes": 847101
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_36_amplifier_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "09e82f635d7cb4d696909a886de65ee41e05487b22ad0508a560d5c739d50ad7",
+      "bytes": 844289
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_36_common_grid_snr.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "6a691a45380df76a815d702f8b208c6881ddd638b88604b9ba262d11ac011cf9",
+      "bytes": 2097619
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_36_nothing_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "22a03be95ff98d5f5bed302a5e4e5143c42e94d2a7f2e631766a0232707d6251",
+      "bytes": 844377
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_36_sweep.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "f54a8ed6cafc18e48ffcec979998112da9989ce8ca07d300e6de6a7a136c1fa7",
+      "bytes": 847029
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_42_amplifier_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "a7e4916fd960cf86f5fb7791cfba414ecc40304140d7f3953f9c79e2410c3cf2",
+      "bytes": 845800
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_42_common_grid_snr.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "af86c88a172a836809f9d21d2da460525ec3fd36cd2af08222348e33e7140181",
+      "bytes": 2124981
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_42_nothing_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "0f46229b88c7c1ee5e2a02413ba50f3a03bf7ded7682a5b1ffaea3a37a1b74df",
+      "bytes": 846050
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_42_sweep.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "9c4d821d063bb19923e9464c42c40b5542d40805627c5db0ccc39e3813ad7507",
+      "bytes": 847208
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_46_amplifier_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "ba8ba119e68dffc7f82387335bcc65ad03d71f5ef04e277f2606a6e20103ef51",
+      "bytes": 846511
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_46_common_grid_snr.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "7e3c0563a0a1bce505c95e910944a67e6f0b16df9320f87941dfbe4ae89be737",
+      "bytes": 2130445
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_46_nothing_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "a57356bc9e3703eaf7a94ccc666e0ef6354c3237eeba7566d8b718b0e39b9111",
+      "bytes": 846502
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_46_sweep.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "f8f687fc361bfc3e5648ac1a62ed6237858b416eba03b8cfca9678011a6e2fab",
+      "bytes": 845901
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_4_amplifier_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "f60840de2c41e18532b9292830e9ae27578a9ac09c5c35b8d463565eb8fd701c",
+      "bytes": 845093
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_4_amplifier_on_noise_01.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "24882f9351b3bef2c0b1860f198745cb5f9500ec14ffd5e76301cf1cfbbdfc02",
+      "bytes": 845198
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_4_amplifier_on_noise_02.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "e5c51acae56aa95831003d1ce7487a545c9742bd0e26bcb15d55b89f4af5ed7b",
+      "bytes": 844995
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_4_common_grid_snr.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "1118e7fa8ec8d96ad89260cc3026343a91682d19257223a601b1c46ca856affa",
+      "bytes": 2132116
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_4_nothing_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "a65075a15a4f89e4898a61178b634587a1bec6c7d6bfb4764a279d69da08c66d",
+      "bytes": 844918
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_4_sweep.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "4cb3248595e6bc5a14c9c5e1214323e4393e20732f3581329e1778945eda4454",
+      "bytes": 845989
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_52_amplifier_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "f9602397273f40ba94b410c9f7020b3e246393c66af9a436cb7ca45920c94227",
+      "bytes": 847613
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_52_common_grid_snr.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "6032c99f18a0b935cca4347c4626e0faa9b5cae5361547141ff99c3e0106c81c",
+      "bytes": 2211106
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_52_nothing_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "1990904a99df370917451d093369a6cec37b24149ba49b1c3c38fcfeb2111da4",
+      "bytes": 847572
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/IM_52_sweep.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "18772a75f768bc8522a3bd2d00c0deee9cfd0c83f9db70ba79f4d0e1d34d777e",
+      "bytes": 846695
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/accel_3_amplifier_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "2b0562aaa5412c99764fbcfca8761314f73b9e23ffdb3a8ec29011af090a7668",
+      "bytes": 3388483
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/accel_3_amplifier_on_noise_01.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "22fe3b873e4537b718679559a9763362e79d57ff571afcc6f9fad1379a11f8cf",
+      "bytes": 3389130
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/accel_3_common_grid_snr.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "df64d0a810f3cc0c37db4a99675eb22dd8f7d2a9c83d85cfbabd1941e30d2237",
+      "bytes": 1956369
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/accel_3_nothing_on_noise_00.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "23ba67db1d20c39a6906b0c2d68dec8468edfa1b26c267882fa925c18244743c",
+      "bytes": 3399039
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/accel_3_nothing_on_noise_01.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "37965a5add019f041231fc95022dd171569654375f929f579c4e3b1075a50330",
+      "bytes": 3400773
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/spectra/accel_3_sweep.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "528eee41724d29b3eaef30d7c7ec57a3c8c8bb588fdd3bb51027be910b3c7f67",
+      "bytes": 3349336
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/sweep_window_audit.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "92bdb18a6c46c4a57d044a4284152bcdb6c8ba2308133dbef40de706ee7bd178",
+      "bytes": 4517
+    },
+    {
+      "path": "reference_results/data11_whole_sweep_fft/timestamp_audit.csv",
+      "analysis": "data11_whole_sweep_fft",
+      "kind": "scientific_csv",
+      "sha256": "151f806ccd0972d484eeaf3d5f16ba83d041790fa19d45262f8485d616e4e4c2",
+      "bytes": 4079
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/01_IM_IM_1_snr_noise_welch_psd.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "adf6a9f2f9c4e5e0a03bc72618111e59ff42ae602c9d02c8b9221d80c1c3fa4c",
+      "bytes": 387235
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/02_IM_IM_2_snr_noise_welch_psd.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "803086f8f4f363fcac2928169a83db01db1dfec2a774b6d96d2494ea234bacb7",
+      "bytes": 384881
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/03_IM_IM_16_peak_catalog.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "104babb52ece4972126f6d5e547a9a31e15c690e7a2c3f59397401315f7e61fd",
+      "bytes": 7556822
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/04_accel_accel_10_snr_noise_welch_psd.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "37f15e8e8b4ac57a06129d8c58a360766a236dbe8939b2e3924fc0185a1fdc5b",
+      "bytes": 462264
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/05_accel_accel_11_snr_noise_welch_psd.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "0f1f96abd85f89deca1a42cc7beb66f1d52cf6bf771f2f0b73472f31ded067b5",
+      "bytes": 460146
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/06_accel_accel_13_peak_catalog.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "6975d70870d7b1e510bec35a29b4ea7ddb5dc5bd39c66fdf5668e6c0ecd03b5b",
+      "bytes": 11362692
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/frequency_accuracy.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "49c3be9f9b4e7f4d0d81267fad935be19343dcc2d9786bcc4bee760a2b528520",
+      "bytes": 92704
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/frequency_accuracy_metrics.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "2bb6c3e51a1f57a55f9df7e39aa95108b763fab4131c7fa4395a1b1e017bff20",
+      "bytes": 358
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/global_peak_snr_summary.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "8545faf9e66e8c39973c9669e3a8bc5d377559aa4653167a356081cfcb2968d5",
+      "bytes": 239893
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/input_hashes.json",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "bc3ce20b63e9dd2d56403013fd7e4b71e77ebb16f10e404a697d1b3529dd8ac2",
+      "bytes": 1454,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/inputs.json",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "59db789b421d4819e3f32bf6a3ee7e81b08f3dc8db35d46b3fe9d8080334ecc9",
+      "bytes": 1295,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/methods.txt",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "d8a9bd077164b05e6f3d25a40c29586283238b000abb15aeb11234412d2334d0",
+      "bytes": 22388,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/noise_summary.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "2b7da7167464185e00c083a294c3079ec22b34b2b92539715062c25502ed8bfc",
+      "bytes": 11577
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/parameters.json",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "5b4cc125b3bd0a9e9932c4ffbb66192c1566941961ab5c79ddf436375d928a8b",
+      "bytes": 7432974,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/provenance.json",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "0db3adfc4485e07063da5a973ac71ebc9a9468cb3f073f282d968fb4bd09b649",
+      "bytes": 295467,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/raw_IM_IM_16_01_100Hz.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "3c38ae028c2e9495e79a62fdef699ec8e44221aa362945d9125e3f96fca096fb",
+      "bytes": 31421
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/raw_IM_IM_16_02_50Hz.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "6f0be4888cfdd3bf9359999122a3053da96771c85dbffff62ab551477f19f28b",
+      "bytes": 31169
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/raw_IM_IM_16_03_600Hz.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "7d6c67342c3de134f431365de8f791e14d7f9ad7df4c0af9fd9b42154529f19e",
+      "bytes": 31939
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/raw_examples_summary.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "272d7fa56eb56573bed8e13333e2b4bfbc50fe6e4cf86aaaab22f94cce29a402",
+      "bytes": 1038
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/reference_normalized_response.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "4f462da11c14e862abeacf63a09bc338fc2f983437c534a3e4cfa4c96ce5b50c",
+      "bytes": 104206
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/run_status.json",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "76488225a7eeaf3a9fd9892837b23e687450d9932c07738d7665d0d4bd855fb1",
+      "bytes": 3729,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/same_frequency_background_summary.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "6551eab048a8c04fd8c82d8573ed55c884802daa699378635a7fac229024c420",
+      "bytes": 184349
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/same_frequency_noise_window_powers.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "ec0a35d2136d126b09379633437f237998b51ad744d77979443340a3aefe214e",
+      "bytes": 1312601
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/same_frequency_signal_projection_check.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "0b59789c0bca66b759c2272bbfd2138c8abd38282d9df95f18498215524b626f",
+      "bytes": 3365
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/schedule.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "d2e72a7c73901f0460e288b7571862fffe1ee82121ae5c96db2d1ae9b697fc2c",
+      "bytes": 11431
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/selected_snr_summary.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "219f9e1a369312ebc5244bf100e6f015064f8d3e4620e0f9b88fd4c23795ae08",
+      "bytes": 164302
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/selected_sweep_summary.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "20ee9b3bb2ecb468993266b86408b2e6d041a8cf15796d70c3ac071229f4c41d",
+      "bytes": 89143
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/snr_summary.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "219f9e1a369312ebc5244bf100e6f015064f8d3e4620e0f9b88fd4c23795ae08",
+      "bytes": 164302
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/sweep_summary.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "a74bd9cf653597aacd72335b5407887963198affbd8c9306f6a4ae6055b785c6",
+      "bytes": 89415
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/timestamp_audit.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "c77247df9661f1a5285a761934963cc00fed22833f13e806e5ca45e49563b6ff",
+      "bytes": 2162
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/window_results.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "276f0c14dbd4a4fc05322f2b68cd666163b5ad590644bdafda000714ecec62b2",
+      "bytes": 97720
+    },
+    {
+      "path": "reference_results/frequency_range_analysis_sinewave/window_sensitivity.csv",
+      "analysis": "frequency_range_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "64fecb29e9704a0e64ea367bda4145697255a690ed003e672a09f726c4693b2e",
+      "bytes": 155965
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/01_IM_IM_17_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "6becf0248efe1c9a070dfa3dd01eaa7a6dd1b534e933e1d8cbd28a53b91a660f",
+      "bytes": 6360
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/01_IM_IM_17_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "22f40d01e80070c102935c69c654dc69b2bb73a88154f5319a9cb74e16ad329a",
+      "bytes": 6364
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/02_IM_IM_18_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "9c8c585f00462f60d13a5637e44f23e134a3412dffa2b047497d15886d70f267",
+      "bytes": 6367
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/02_IM_IM_18_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "f59a92303f49d81af41436ae3573bbf70f72334c36cbd4b5f93534bcd69d8e78",
+      "bytes": 6372
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/03_IM_IM_19_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "42506225f1d3c9d39910765c9b5eac1655a56cdb8c267fb60c88512e9be9aaeb",
+      "bytes": 6362
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/03_IM_IM_19_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "206da6126fb51df1da1fbd63cd892afd8146f76670a70a3ec5e3a0bd4814886f",
+      "bytes": 6371
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/04_IM_IM_20_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "3680e6ae015d8c5cf56bc75358aef5540bb3390becbd3ac235d1eeed97f323d3",
+      "bytes": 6359
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/04_IM_IM_20_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "8465ed40e9a402c1092d6f90b031456d9d56090620d8a1c0c5af7dabb00529e5",
+      "bytes": 6383
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/05_IM_IM_21_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "685cc52641ddf3d12b4c90964adabce19c60285603fbc704c7facb20f4c02bfa",
+      "bytes": 6373
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/05_IM_IM_21_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "2ff90abcc48433951ae68058163504991ce1edbead965757ae51256f68b6a3eb",
+      "bytes": 6370
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/06_IM_IM_22_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "656ca37849ba802da06e0c5e6528bf773496f43f5f6ad084883ad2dd7f6b162e",
+      "bytes": 6371
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/06_IM_IM_22_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "e06bda4481a330c716857512238bfa10e4cbe6251e2576a9bf6b6c47d9f66282",
+      "bytes": 6368
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/07_IM_IM_23_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "40cd0c9f8e0ffb0b6bd985fd84ba9ec5089c16ebfc914b23871f52fd44c1583c",
+      "bytes": 6366
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/07_IM_IM_23_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "ae83c21154d550b7549db61dc0d0d5020a987be4e56832445386d7075f7971ca",
+      "bytes": 6369
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/08_IM_IM_24_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "5300d32e217b1775c044908686d0947fb43e3fcf335c5b86340c38ed71ba74ea",
+      "bytes": 6366
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/08_IM_IM_24_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "8d75c2457c56b248dfd3e6d43dd26079656d6c8c820cfe425856990ceb446f3c",
+      "bytes": 6365
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/09_IM_IM_25_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "2059f5656256f4394accb8e15029a4d7ad7a7e32484d4654a0119ab82b452ad3",
+      "bytes": 6370
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/09_IM_IM_25_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "5d00f942d9dee89dbfc966125b2d1a1415b7f92b417ecf949820ab714b88c2eb",
+      "bytes": 6361
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/10_IM_IM_26_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "db7e37a3007e38a4ec77af09ca36a075a19149bc71406aefbb51497a6055a620",
+      "bytes": 6360
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/10_IM_IM_26_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "299d09980f258a8dab7cd22b44a9798061e7a3c941c3bce84204dffc9f566381",
+      "bytes": 6386
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/11_IM_IM_39_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "de353d21d4a1fd8d4a92fcffccea7a0fcd979d70b28bd7b6b8487c391021f8cc",
+      "bytes": 6381
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/11_IM_IM_39_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "ac46ce140dc060c9e528ed4038e907fcd948e4735b6f201e0849b411265178db",
+      "bytes": 6378
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/12_IM_IM_45_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "7dacc4a85056784e1767e730a6c1bf8240804ccc3be0999493aeb460422dc4c5",
+      "bytes": 6397
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/12_IM_IM_45_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "8434710311144ca589255c3dcea27c37378bd5e89972e03b7755c5b59ff5e742",
+      "bytes": 6391
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/13_IM_IM_27_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "fec3a804a5e63bfc424d193950bc532eecced2275e7dc11beaaabbe72481332c",
+      "bytes": 6367
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/13_IM_IM_27_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "6745868a9a7bbc222c3e786ecbeb3e744682ac363dd40ef0ea82a8b6a75f3f5f",
+      "bytes": 6370
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/14_IM_IM_40_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "16aabd395afec7bd5253d44e2dd109449223cfc494928889412301b29c5ad52e",
+      "bytes": 6381
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/14_IM_IM_40_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "f1903c6e0f87ab23b6c8fb5c7110fa50d8f5626187e5bf0bf56aeeb39bf8cbbb",
+      "bytes": 6373
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/15_IM_IM_46_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "f1ebc9ee210fe59ad01fe4ff938af2836a6d39175258212488c313444c3b4b71",
+      "bytes": 6373
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/15_IM_IM_46_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "4bc29f80e9371f56e55573cdc3602fc3fc4d406fd78e9cf57492e84d1c61da90",
+      "bytes": 6372
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/16_IM_IM_28_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "69b95b583fecd2e3ee8200a54e7276585e016079dbdd655421efa22ec8a0047a",
+      "bytes": 6377
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/16_IM_IM_28_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "8fa3dda89ab425943ae6cfa4ffda01f923300b567463522ea6a80d59306b6aee",
+      "bytes": 6365
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/17_IM_IM_41_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "b2ab319d1c3de208d6246fed2a4516d4e99c4d304a8362d15f189f1d4768ac65",
+      "bytes": 6379
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/17_IM_IM_41_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "c6a40c3b3e3d3130330f6a9bff17ae9e6e79bcbccc90510530d91a77dde70dfd",
+      "bytes": 6386
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/18_IM_IM_47_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "e83b417ea1b7c2c27c367863f4f009937b73d98868b3b4c45c2af1b634528fee",
+      "bytes": 6391
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/18_IM_IM_47_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "857df4083c12af762d24b3b7ba921fa1c8ea0cf0f564171271487a9ab94b7ad2",
+      "bytes": 6390
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/19_IM_IM_29_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "66b4344d04390f4236318edb0c98d11cebcd7b70efc33a3f87d894cde367201d",
+      "bytes": 6408
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/19_IM_IM_29_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "154c91ea236fc1f083e9563c507bdc16ef819cde3931279a21558f8450f21468",
+      "bytes": 6417
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/20_IM_IM_42_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "8dd88833c007fa44cc3faca066e701605ec1ffcbc7be8382eff63a20f8d1dcf6",
+      "bytes": 6426
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/20_IM_IM_42_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "0508169b54d608ba4c2d4b13e2c6a70af2a7f93409d4ac9e8d86b01b831b1fd1",
+      "bytes": 6419
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/21_IM_IM_48_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "1a1dc3cc0d6d56b865ccd501bc60f6c9fde1720082b3483a66b83364f3e098df",
+      "bytes": 6399
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/21_IM_IM_48_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "554814aa7e67990cccea7782395dca00d1314e02101c428423531b939d22d652",
+      "bytes": 6419
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/22_IM_IM_30_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "07f81752830e6ffb7ab6365908f55671f4f38c29b34499ce96608592250ca03d",
+      "bytes": 6417
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/22_IM_IM_30_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "797d29aa77596ba6f11935eba134212a61ec6236a7dbf55d52b12034eea3de35",
+      "bytes": 6405
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/23_IM_IM_43_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "c0e405ab916cc6d6014159936204b8a98808baba17bd5b7609e284f0b974ac3c",
+      "bytes": 6416
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/23_IM_IM_43_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "7bdaf262a2fef2696c799006d93c0f1a72a8e6f77e9093a98cab5d6b24f968b1",
+      "bytes": 6417
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/24_IM_IM_49_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "6ea67561280e3d7778fccf305a21b7dd2439f6e096a5f0880037c9029048b1ab",
+      "bytes": 6412
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/24_IM_IM_49_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "fb9768f29eeafefcf6d0ce479a102eb63beeb81204369f8784e845ffb9c3ac39",
+      "bytes": 6403
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/25_IM_IM_31_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "feb880b0cb08051f0d35e95324ddbab1dc28a1310eab545f6db8cd2e26348012",
+      "bytes": 6419
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/25_IM_IM_31_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "d7869e03fcc920be44dac2395e256c7e71beb37b512dae5973c4f5070a7fbce6",
+      "bytes": 6420
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/26_IM_IM_44_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "e2fa2490853e9bbf4abb9d09c4fea7f8e3e45ddb39cac52f4f4fd2dfc02a4988",
+      "bytes": 6416
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/26_IM_IM_44_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "3971912fc9ed7d387a8a41163e8822d036d563fdb083f0414c374c13a25d32a3",
+      "bytes": 6412
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/27_IM_IM_50_primary_100s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "e882190baf72cdb9a50fec187f961a808b95fc05c5bc5bf9642b84a5c78a5166",
+      "bytes": 6413
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/27_IM_IM_50_trimmed_90s_spectrum.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "0b82ed2f29aadb7afdca89a28b6923325fe75d0d168531fb0e29fbe7159b328a",
+      "bytes": 6417
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/frequency_estimator_comparison.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "b1a1e0b4cff2542279a4549d04a11258454bdb085102ac85ed14cba094a7d0ea",
+      "bytes": 199948
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/input_hashes.json",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "a03846696122ae142b5c44edbeadabb2cfdfb23cab2c48e1aa05430f929bce73",
+      "bytes": 6486,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/inputs.json",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "7f5562c92bc37f02d3108637464e7ecba8997150e70236afa508ad1e3a850e85",
+      "bytes": 5864,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/methods.txt",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "c614f459af37c10c2cf635ac84769ae0c27b0eb2e5f3a6a67d1a829581e378fe",
+      "bytes": 13027,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/parameters.json",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "043a98093d9f79ace4d09af505a154be2569e3272d84b71879e11e7f9d9b0c7c",
+      "bytes": 662982,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/provenance.json",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "b8fc4c1b9c782e528024153ff1805a13beae676ba510e7463a92f8fc73b3c029",
+      "bytes": 295861,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/resolution_comparisons.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "f49f40c871a1f8a06560ae777d73e91f022092e2170dea339b6121be4f4efd2e",
+      "bytes": 36875
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/resolution_comparisons_strict_gap.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "a5fd6949c6453b9131d37030e432378f889806f4f7455572abf50c980e735817",
+      "bytes": 23960
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/resolution_groups.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "1b466fbbe6141cdb81a576a3fc01d52bf353e6e6d4ed70c152d8fda48f8392fc",
+      "bytes": 41872
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/resolution_groups_strict_gap.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "a4511041bfe6b552fe2cded416e3eb76e28ec44af80f7b810165bae992b3fcad",
+      "bytes": 27192
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/resolution_relative_groups.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "6dba5556e52e08c8bb5cae3fd81e29d8a3da92d41fca90cc82df83566bd817f8",
+      "bytes": 34672
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/resolution_relative_records.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "17ca2adc0c159904f0cb562d3fa41290721082d54c02fb13dfbf66d9fda4e62f",
+      "bytes": 240351
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/resolution_repeat_counts.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "780f6e22f1f76e4d203e1d4a90566ee62b1d05197fd72e74eaa7d622887fbc76",
+      "bytes": 559
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/resolution_summary.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "9e980d885473a5cbba3623f90c909a4959edf3444c426ab82d71c4868100c053",
+      "bytes": 166013
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/run_status.json",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "metadata",
+      "sha256": "58767535b04f65d588be2cdee8de2e7b71a0f19463897b4ecff4f6f58a6f1a3d",
+      "bytes": 3264,
+      "note": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim."
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/schedule.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "6e84b9d9dbcd3b090e2b791fc58db9603aa3e3703b88c9b3782d60afed2cb5d9",
+      "bytes": 11300
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/sine_fit_diagnostics.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "5a5494511620c1924731475c3521dc586ed87a82c57eb54415a6c7353d2a57e2",
+      "bytes": 32603
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/timestamp_audit.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "9da405830bbc0ec42ae5dae48e0401d730cbdbeed8a8db925bd6df8c7cfbfa26",
+      "bytes": 8880
+    },
+    {
+      "path": "reference_results/resolution_analysis_sinewave/window_results.csv",
+      "analysis": "resolution_analysis_sinewave",
+      "kind": "scientific_csv",
+      "sha256": "9e980d885473a5cbba3623f90c909a4959edf3444c426ab82d71c4868100c053",
+      "bytes": 166013
+    }
+  ],
+  "baseline_run_names": {
+    "amplitude_analysis_sinewave": "2026-10-16_amplitude_analysis_sinewave_run001",
+    "amplitude_global_figures": "2026-10-16_amplitude_global_figures_run001",
+    "data11_amplitude": "2026-10-16_data11_amplitude_run001",
+    "data11_amplitude_candidate_preview": "2026-10-16_data11_amplitude_candidate_preview_run001",
+    "data11_candidate_review": "2026-10-16_data11_candidate_review_run001",
+    "data11_harmonic_tracking": "2026-10-16_data11_harmonic_tracking_run001",
+    "data11_raw_examples": "2026-10-16_data11_raw_examples_run001",
+    "data11_reference_gap_views": "2026-10-16_data11_reference_gap_views_run001",
+    "data11_resolution": "2026-10-16_data11_resolution_run002",
+    "data11_whole_sweep_fft": "2026-10-16_data11_whole_sweep_fft_run001",
+    "frequency_range_analysis_sinewave": "2026-10-16_frequency_range_analysis_sinewave_run001",
+    "resolution_analysis_sinewave": "2026-10-16_resolution_analysis_sinewave_run001"
+  },
+  "metadata_policy": "Archived metadata, not runtime configuration. Original recorded paths and provenance are preserved verbatim.",
+  "reference_policy": "Fresh pre-portability results retained as comparison references; no estimates were rerun or changed during copying.",
+  "counts": {
+    "metadata": 67,
+    "scientific_csv": 210,
+    "scientific_json": 10
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_53.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_53.csv",
+    "sensor": "IM",
+    "role": "amplitude"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_55.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_55.csv",
+    "sensor": "IM",
+    "role": "amplitude"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_56.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_56.csv",
+    "sensor": "IM",
+    "role": "amplitude"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_10.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\accel_10.csv",
+    "sensor": "accel",
+    "role": "amplitude"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_11.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\accel_11.csv",
+    "sensor": "accel",
+    "role": "amplitude"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_12.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\accel_12.csv",
+    "sensor": "accel",
+    "role": "amplitude"
+  }
+]

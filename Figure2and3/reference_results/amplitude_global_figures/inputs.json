@@ -1,0 +1,81 @@
+[
+  {
+    "path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_amplitude_analysis_sinewave_run001\\volume_repeat_records.csv",
+    "role": "source_analysis_volume_repeat_records",
+    "sha256": "7497ed8cef2480a494f320e0eb6e607810e105b85562143e31a74b5f2b9e7fcb"
+  },
+  {
+    "path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_amplitude_analysis_sinewave_run001\\parameters.json",
+    "role": "source_analysis_parameters",
+    "sha256": "101a9de8d845d94b72ce40c4e6a1e5578dd53b31a4f3a206502d026c6efdd0eb"
+  },
+  {
+    "path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_amplitude_analysis_sinewave_run001\\inputs.json",
+    "role": "source_analysis_inputs",
+    "sha256": "7ceb92f27172d905099206281191ced15f1f90d0e7f7e40bff6863a1f66b83b7"
+  },
+  {
+    "path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_amplitude_analysis_sinewave_run001\\provenance.json",
+    "role": "source_analysis_provenance",
+    "sha256": "f60c73c3748edd9084a1a1abb19128bfcc55c8646f94b64d95210ca2da476556"
+  },
+  {
+    "path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_amplitude_analysis_sinewave_run001\\run_status.json",
+    "role": "source_analysis_run_status",
+    "sha256": "054866f1d38c5032fec9a9eeb21c46067dddf9b138edf64884d1f3a6816157a1"
+  },
+  {
+    "path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_amplitude_analysis_sinewave_run001\\inputs.json",
+    "role": "original_input_manifest",
+    "original_inputs": [
+      {
+        "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\IM_32.csv",
+        "sensor": "IM",
+        "role": [
+          "volume"
+        ],
+        "window_count": 6
+      },
+      {
+        "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\IM_33.csv",
+        "sensor": "IM",
+        "role": [
+          "volume"
+        ],
+        "window_count": 6
+      },
+      {
+        "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\IM_34.csv",
+        "sensor": "IM",
+        "role": [
+          "volume"
+        ],
+        "window_count": 6
+      },
+      {
+        "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\accel_7.csv",
+        "sensor": "accel",
+        "role": [
+          "volume"
+        ],
+        "window_count": 6
+      },
+      {
+        "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\accel_8.csv",
+        "sensor": "accel",
+        "role": [
+          "volume"
+        ],
+        "window_count": 6
+      },
+      {
+        "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data10\\accel_9.csv",
+        "sensor": "accel",
+        "role": [
+          "volume"
+        ],
+        "window_count": 6
+      }
+    ]
+  }
+]

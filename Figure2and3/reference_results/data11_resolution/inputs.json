@@ -1,0 +1,65 @@
+[
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_6.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_6.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.0
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_7.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_7.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.0
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_8.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_8.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.0
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_9.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_9.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.01
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_10.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_10.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.01
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_11.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_11.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.01
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_12.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_12.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.005
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_13.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_13.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.005
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_14.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_14.csv",
+    "sensor": "IM",
+    "role": "resolution",
+    "nominal_hz": 100.005
+  }
+]

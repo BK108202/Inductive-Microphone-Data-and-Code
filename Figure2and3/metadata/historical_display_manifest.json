@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "historical_display/2026-10-13_data11_candidate_review_run003/run_status.json",
+      "sha256": "e28f5831094f21ae3ca4f76677d4d44cff8cf4cbff59a6ed02aa8ee1b1473e79",
+      "bytes": 2239,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    },
+    {
+      "path": "historical_display/2026-10-13_data11_candidate_review_run003/sweep_selection.csv",
+      "sha256": "3c7df73b77759ce215cfd34501da22b630c80cd275214e0a41e111a76c2db77c",
+      "bytes": 460,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    },
+    {
+      "path": "historical_display/2026-10-13_data11_selected_tracking_run001/run_status.json",
+      "sha256": "4064eb3f1f2745c97943c4dd903142844ff0859419eca047cef081596bde0b5c",
+      "bytes": 1959,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    },
+    {
+      "path": "historical_display/2026-10-13_data11_selected_tracking_run001/tracking_fundamental_materials_no_region.png",
+      "sha256": "df5b8207d03cab9cdb99e3db7a471e50b782a23d989ed59666f78c35486865a5",
+      "bytes": 113585,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    },
+    {
+      "path": "historical_display/2026-10-13_data11_selected_tracking_run001/tracking_fundamental_materials_with_region.png",
+      "sha256": "f58274d7f2930d48c46cbfc08b981c56e9907d33034fac2f695b9048343bd10a",
+      "bytes": 201292,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    },
+    {
+      "path": "historical_display/2026-10-13_data11_sweep_model_check_run001/IM_26_linear_vs_log.png",
+      "sha256": "1cc2672d93b069f1e529889a9b81668445937c4285684d934325b8c8affeb92e",
+      "bytes": 124818,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    },
+    {
+      "path": "historical_display/2026-10-13_data11_sweep_model_check_run001/IM_62_linear_vs_log.png",
+      "sha256": "8f4d8697a03c73e30f1a6032cc0bba82a68e611548a012dff73e158404fd4124",
+      "bytes": 118630,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    },
+    {
+      "path": "historical_display/2026-10-13_data11_sweep_model_check_run001/run_status.json",
+      "sha256": "8d406435ed205103361443836eb431a3f946baa588a7a04890511b1aca1d5907",
+      "bytes": 406,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    },
+    {
+      "path": "historical_display/2026-10-13_data11_sweep_model_check_run001/sweep_model_comparison.csv",
+      "sha256": "1e17a4c2c8193b2b38fadf6535cd73bdd1ff2f959f154b8030db1c56601af94d",
+      "bytes": 4687,
+      "note": "Historical display input, preserved verbatim; not a newly recomputed result."
+    }
+  ],
+  "policy": "Preserve nine required historical display files exactly; archived status metadata is not runtime configuration."
+}

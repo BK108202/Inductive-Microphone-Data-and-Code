@@ -1,0 +1,2 @@
+population,n_levels,slope_counts_per_g,intercept_counts,r_squared,method
+diagnostic_with_gap_warnings,6,488.75227101446086,81.3074723123791,0.9917968645797378,Unweighted free-intercept OLS of independent condition means; both-axis errors not modeled

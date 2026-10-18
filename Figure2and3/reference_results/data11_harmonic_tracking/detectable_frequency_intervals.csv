@@ -1,0 +1,10 @@
+material,start_hz,end_hz,grid_points,minimum_n,threshold_db,minimum_group_snr_db,interpretation
+OO-50 0.23 mm,30.876015815832837,283.21826288577716,78,1,10.0,17.283780455108765,tested adjacent grid points; no interpolated cutoff
+10 NV,31.777611755318656,283.21826288577716,77,1,10.0,26.074961980336624,tested adjacent grid points; no interpolated cutoff
+945,30.876015815832837,283.21826288577716,78,1,10.0,18.70946388125185,tested adjacent grid points; no interpolated cutoff
+18,31.777611755318656,283.21826288577716,77,1,10.0,20.70374917847428,tested adjacent grid points; no interpolated cutoff
+OO-50 4.05 mm,31.777611755318656,291.48838547313187,78,1,10.0,15.646998847152371,tested adjacent grid points; no interpolated cutoff
+Foam 4.17 mm,30.876015815832837,238.2984704172845,72,1,10.0,12.241215400113845,tested adjacent grid points; no interpolated cutoff
+"OO-50 large coil, silicone bonded, 3.5 uH",30.876015815832837,283.21826288577716,78,1,10.0,18.6592303137478,tested adjacent grid points; no interpolated cutoff
+accelerometer,30.876015815832837,61.60575079371437,25,1,10.0,34.586267333138835,tested adjacent grid points; no interpolated cutoff
+accelerometer,67.16163415705019,283.21826288577716,51,1,10.0,38.6529281065875,tested adjacent grid points; no interpolated cutoff

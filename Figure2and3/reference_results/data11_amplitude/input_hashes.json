@@ -1,0 +1,32 @@
+[
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_53.csv",
+    "sha256": "be51b9499952fe51766365be70f1db095fb1f4586a6bc004cc97eaa77820ed3e",
+    "size_bytes": 3623046
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_55.csv",
+    "sha256": "a88744e6737218c4bf3df05b846b7dc7bc356f77f816d561584e2b24d1acd637",
+    "size_bytes": 3651195
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_56.csv",
+    "sha256": "0ff67204105bc7e672da7f394e01da25232d2b567152dcf7a12524d2a42c1ce6",
+    "size_bytes": 3609655
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_10.csv",
+    "sha256": "3d33c143d93568f424a5e62b54c0454e5535e498f611dd402170ba6ae57ed884",
+    "size_bytes": 10106478
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_11.csv",
+    "sha256": "06f3e1b216c4b8cdd5701c526772e831ebd03ef4fabcf8c42f8ee04f81309d74",
+    "size_bytes": 10352588
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_12.csv",
+    "sha256": "44ac1ad6af303429eecbfb52f1c917face82be9b90575ab1cfc043975c8bd93b",
+    "size_bytes": 10373195
+  }
+]

@@ -1,0 +1,3 @@
+Single-file raw waveform export only. No candidate ranking, group response, amplitude-volume analysis, or SNR computation is performed.
+Use original timestamps and all samples in each requested window; save untouched Data28 and OLS intercept+linear-time detrended values separately. No filtering, smoothing, resampling or fitted sinusoid replaces the plotted samples.
+Center times use the existing independent log-frequency tracker (STFT discovery then original-time local chirp refinement). Frequency varies across each window; raw_window_summary.csv reports model start/end frequency, sampling and detrend coefficients. Time_us relative to first sample is converted to seconds; counts are not converted to volts. Physical timebase and analog bandwidth unverified.

@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "finished_at": "2026-10-17T23:48:10.339919-04:00",
+  "scope": "Plotting regression using archived tables in memory; no raw-data analysis, new scientific run, or saved figures.",
+  "module_sha256": "52b2d35d71044c67ffb962961a927038fbc566736be0b7eb092c3f5ed039c5e2",
+  "checker_sha256": "b160e3d4bb53d52f186087c1a9037ffc2f21b9e927c79f1e9e604c4d827ffb42",
+  "cases": [
+    {
+      "case": "published_selection",
+      "status": "passed",
+      "comparison_groups": [
+        "coil_design",
+        "materials",
+        "thick_materials",
+        "thickness"
+      ],
+      "figures_drawn_in_memory": 10,
+      "caller_config_and_tables_unchanged": true
+    },
+    {
+      "case": "material_12_deleted_with_stale_group",
+      "status": "passed",
+      "comparison_groups": [
+        "coil_design",
+        "materials",
+        "thick_materials",
+        "thickness"
+      ],
+      "figures_drawn_in_memory": 10,
+      "caller_config_and_tables_unchanged": true
+    },
+    {
+      "case": "entire_group_removed",
+      "status": "passed",
+      "comparison_groups": [
+        "coil_design",
+        "materials",
+        "thick_materials",
+        "thickness"
+      ],
+      "figures_drawn_in_memory": 10,
+      "caller_config_and_tables_unchanged": true
+    },
+    {
+      "case": "only_one_material_selected",
+      "status": "passed",
+      "comparison_groups": [
+        "coil_design",
+        "materials",
+        "thickness"
+      ],
+      "figures_drawn_in_memory": 8,
+      "caller_config_and_tables_unchanged": true
+    },
+    {
+      "case": "multiple_sweeps_with_material_deleted",
+      "status": "passed",
+      "comparison_groups": [
+        "coil_design",
+        "materials",
+        "thick_materials",
+        "thickness"
+      ],
+      "figures_drawn_in_memory": 14,
+      "caller_config_and_tables_unchanged": true
+    }
+  ],
+  "limitations": [
+    "No complete notebook or raw-data analysis rerun. Existing failed runs are left unchanged."
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "config": {
+    "tracking": {
+      "data_root": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11",
+      "accel_g_per_count": 0.000488,
+      "accel_conversion_source": "User confirmed +/-16 g and Raw_Z * 0.000488 on 2026-10-10; nominal conversion, not individual calibration.",
+      "reference_conditions_confirmed": true,
+      "reference_conditions_source": "User confirmed identical drive settings, mounting position and load on 2026-10-10; independently recorded batches, no file pairing.",
+      "timestamp_basis": "Time_us converted to seconds; whether timestamps equal physical sample instants and clock accuracy remain unverified.",
+      "max_gap_ratio": 3.0,
+      "dt_cv_warning": 0.01,
+      "fft_pad_factor": 8,
+      "im_endpoint_codes": [
+        0,
+        268435455
+      ],
+      "im_endpoint_scope": "record",
+      "im_endpoint_policy": "Conservative primary comparison uses endpoint-free IM records. Some endpoint-bearing records also contain huge excursions between endpoints; retain all local-window estimates as diagnostics. No raw correction; cause unverified.",
+      "missing_policy": "record_and_skip",
+      "analysis": "frequency_range",
+      "materials": {
+        "OO-50 0.23 mm": [
+          [
+            1,
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "10 NV": [
+          [
+            18,
+            19
+          ],
+          [
+            20
+          ]
+        ],
+        "945": [
+          [
+            23,
+            24
+          ],
+          [
+            27
+          ]
+        ],
+        "12": [
+          [
+            28,
+            29
+          ],
+          []
+        ],
+        "18": [
+          [
+            33,
+            34
+          ],
+          [
+            36
+          ]
+        ],
+        "OO-50 4.05 mm": [
+          [
+            38,
+            39
+          ],
+          [
+            42
+          ]
+        ],
+        "Foam 4.17 mm": [
+          [
+            43,
+            44
+          ],
+          [
+            46
+          ]
+        ],
+        "OO-50 large coil, silicone bonded, 3.5 uH": [
+          [
+            49,
+            50
+          ],
+          [
+            52
+          ]
+        ]
+      },
+      "accel_sweeps": [
+        3
+      ],
+      "accel_noise": [
+        1,
+        2
+      ],
+      "f0_hz": 30.0,
+      "f1_hz": 300.0,
+      "nominal_duration_s": 30.0,
+      "window_s": 0.8,
+      "track_hop_s": 0.5,
+      "grid_points": 81,
+      "track_min_fraction": 0.15,
+      "track_min_points": 16,
+      "track_min_span_s": 10.0,
+      "track_max_log_residual": 0.015,
+      "noise_start_s": 5.0,
+      "max_noise_windows": 30,
+      "snr_threshold_db": 10.0,
+      "minimum_repeat_count": 1,
+      "comparison_groups": {
+        "materials": [
+          "OO-50 0.23 mm",
+          "10 NV",
+          "945",
+          "12",
+          "18"
+        ],
+        "thickness": [
+          "OO-50 0.23 mm",
+          "OO-50 4.05 mm"
+        ],
+        "thick_materials": [
+          "OO-50 4.05 mm",
+          "Foam 4.17 mm"
+        ],
+        "coil_design": [
+          "OO-50 0.23 mm",
+          "OO-50 large coil, silicone bonded, 3.5 uH"
+        ]
+      },
+      "method": "complex_demodulation_hann_tracking",
+      "track_search_hz": [
+        15.0,
+        420.0
+      ],
+      "stft_window_s": 0.3,
+      "stft_hop_s": 0.15,
+      "stft_padding": 8,
+      "ridge_log_tolerance": 0.045,
+      "ridge_trials": 2000,
+      "ridge_random_seed": 1606321,
+      "log_rate_bounds_per_s": [
+        0.01,
+        0.4
+      ],
+      "local_search_min_halfwidth_hz": 4.0,
+      "local_search_step_hz": 0.8,
+      "local_search_excursion_factor": 0.6,
+      "local_frequency_tolerance_hz": 1e-05,
+      "robust_log_scale": 0.003,
+      "track_residual_gate_log": 0.025,
+      "min_samples_per_cycle": 3.0,
+      "min_cycles_per_window": 12.0,
+      "nyquist_fraction": 0.8,
+      "noise_enbw_relative_tolerance": 0.03,
+      "minimum_noise_windows": 4,
+      "nominal_start_overrides_s": {},
+      "nominal_start_source": "Unknown unless a per-file measured/recorded start is entered; otherwise comparison is onset-aligned for shape only.",
+      "standard_gravity_m_s2": 9.80665,
+      "deferred_sweep_ids": [
+        58,
+        60,
+        62,
+        63,
+        64
+      ],
+      "figure_font_size_pt": 17
+    },
+    "amplitude_ids": [],
+    "raw_file": "IM_3.csv",
+    "raw_frequencies_hz": [
+      50.0,
+      100.0,
+      200.0
+    ],
+    "raw_window_s": 0.2,
+    "jump_ratio_review_threshold": 100.0,
+    "include_raw_examples": false,
+    "duration_relative_review_tolerance": 0.2,
+    "requested_sweep_count": 3,
+    "amplitude_selected_ids": [],
+    "documented_sweep_window_s": [
+      5.0,
+      35.0
+    ],
+    "documented_sweep_spacing": "User uncertain on 2026-10-13 whether recollected sweeps were Linear; keep data-model evidence separate from instrument settings.",
+    "documented_amplitude": {
+      "frequency_hz": 100,
+      "volumes": [
+        25,
+        24,
+        23,
+        22,
+        21,
+        20
+      ],
+      "dwell_s_by_file": {
+        "IM_15.csv": 20,
+        "IM_16.csv": 20,
+        "IM_17.csv": 20,
+        "IM_53.csv": 30,
+        "IM_54.csv": 30,
+        "IM_55.csv": 30,
+        "IM_56.csv": 30
+      },
+      "start_s": null,
+      "note": "Dwell confirmed 2026-10-13; first-level start unresolved"
+    }
+  },
+  "methods": "Candidate review, not a new SNR or sensitivity analysis. Original CSVs are read-only.\nTime_us is converted to seconds relative to the first sample; Data28 remains counts.\nAll listed amplitude candidates are displayed over their entire duration. Overview figures\nuse contiguous sample-bucket minima/maxima, with no sample excursion discarded. One-second\nRMS diagnostics subtract each bin mean, use original samples, and apply no filtering.\nThese RMS values are not fundamental amplitudes, event RMS, or volume-level estimates.\nNo amplitude triplet is selected automatically. User confirmed 20 s per level for IM_15-17\nand 30 s per level for IM_53-56 on 2026-10-13. Full records are shown; t=0 alignment of\nthe first volume remains an analysis assumption for subsequent segmentation.\nSweep checks retain the existing endpoint, timestamp, trajectory and sampling gates.\nThe additional max adjacent jump / median absolute adjacent jump >100 flag is a conservative,\nunvalidated review heuristic, not proof of clipping or a calibrated quality criterion.\nFlagged records remain in diagnostics but require review before triplet recommendation.\nCompatibility review also flags a fitted 30-to-300 Hz duration differing by >20% from\nthe documented 30 s duration. This is a conservative, unvalidated combination screen,\nnot a change to the existing tracker or independent proof of the excitation schedule.\nCompare linear-time and log-time residuals on the already estimated local frequencies\nas diagnostics only; partial track support can bias this comparison. Do not refit an\nincompatible sweep into the old log model simply to fill a group.\nRecommend up to three passing sweeps in ascending file-number order; never rank by signal\namplitude or SNR, never duplicate a file or silently fill a deficient group.\nFrequency coverage is evaluated on the existing 81-point grid using the existing 0.8 s\ntracking windows. A candidate must support at least two grid points. Detailed support is\nexported; a passing record does not imply complete 30-300 Hz coverage or calibration.\nRaw examples use the independently fitted log-frequency trajectory to locate requested\ncenter frequencies. Each 200 ms window contains original timestamps and all recorded samples.\nBoth untouched Data28 and ordinary least-squares intercept+linear-time detrended versions\nare exported; no smoothing, bandpass, resampling, or fitted sinusoid replaces the samples.\nSweep frequency changes across each example; requested frequency describes its center.\nTiming, analog bandwidth, anti-aliasing and independent frequency verification remain unresolved.\nPNG previews and SVGs use Arial 15 pt, editable text, no grids, <=5 major y tick values.\n",
+  "figure_export": {
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "font_family": "Arial",
+    "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+    "font_size_pt": 17,
+    "y_tick_maximum": 5,
+    "grid": false,
+    "svg_fonttype": "none",
+    "editable_text": true,
+    "png_dpi": 145,
+    "svg_raster_layer_dpi": 300,
+    "dense_heatmap_cells_rasterized": true,
+    "method": "Presentation only: all text uses Arial with 17 pt base size (math scripts keep normal relative sizing), grids are disabled, each y axis has at most five major tick values and no minor tick labels. Axis limits and plotted data are preserved. Frequency-response SNR plots show amplifier-on noise only; all original conditions remain in numerical CSVs. Dotted noise overlays are omitted from tracking/FFT response figures. Dashed threshold, timing, fit and diagnostic-population lines have different meanings and are retained. SVG text is not outlined. Layout is expanded/reflowed for legibility; analysis definitions and estimates are unchanged.",
+    "matplotlib_settings": {
+      "svg.fonttype": "none",
+      "font.family": "Arial",
+      "font.size": 17,
+      "axes.labelsize": 17,
+      "axes.titlesize": 17,
+      "xtick.labelsize": 17,
+      "ytick.labelsize": 17,
+      "legend.fontsize": 17,
+      "figure.titlesize": 17,
+      "figure.labelsize": 17,
+      "axes.grid": false,
+      "text.usetex": false,
+      "mathtext.fontset": "custom",
+      "mathtext.rm": "Arial",
+      "mathtext.it": "Arial:italic",
+      "mathtext.bf": "Arial:bold",
+      "mathtext.sf": "Arial",
+      "mathtext.fallback": null
+    }
+  }
+}

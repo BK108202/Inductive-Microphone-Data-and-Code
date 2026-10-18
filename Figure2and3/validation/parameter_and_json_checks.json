@@ -1,0 +1,181 @@
+[
+  {
+    "kind": "scientific_json",
+    "analysis": "amplitude_analysis_sinewave",
+    "file": "volume_response_fit.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "amplitude_global_figures",
+    "file": "global_fit.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "data11_amplitude",
+    "file": "input_issues.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "data11_amplitude",
+    "file": "unavailable_windows.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "data11_amplitude_candidate_preview",
+    "file": "unavailable_windows.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "data11_harmonic_tracking",
+    "file": "input_issues.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "data11_harmonic_tracking",
+    "file": "unavailable_records.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "data11_resolution",
+    "file": "input_issues.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "data11_resolution",
+    "file": "unavailable_windows.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "scientific_json",
+    "analysis": "data11_whole_sweep_fft",
+    "file": "input_issues.json",
+    "scientific_values_match": true,
+    "difference_kinds": {}
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "amplitude_analysis_sinewave",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 262
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "amplitude_global_figures",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 263
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "data11_amplitude",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 1
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "data11_amplitude_candidate_preview",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 1
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "data11_candidate_review",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 1
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "data11_harmonic_tracking",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 1
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "data11_raw_examples",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 1
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "data11_reference_gap_views",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 1
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "data11_resolution",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 1
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "data11_whole_sweep_fft",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 2
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "frequency_range_analysis_sinewave",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 1156
+    }
+  },
+  {
+    "kind": "effective_parameters",
+    "analysis": "resolution_analysis_sinewave",
+    "file": "parameters.json",
+    "scientific_values_match": true,
+    "difference_kinds": {
+      "path_change": 190,
+      "documented_text_correction": 1
+    }
+  }
+]

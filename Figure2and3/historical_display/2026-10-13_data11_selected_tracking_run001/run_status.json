@@ -1,0 +1,73 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-13T17:37:59.312819-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-13_data11_selected_tracking_run001",
+  "finished_at": "2026-10-13T17:38:33.870636-04:00",
+  "summary": {
+    "per_record_metrics_unchanged": true,
+    "figures": 14,
+    "excluded_from_preliminary_selection": [
+      "IM_58.csv",
+      "IM_62.csv"
+    ],
+    "selection": [
+      {
+        "material": "OO-50 0.23 mm",
+        "selected_ids": "[3, 4, 5]",
+        "count": 3,
+        "requested": 3,
+        "status": "three available"
+      },
+      {
+        "material": "10 NV",
+        "selected_ids": "[20, 21, 22]",
+        "count": 3,
+        "requested": 3,
+        "status": "three available"
+      },
+      {
+        "material": "945",
+        "selected_ids": "[26, 27]",
+        "count": 2,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "12",
+        "selected_ids": "[]",
+        "count": 0,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "18",
+        "selected_ids": "[35, 36]",
+        "count": 2,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "OO-50 4.05 mm",
+        "selected_ids": "[40, 41, 42]",
+        "count": 3,
+        "requested": 3,
+        "status": "three available"
+      },
+      {
+        "material": "Foam 4.17 mm",
+        "selected_ids": "[45, 46, 47]",
+        "count": 3,
+        "requested": 3,
+        "status": "three available"
+      },
+      {
+        "material": "OO-50 large coil, silicone bonded, 3.5 uH",
+        "selected_ids": "[51, 52]",
+        "count": 2,
+        "requested": 3,
+        "status": "insufficient passing records"
+      }
+    ]
+  }
+}

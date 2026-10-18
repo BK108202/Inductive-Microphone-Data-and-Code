@@ -1,0 +1,89 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-16T01:16:20.886999-04:00",
+  "timezone": "America/New_York",
+  "output_path": "G:\\My Drive\\Inductive Microphone\\05_Results_Summary\\2026-10-16_data11_candidate_review_run001",
+  "finished_at": "2026-10-16T01:16:38.221114-04:00",
+  "summary": {
+    "candidate_count": 7,
+    "selection": [
+      {
+        "material": "OO-50 0.23 mm",
+        "selected_ids": [
+          4
+        ],
+        "count": 1,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "10 NV",
+        "selected_ids": [
+          20
+        ],
+        "count": 1,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "945",
+        "selected_ids": [
+          27
+        ],
+        "count": 1,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "12",
+        "selected_ids": [],
+        "count": 0,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "18",
+        "selected_ids": [
+          36
+        ],
+        "count": 1,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "OO-50 4.05 mm",
+        "selected_ids": [
+          42
+        ],
+        "count": 1,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "Foam 4.17 mm",
+        "selected_ids": [
+          46
+        ],
+        "count": 1,
+        "requested": 3,
+        "status": "insufficient passing records"
+      },
+      {
+        "material": "OO-50 large coil, silicone bonded, 3.5 uH",
+        "selected_ids": [
+          52
+        ],
+        "count": 1,
+        "requested": 3,
+        "status": "insufficient passing records"
+      }
+    ],
+    "amplitude_selection": "pending user",
+    "raw_file": "IM_3.csv",
+    "raw_frequencies_hz": [
+      50.0,
+      100.0,
+      200.0
+    ]
+  }
+}

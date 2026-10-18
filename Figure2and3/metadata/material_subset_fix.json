@@ -1,0 +1,15 @@
+{
+  "scope": "Tracking plot guard for removed materials and empty comparison groups.",
+  "recorded_at": "2026-10-17T23:48:31.530833-04:00",
+  "source": "data11_harmonic_tracking.py",
+  "prior_sha256": "9f833630f89ea11f5f2163657c3bd9d43763e465679a957fea6da42c465ce8ea",
+  "current_sha256": "52b2d35d71044c67ffb962961a927038fbc566736be0b7eb092c3f5ed039c5e2",
+  "changed_function": "_plots",
+  "scientific_estimators_changed": false,
+  "notebooks_modified_by_fix": false,
+  "validation": "validation/material_subset_plots.json",
+  "full_scientific_rerun": false,
+  "preexisting_local_manifest_differences_preserved": [
+    "data11_frequency_range_supplement.ipynb"
+  ]
+}

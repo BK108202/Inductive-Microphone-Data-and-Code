@@ -1,0 +1,8 @@
+{
+  "data_root": "data",
+  "results_root": "results",
+  "analysis_output": {
+    "timezone": "America/New_York",
+    "overwrite": false
+  }
+}

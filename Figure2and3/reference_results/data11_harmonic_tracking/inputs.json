@@ -1,0 +1,202 @@
+[
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_1.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_1.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "OO-50 0.23 mm",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_2.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_2.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "OO-50 0.23 mm",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_4.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_4.csv",
+    "sensor": "IM",
+    "role": "sweep",
+    "material": "OO-50 0.23 mm"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_18.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_18.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "10 NV",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_19.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_19.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "10 NV",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_20.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_20.csv",
+    "sensor": "IM",
+    "role": "sweep",
+    "material": "10 NV"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_23.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_23.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "945",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_24.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_24.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "945",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_27.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_27.csv",
+    "sensor": "IM",
+    "role": "sweep",
+    "material": "945"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_28.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_28.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "12",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_29.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_29.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "12",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_33.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_33.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "18",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_34.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_34.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "18",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_36.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_36.csv",
+    "sensor": "IM",
+    "role": "sweep",
+    "material": "18"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_38.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_38.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "OO-50 4.05 mm",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_39.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_39.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "OO-50 4.05 mm",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_42.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_42.csv",
+    "sensor": "IM",
+    "role": "sweep",
+    "material": "OO-50 4.05 mm"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_43.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_43.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "Foam 4.17 mm",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_44.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_44.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "Foam 4.17 mm",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_46.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_46.csv",
+    "sensor": "IM",
+    "role": "sweep",
+    "material": "Foam 4.17 mm"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_49.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_49.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "OO-50 large coil, silicone bonded, 3.5 uH",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_50.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_50.csv",
+    "sensor": "IM",
+    "role": "noise",
+    "material": "OO-50 large coil, silicone bonded, 3.5 uH",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\IM_52.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\IM_52.csv",
+    "sensor": "IM",
+    "role": "sweep",
+    "material": "OO-50 large coil, silicone bonded, 3.5 uH"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_1.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\accel_1.csv",
+    "sensor": "accel",
+    "role": "noise",
+    "material": "accelerometer",
+    "condition": "nothing_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_2.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\accel_2.csv",
+    "sensor": "accel",
+    "role": "noise",
+    "material": "accelerometer",
+    "condition": "amplifier_on"
+  },
+  {
+    "path": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11\\accel_3.csv",
+    "file": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\accel_3.csv",
+    "sensor": "accel",
+    "role": "sweep",
+    "material": "accelerometer"
+  }
+]

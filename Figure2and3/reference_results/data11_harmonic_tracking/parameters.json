@@ -1,0 +1,231 @@
+{
+  "config": {
+    "data_root": "C:\\Users\\kangb3\\OneDrive - Georgia Institute of Technology\\Inductive Microphone\\Data11",
+    "accel_g_per_count": 0.000488,
+    "accel_conversion_source": "User confirmed +/-16 g and Raw_Z * 0.000488 on 2026-10-10; nominal conversion, not individual calibration.",
+    "reference_conditions_confirmed": true,
+    "reference_conditions_source": "User confirmed identical drive settings, mounting position and load on 2026-10-10; independently recorded batches, no file pairing.",
+    "timestamp_basis": "Time_us converted to seconds; whether timestamps equal physical sample instants and clock accuracy remain unverified.",
+    "max_gap_ratio": 3.0,
+    "dt_cv_warning": 0.01,
+    "fft_pad_factor": 8,
+    "im_endpoint_codes": [
+      0,
+      268435455
+    ],
+    "im_endpoint_scope": "record",
+    "im_endpoint_policy": "Conservative primary comparison uses endpoint-free IM records. Some endpoint-bearing records also contain huge excursions between endpoints; retain all local-window estimates as diagnostics. No raw correction; cause unverified.",
+    "missing_policy": "record_and_skip",
+    "analysis": "frequency_range",
+    "materials": {
+      "OO-50 0.23 mm": [
+        [
+          1,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "10 NV": [
+        [
+          18,
+          19
+        ],
+        [
+          20
+        ]
+      ],
+      "945": [
+        [
+          23,
+          24
+        ],
+        [
+          27
+        ]
+      ],
+      "12": [
+        [
+          28,
+          29
+        ],
+        []
+      ],
+      "18": [
+        [
+          33,
+          34
+        ],
+        [
+          36
+        ]
+      ],
+      "OO-50 4.05 mm": [
+        [
+          38,
+          39
+        ],
+        [
+          42
+        ]
+      ],
+      "Foam 4.17 mm": [
+        [
+          43,
+          44
+        ],
+        [
+          46
+        ]
+      ],
+      "OO-50 large coil, silicone bonded, 3.5 uH": [
+        [
+          49,
+          50
+        ],
+        [
+          52
+        ]
+      ]
+    },
+    "accel_sweeps": [
+      3
+    ],
+    "accel_noise": [
+      1,
+      2
+    ],
+    "f0_hz": 30.0,
+    "f1_hz": 300.0,
+    "nominal_duration_s": 30.0,
+    "window_s": 0.8,
+    "track_hop_s": 0.5,
+    "grid_points": 81,
+    "track_min_fraction": 0.15,
+    "track_min_points": 16,
+    "track_min_span_s": 10.0,
+    "track_max_log_residual": 0.015,
+    "noise_start_s": 5.0,
+    "max_noise_windows": 30,
+    "snr_threshold_db": 10.0,
+    "minimum_repeat_count": 1,
+    "comparison_groups": {
+      "materials": [
+        "OO-50 0.23 mm",
+        "10 NV",
+        "945",
+        "12",
+        "18"
+      ],
+      "thickness": [
+        "OO-50 0.23 mm",
+        "OO-50 4.05 mm"
+      ],
+      "thick_materials": [
+        "OO-50 4.05 mm",
+        "Foam 4.17 mm"
+      ],
+      "coil_design": [
+        "OO-50 0.23 mm",
+        "OO-50 large coil, silicone bonded, 3.5 uH"
+      ]
+    },
+    "method": "complex_demodulation_hann_tracking",
+    "track_search_hz": [
+      15.0,
+      420.0
+    ],
+    "stft_window_s": 0.3,
+    "stft_hop_s": 0.15,
+    "stft_padding": 8,
+    "ridge_log_tolerance": 0.045,
+    "ridge_trials": 2000,
+    "ridge_random_seed": 1606321,
+    "log_rate_bounds_per_s": [
+      0.01,
+      0.4
+    ],
+    "local_search_min_halfwidth_hz": 4.0,
+    "local_search_step_hz": 0.8,
+    "local_search_excursion_factor": 0.6,
+    "local_frequency_tolerance_hz": 1e-05,
+    "robust_log_scale": 0.003,
+    "track_residual_gate_log": 0.025,
+    "min_samples_per_cycle": 3.0,
+    "min_cycles_per_window": 12.0,
+    "nyquist_fraction": 0.8,
+    "noise_enbw_relative_tolerance": 0.03,
+    "minimum_noise_windows": 4,
+    "nominal_start_overrides_s": {},
+    "nominal_start_source": "Unknown unless a per-file measured/recorded start is entered; otherwise comparison is onset-aligned for shape only.",
+    "standard_gravity_m_s2": 9.80665,
+    "deferred_sweep_ids": [
+      58,
+      60,
+      62,
+      63,
+      64
+    ],
+    "figure_font_size_pt": 17
+  },
+  "methods": {
+    "scope": "Data11 continuous logarithmic sweeps only. Offline, centered, noncausal quadrature tracking implementation inspired by the Siemens harmonic tracking principle; not an implementation of proprietary Siemens software. ISO 16063-21 reference comparison is design guidance only, not a compliance or calibration claim. Official public scope was consulted; full standard text was not reviewed.",
+    "evidence": "Input roles and nominal acceleration conversion inherited from data11_config.py. That file records prior user confirmation of identical drive/mounting/load, separate sensor batches, and Raw_Z*0.000488 g/count. Existing data11_analysis.py records photos of a logarithmic 30-300 Hz/30 s setting; this is not verified per-file timing or delivered amplitude. Configured search bands, gates and thresholds are analysis choices.",
+    "tracking": "Strongest STFT ridge in the configured broad frequency search band (not a nominal trajectory). Deterministic robust positive log-frequency line consensus, followed by local original-timestamp chirp frequency refinement and robust log-line fitting. Nominal f0/f1/duration/start are never used to estimate the trajectory. Logarithmic form is an assumed sweep model. Fundamental identity is not guaranteed if a harmonic dominates; inspect spectrograms. Frequency is data-derived but NOT an independent instrument measurement and is estimated from the same output used for amplitude (selection bias at low SNR).",
+    "stft": "For frequency discovery only: linear interpolation to the record mean-rate uniform grid, constant detrend, Hann STFT, configured window/hop/padding. Zero padding is not frequency resolution. Final amplitudes use original timestamps, no resampling.",
+    "filter": "For tau=t-center, phi=2*pi*f_center*expm1(rate*tau)/rate. Form trapezoidal-time quadrature weights times centered Hann, normalize sum to one, subtract a weighted intercept+linear trend, and compute z=2*sum(w*x_detrended*exp(-i*phi)). A_peak=abs(z), A_rms=A_peak/sqrt(2). No frequency search at amplitude grid points or on baseline windows. This is a finite-support baseband low-pass tracking filter; negative-frequency image leakage and rapid within-window amplitude/phase changes can bias amplitudes. No causal delay correction is needed for a centered offline kernel.",
+    "bandwidth": "Nominal full two-sided baseband Hann ENBW=1.5/T (equivalently the positive-frequency real bandpass lobe bandwidth); half of that is the one-sided baseband integral. Export fs*sum(w^2) as sampled pre-detrend approximation. Also export fs*sum(abs(h)^2)/4 for the actual complex analysis kernel h including weighted detrending: exact white discrete-noise gain expressed as equivalent bandwidth with one-sided PSD=2*sigma^2/fs. Irregular sampling and unknown analog response preclude an exact physical continuous-noise bandwidth. Noise windows must match the signal effective bandwidth within configured relative tolerance. Frequency excursion during T, grid spacing, ENBW and physical response bandwidth remain distinct.",
+    "snr": "Signal numerator=observed tracking fundamental peak. Noise equivalent peak=sqrt(mean(abs(z_noise)^2)) over nonoverlapping independent-baseline windows, same f/rate/T/kernel/detrending as signal, with no frequency optimization. SNR_linear=A_peak/N_peak; SNR_dB=20*log10(SNR_linear). Both nothing_on and amplifier_on retained; amplifier_on defines range. No noise-power subtraction; numerator has positive low-SNR amplitude bias. This is estimator-equivalent SNR, not conventional broadband or acoustic SNR. A fixed 10 dB default is a chosen reporting criterion, not a false-alarm-calibrated detection threshold.",
+    "broadband": "Separate metric: tracking peak/sqrt(2) divided by sqrt(mean(var(original baseline samples, ddof=0))) using the same eligible baseline windows. Demean only for this full recorded-band noise metric. No analog bandwidth claim and no replacement of the existing notebooks or their metrics.",
+    "quality": "Reject nonfinite/nonincreasing timestamps without repair. Save gap/jitter/sample-rate/Nyquist audit. Strict response requires an accepted trajectory, observed track support, full data coverage, gap ratio gate, all-window frequency below configured Nyquist margin, minimum samples per cycle and minimum cycles. Endpoint-bearing IM records excluded from primary population, also when their local window has no endpoint. All computable amplitudes retained diagnostically. Local chirp fit fraction is saved as a diagnostic, not a local amplitude/SNR selection gate. Missing or invalid baseline produces unavailable SNR, never zero noise.",
+    "aggregation": "At each common frequency: arithmetic mean and sample SD across eligible independent records; never count overlapping frequency windows as repeats. Group SNR is arithmetic mean of per-record dB SNR. Require configured minimum record count separately for amplitude and SNR. A minimum of one is supported: the mean is the single eligible record, sample SD remains undefined (NaN), and no between-record repeatability can be inferred. Shared baseline uncertainty is not reduced by the number of sweep repeats. No bootstrap/CI or calibrated uncertainty claim.",
+    "range": "Contiguous adjacent tested grid points with primary amplifier_on mean SNR strictly greater than threshold and sufficient repeats. Report every segment; do not bridge missing/failed points or interpolate cutoff crossings. These are demonstrated grid intervals within measured support under this excitation/filter, not a complete intrinsic sensor bandwidth or acoustic frequency response.",
+    "reference": "At identical grid frequencies ratio of independent mean IM peak counts to independent mean accelerometer peak g, requiring confirmed comparison conditions, both sensors primary SNR above threshold and sufficient repeats. No file pairing, synchronized phase, coherence or transfer function. counts/g is nominal acceleration-normalized responsivity; counts/(m/s^2)=counts/g / 9.80665. No ADC-to-voltage calibration or individual accelerometer calibration is available. Between-batch drift, clock, reference frequency response and mounting uncertainty are unresolved.",
+    "provenance": "Every run uses config.local.json results_root, exclusive New York date/run number, full input paths/roles/hashes, effective config, exact source snapshots, Git state and completed/failed status. Partial outputs preserved; no raw writes."
+  },
+  "references": {
+    "Siemens Sine Data Reduction": "https://community.sw.siemens.com/articles/en_US/Knowledge/Sine-Data-Reduction",
+    "Siemens Sine Control: Amplitude Estimation Methods": "https://community.sw.siemens.com/articles/en_US/Knowledge/sine-control-amplitude-estimation-methods",
+    "ISO 16063-21:2003 official scope": "https://www.iso.org/standard/27053.html",
+    "ISO 16063-21 Amendment 2:2024": "https://www.iso.org/standard/85624.html"
+  },
+  "results_root_source": "C:\\Users\\kangb3\\Desktop\\Research\\Inductive Microphone\\config.local.json",
+  "figure_export": {
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "font_family": "Arial",
+    "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+    "font_size_pt": 17,
+    "y_tick_maximum": 5,
+    "grid": false,
+    "svg_fonttype": "none",
+    "editable_text": true,
+    "png_dpi": 145,
+    "svg_raster_layer_dpi": 300,
+    "dense_heatmap_cells_rasterized": true,
+    "method": "Presentation only: all text uses Arial with 17 pt base size (math scripts keep normal relative sizing), grids are disabled, each y axis has at most five major tick values and no minor tick labels. Axis limits and plotted data are preserved. Frequency-response SNR plots show amplifier-on noise only; all original conditions remain in numerical CSVs. Dotted noise overlays are omitted from tracking/FFT response figures. Dashed threshold, timing, fit and diagnostic-population lines have different meanings and are retained. SVG text is not outlined. Layout is expanded/reflowed for legibility; analysis definitions and estimates are unchanged.",
+    "matplotlib_settings": {
+      "svg.fonttype": "none",
+      "font.family": "Arial",
+      "font.size": 17,
+      "axes.labelsize": 17,
+      "axes.titlesize": 17,
+      "xtick.labelsize": 17,
+      "ytick.labelsize": 17,
+      "legend.fontsize": 17,
+      "figure.titlesize": 17,
+      "figure.labelsize": 17,
+      "axes.grid": false,
+      "text.usetex": false,
+      "mathtext.fontset": "custom",
+      "mathtext.rm": "Arial",
+      "mathtext.it": "Arial:italic",
+      "mathtext.bf": "Arial:bold",
+      "mathtext.sf": "Arial",
+      "mathtext.fallback": null
+    }
+  }
+}

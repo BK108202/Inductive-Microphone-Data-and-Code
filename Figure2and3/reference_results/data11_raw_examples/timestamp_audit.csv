@@ -1,0 +1,2 @@
+file,samples,duration_s,fs_hz,dt_median_s,dt_cv,max_gap_ratio,gap_count,unit,scale,timestamp_valid,raw_min,raw_max,endpoint_code_count
+IM_4.csv,35972,35.979289,999.7696174596446,0.0010490000000000776,0.06338560815292658,1.0009532888525805,0,counts,1.0,True,58290722.0,58345899.0,0
