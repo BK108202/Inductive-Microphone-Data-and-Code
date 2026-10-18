@@ -9,7 +9,7 @@ clear; close all; clc;
 scriptDir=fileparts(mfilename('fullpath'));
 if isempty(scriptDir), scriptDir=pwd; end
 cfg.dataDir=scriptDir;
-cfg.outDir=fullfile(scriptDir,'Figure4_results');
+cfg.outDir=fullfile(scriptDir,'Figure5_results');
 cfg.fontName='Arial'; cfg.fontSize=17;
 cfg.resolution=300; cfg.keepFiguresOpen=true;
 % Shared physical geometry: identical plotting rectangles in all PNGs.
