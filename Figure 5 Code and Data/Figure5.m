@@ -33,10 +33,10 @@ cfg.maxGap_s=0.01;
 % Every Pulse row is plotted automatically; no separate pulseFiles list.
 % Use '' as a filename to disable a recording, or remove its row.
 records={'1.csv','Respiration',0,2; ...
-         '2.csv','Mastication',0,20; ...
-         '3.csv','Swallowing',0,20; ...
-         '4.csv','Combined',0,20; ...
-         '5.csv','Pulse',0.5,15};
+    '2.csv','Mastication',0,20; ...
+    '3.csv','Swallowing',0,20; ...
+    '4.csv','Combined',0,20; ...
+    '5.csv','Pulse',0.5,15};
 % Optional crops [start end] in seconds; NaN end = full duration.
 % Filtering uses the full record; STFT and Welch use the selected crop.
 cfg.viewWindows_s=repmat([0 NaN],size(records,1),1);
@@ -145,16 +145,11 @@ for p=1:numel(pulseRows)
     k=pulseRows(p);
     if isempty(Results{k}), continue; end
     R=Results{k};
-    f=newFigure(cfg,1,3,['Pulse: ' R.file]);
+    f=newFigure(cfg,1,1,['Pulse: ' R.file]);
     a1=panelAxes(f,1,1,1,cfg); plotWaveform(a1,R,true,cfg);
     xlabel(a1,'Time (s)'); ylabel(a1,'Output change (counts)');
     lg=legend(a1,{'Median-centered raw','Filtered'},'Location','best','Box','off');
     set(lg,'FontName',cfg.fontName,'FontSize',cfg.fontSize);
-    a2=panelAxes(f,1,1,2,cfg); plotSpectrogram(a2,R,sharedColorLimits({R},cfg),cfg);
-    xlabel(a2,'Time (s)'); ylabel(a2,'Frequency (Hz)');
-    a3=panelAxes(f,1,1,3,cfg); plotASD(a3,R,cfg);
-    xlabel(a3,'Frequency (Hz)'); ylabel(a3,'Output ASD (counts/\surdHz)');
-    addColorbar(a2,cfg,a3);
     [~,fileStem]=fileparts(R.file);
     savePNG(f,['Figure4_02_pulse_' fileStem],cfg);
 end
